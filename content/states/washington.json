@@ -1,0 +1,1150 @@
+{
+  "stateCode": "WA",
+  "stateName": "Washington",
+  "slug": "washington",
+  "agencyShortName": "Washington DOL",
+  "officialSource": {
+    "name": "Washington State Department of Licensing",
+    "url": "https://dol.wa.gov/"
+  },
+  "officialDomains": [
+    "wa.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Washington State Department of Licensing",
+      "url": "https://dol.wa.gov/"
+    },
+    {
+      "kind": "handbook",
+      "title": "Washington State Driver Guide (text-only version)",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only"
+    },
+    {
+      "kind": "handbook",
+      "title": "Driver guides (PDF and other languages)",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides"
+    },
+    {
+      "kind": "licensing",
+      "title": "Do I need to take a test?",
+      "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test"
+    }
+  ],
+  "intro": "Washington instruction permits start at 15, and the knowledge test has 40 multiple-choice questions — you need 32 correct. Our Washington bank is built from the official Washington State Driver Guide.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Personal driver license",
+      "shortName": "Knowledge test",
+      "available": true,
+      "description": "The written multiple-choice knowledge test for a Washington personal driver license.",
+      "testRules": {
+        "officialQuestionCount": 40,
+        "officialPassingCorrect": 32,
+        "officialPassingPercent": null,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "The knowledge test is a written multiple-choice test. You must get 32 out of 40 correct to pass.",
+          "A passing score is good for 2 years. If you do not pass, there may be a waiting period before you can retest."
+        ],
+        "source": {
+          "title": "Do I need to take a test? — Washington State Department of Licensing",
+          "url": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+          "section": "Knowledge test"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "knowledge",
+          "label": "Full 40-question mock",
+          "description": "Official format: 40 multiple-choice questions. Pass with 32 correct.",
+          "questionCount": 40,
+          "passingCorrect": 32,
+          "passingPercent": null,
+          "isOfficialFormat": true
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Holding your phone at a red light. Washington's rule is that you cannot hold any electronic device while driving.",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "3.4: Avoiding distracted driving"
+    },
+    {
+      "text": "Stopping too close to the tracks. When you stop for a train, stay between 15 and 50 feet from the nearest rail.",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.7: Sharing the road with trains"
+    },
+    {
+      "text": "Assuming ABS shortens stopping distance. It helps you steer while braking — it does not make you stop sooner.",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.8: Braking"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many questions are on the Washington knowledge test?",
+      "a": "40 multiple-choice questions. You need 32 correct to pass, and a passing score is good for 2 years.",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test"
+    },
+    {
+      "q": "How old do I need to be for a Washington instruction permit?",
+      "a": "You can apply as early as 15. Without a driver training course, you can take the knowledge exam after you turn 15½.",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only"
+    },
+    {
+      "q": "How many supervised hours do teens need in Washington?",
+      "a": "At least 40 hours of day driving and 10 hours of night driving with a licensed driver, plus holding the permit for at least 6 months.",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only"
+    }
+  ],
+  "categories": [
+    "alcohol-drugs",
+    "equipment",
+    "licensing",
+    "safe-driving",
+    "sharing-the-road"
+  ],
+  "questions": [
+    {
+      "id": "wa-d-001",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How old must you be to apply for an instruction permit in Washington?",
+      "options": [
+        "14",
+        "15",
+        "15½",
+        "16"
+      ],
+      "correctAnswer": "15",
+      "explanation": "Washington's driver guide says you can apply for your instruction permit as early as age 15.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-002",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "If you are not enrolled in a driver training course, when can you take the Washington knowledge exam?",
+      "options": [
+        "After you turn 15",
+        "After you turn 15½",
+        "After you turn 16",
+        "After you turn 17"
+      ],
+      "correctAnswer": "After you turn 15½",
+      "explanation": "The guide says you can take the knowledge exam after you turn 15½.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-003",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How long is a Washington instruction permit valid?",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "5 years"
+      ],
+      "correctAnswer": "1 year",
+      "explanation": "A Washington instruction permit is valid for 1 year and can be renewed for a fee.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-004",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How long does a passing Washington knowledge exam score remain valid?",
+      "options": [
+        "90 days",
+        "6 months",
+        "1 year",
+        "2 years"
+      ],
+      "correctAnswer": "2 years",
+      "explanation": "Your knowledge exam score is only valid for 2 years.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-005",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "A 16- or 17-year-old in Washington must hold an instruction permit for at least how long before getting a license?",
+      "options": [
+        "30 days",
+        "3 months",
+        "6 months",
+        "1 year"
+      ],
+      "correctAnswer": "6 months",
+      "explanation": "Applicants aged 16 or 17 must have had their instruction permit for at least 6 months.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-006",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How much supervised driving must a 16- or 17-year-old complete before getting a Washington license?",
+      "options": [
+        "At least 20 hours, any time of day",
+        "At least 30 hours of day driving and 5 hours of night driving",
+        "At least 40 hours of day driving and 10 hours of night driving",
+        "At least 60 hours of day driving and 20 hours of night driving"
+      ],
+      "correctAnswer": "At least 40 hours of day driving and 10 hours of night driving",
+      "explanation": "Teen applicants must complete at least 40 hours of day driving and 10 hours of night driving with a licensed driver.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-007",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "During the first phase of a Washington intermediate license, which passengers are allowed?",
+      "options": [
+        "Up to 3 friends under age 20",
+        "No passengers under age 20 except immediate family members",
+        "Any passengers if a parent approves",
+        "No passengers at all, including family"
+      ],
+      "correctAnswer": "No passengers under age 20 except immediate family members",
+      "explanation": "In the first phase, intermediate drivers may carry no passengers under age 20 except immediate family members.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license — Intermediate driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-008",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "When may a Washington intermediate license holder NOT drive unless accompanied by a parent, guardian, or licensed driver at least 25?",
+      "options": [
+        "Between 9 p.m. and 5 a.m.",
+        "Between 11 p.m. and 6 a.m.",
+        "Between 1 a.m. and 5 a.m.",
+        "Between midnight and 7 a.m."
+      ],
+      "correctAnswer": "Between 1 a.m. and 5 a.m.",
+      "explanation": "Intermediate drivers may not drive between 1 a.m. and 5 a.m. unless accompanied by a parent, guardian, or licensed driver at least age 25.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license — Intermediate driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-009",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "In the second phase of a Washington intermediate license, how many passengers under age 20 (not immediate family) may ride with you?",
+      "options": [
+        "None",
+        "No more than 1",
+        "No more than 3",
+        "No limit"
+      ],
+      "correctAnswer": "No more than 3",
+      "explanation": "In the second phase, intermediate drivers may carry no more than 3 passengers under age 20, except immediate family members.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.8: Getting a personal driver license — Intermediate driver license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-010",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "In Washington, if your license has been expired for 8 or more years, what must you do?",
+      "options": [
+        "Pay a late fee only",
+        "Retake the knowledge and skills tests",
+        "Take a vision test only",
+        "Nothing — just renew online"
+      ],
+      "correctAnswer": "Retake the knowledge and skills tests",
+      "explanation": "If your license is 8 or more years expired, you'll need to retake the skills and knowledge test.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-011",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "easy",
+      "question": "For a Washington driver age 21 or older, what blood alcohol concentration (BAC) is considered a DUI?",
+      "options": [
+        "0.02% or higher",
+        "0.05% or higher",
+        "0.08% or higher",
+        "0.10% or higher"
+      ],
+      "correctAnswer": "0.08% or higher",
+      "explanation": "For drivers 21 and older, a BAC of .08% or higher is considered a DUI.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-012",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "medium",
+      "question": "Washington drivers under 21 face DUI-type consequences at what BAC?",
+      "options": [
+        "0.00%",
+        "0.02%",
+        "0.05%",
+        "0.08%"
+      ],
+      "correctAnswer": "0.02%",
+      "explanation": "Drivers under 21 face the same potential consequences at a BAC of 0.02%.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-013",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "hard",
+      "question": "For a Washington driver age 21 or older, how much active THC in the blood is considered a DUI?",
+      "options": [
+        "Any amount",
+        "More than 2 nanograms per milliliter",
+        "More than 5 nanograms per milliliter",
+        "More than 10 nanograms per milliliter"
+      ],
+      "correctAnswer": "More than 5 nanograms per milliliter",
+      "explanation": "Having more than 5 nanograms of active THC per milliliter of blood is considered a DUI for drivers 21 and older.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-014",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "medium",
+      "question": "For Washington drivers under 21, how much active THC in the blood can lead to DUI consequences?",
+      "options": [
+        "Anything more than 0 nanograms per milliliter",
+        "More than 2 nanograms per milliliter",
+        "More than 5 nanograms per milliliter",
+        "Only amounts over the adult limit"
+      ],
+      "correctAnswer": "Anything more than 0 nanograms per milliliter",
+      "explanation": "Drivers under 21 face consequences for anything more than 0 nanograms of active THC per milliliter of blood.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-015",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "medium",
+      "question": "What does Washington's Implied Consent Law mean?",
+      "options": [
+        "You must carry proof of insurance",
+        "By driving in Washington, you agree to be tested if an officer suspects you are impaired",
+        "You consent to vehicle inspections at any time",
+        "Passengers agree to wear seat belts"
+      ],
+      "correctAnswer": "By driving in Washington, you agree to be tested if an officer suspects you are impaired",
+      "explanation": "Under the Implied Consent Law, everyone who drives in Washington agrees to be tested if an officer suspects they are under the influence of alcohol or drugs.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-016",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "hard",
+      "question": "If you refuse an impairment test in Washington, you could lose your driving privilege for:",
+      "options": [
+        "30 days",
+        "90 to 730 days, or until age 21 if that is longer",
+        "Exactly 1 year",
+        "Permanently"
+      ],
+      "correctAnswer": "90 to 730 days, or until age 21 if that is longer",
+      "explanation": "Refusing to be tested can cost you your driving privilege for 90 to 730 days, or until you reach 21, whichever is longer.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "1.15: Maintaining your license",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-017",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "What is Washington's minimum liability insurance for bodily injury or death of one person in a collision?",
+      "options": [
+        "$10,000",
+        "$15,000",
+        "$25,000",
+        "$50,000"
+      ],
+      "correctAnswer": "$25,000",
+      "explanation": "Washington requires at least $25,000 for the bodily injury or death of 1 person in a collision.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.3: Insurance required",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-018",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "What is Washington's minimum liability insurance for damage to other people's property in one collision?",
+      "options": [
+        "$5,000",
+        "$10,000",
+        "$25,000",
+        "$50,000"
+      ],
+      "correctAnswer": "$10,000",
+      "explanation": "Washington requires at least $10,000 for injury to or destruction of the property of others in any 1 collision.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.3: Insurance required",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-019",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "According to Washington's driver guide, tire tread should not be less than:",
+      "options": [
+        "1/32 of an inch",
+        "2/32 of an inch",
+        "4/32 of an inch",
+        "1/4 of an inch"
+      ],
+      "correctAnswer": "2/32 of an inch",
+      "explanation": "The guide says tire tread shouldn't be less than 2/32 of an inch.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.5: Vehicle maintenance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-020",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "easy",
+      "question": "When does Washington law require your headlights to be on?",
+      "options": [
+        "Only when it is fully dark",
+        "From a half hour after sunset to a half hour before sunrise",
+        "From one hour after sunset to sunrise",
+        "Only on highways"
+      ],
+      "correctAnswer": "From a half hour after sunset to a half hour before sunrise",
+      "explanation": "Washington law says headlights must be on from a half hour after sunset to a half hour before sunrise.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.5: Vehicle maintenance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-021",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Washington, when must you switch from high beams to regular headlights for an oncoming vehicle?",
+      "options": [
+        "When it is 200 feet away",
+        "When it is 300 feet away",
+        "When you are 500 feet in front of it",
+        "Only if the other driver flashes their lights"
+      ],
+      "correctAnswer": "When you are 500 feet in front of it",
+      "explanation": "Switch back to regular headlights when you are 500 feet in front of an oncoming vehicle.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.5: Vehicle maintenance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-022",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "When following another vehicle in Washington, dim your high beams when you are within:",
+      "options": [
+        "100 feet",
+        "200 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "300 feet",
+      "explanation": "Use regular headlights when you are within 300 feet behind another vehicle.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.5: Vehicle maintenance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-023",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "Washington requires brake lights to be clearly visible from how far away?",
+      "options": [
+        "50 feet",
+        "100 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "100 feet",
+      "explanation": "Brake lights are red and must be clearly visible from 100 feet away.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.5: Vehicle maintenance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-024",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "How far ahead should you signal before turning or changing lanes in Washington?",
+      "options": [
+        "25 feet",
+        "50 feet",
+        "100 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "100 feet",
+      "explanation": "The guide says to signal 100 feet before you make your move.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.5: Vehicle maintenance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-025",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "easy",
+      "question": "Under Washington's occupant protection rules, children up to what age must ride in a rear-facing car seat?",
+      "options": [
+        "Age 1",
+        "Age 2",
+        "Age 4",
+        "Age 6"
+      ],
+      "correctAnswer": "Age 2",
+      "explanation": "Children up to age 2 must ride in a rear-facing car seat.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.6: Occupant protection",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-026",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Washington, children aged 2 to 4 must ride in:",
+      "options": [
+        "A regular seat belt",
+        "A car seat with a rear- or forward-facing harness",
+        "A booster seat only",
+        "The front seat with an adult"
+      ],
+      "correctAnswer": "A car seat with a rear- or forward-facing harness",
+      "explanation": "Children ages 2 to 4 must ride in a car seat with a rear- or forward-facing harness.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.6: Occupant protection",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-027",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Washington, children 4 and older must use a car or booster seat until:",
+      "options": [
+        "They turn 5",
+        "They can sit still",
+        "The vehicle's lap and shoulder belts fit properly — typically between ages 8 and 12",
+        "They are tall enough to see over the dashboard"
+      ],
+      "correctAnswer": "The vehicle's lap and shoulder belts fit properly — typically between ages 8 and 12",
+      "explanation": "Children 4 and older ride in a car or booster seat until the lap and shoulder belts fit properly, typically between ages 8 and 12.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.6: Occupant protection",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-028",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "What does an anti-lock braking system (ABS) do, according to Washington's driver guide?",
+      "options": [
+        "It always shortens your stopping distance",
+        "It lets you keep better steering control but does not shorten stopping distance",
+        "It prevents skids on ice completely",
+        "It replaces the need for following distance"
+      ],
+      "correctAnswer": "It lets you keep better steering control but does not shorten stopping distance",
+      "explanation": "An ABS does not shorten your stopping distance, but it allows you to keep better steering control.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.8: Braking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-029",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "When driving near a large truck in Washington, what does it mean if you can't see the truck's mirrors?",
+      "options": [
+        "The truck is about to turn",
+        "The truck driver can't see you",
+        "You are following at a safe distance",
+        "The truck has no mirrors"
+      ],
+      "correctAnswer": "The truck driver can't see you",
+      "explanation": "If you can't see their mirrors, the driver can't see you.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "2.13: Other vehicles' blind zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-030",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "easy",
+      "question": "According to Washington's driver guide, how much cannabis is safe to use before driving?",
+      "options": [
+        "A small amount",
+        "Up to the legal limit",
+        "There is no safe amount",
+        "Any amount if 8 hours have passed"
+      ],
+      "correctAnswer": "There is no safe amount",
+      "explanation": "The guide states there is no safe amount of cannabis for driving.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "3.1: Impaired driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-031",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "If you feel drowsy while driving, Washington's driver guide recommends you:",
+      "options": [
+        "Turn up the radio",
+        "Open the window and keep going",
+        "Pull off the road and take a 20-minute nap",
+        "Drive faster to get home sooner"
+      ],
+      "correctAnswer": "Pull off the road and take a 20-minute nap",
+      "explanation": "If you're tired, pull off the road and take a 20-minute nap.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "3.1: Impaired driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-032",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "Under Washington's distracted driving rules, which is true about electronic devices?",
+      "options": [
+        "You may hold a phone at red lights",
+        "You cannot hold any electronic device while driving",
+        "You may text if traffic is light",
+        "Only drivers under 18 are restricted"
+      ],
+      "correctAnswer": "You cannot hold any electronic device while driving",
+      "explanation": "You cannot hold any electronic device while driving in Washington.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "3.4: Avoiding distracted driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-033",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "How does Washington's driver guide classify road rage?",
+      "options": [
+        "As a minor traffic infraction",
+        "As a criminal offense",
+        "As a parking violation",
+        "It is not addressed by law"
+      ],
+      "correctAnswer": "As a criminal offense",
+      "explanation": "The guide states that road rage is a criminal offense.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "3.1: Impaired driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-034",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "In Washington, who has the right-of-way at crosswalks and intersections?",
+      "options": [
+        "Vehicles turning right",
+        "Pedestrians and bicyclists",
+        "Whoever arrives first",
+        "Vehicles going straight"
+      ],
+      "correctAnswer": "Pedestrians and bicyclists",
+      "explanation": "Pedestrians and bicyclists have the right-of-way at crosswalks and intersections.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.1: Sharing with people",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-035",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "What should you do when a person with a service animal is crossing in front of you in Washington?",
+      "options": [
+        "Honk to warn them",
+        "Don't honk — it's unlawful to interfere with a service animal",
+        "Drive around them quickly",
+        "Flash your headlights"
+      ],
+      "correctAnswer": "Don't honk — it's unlawful to interfere with a service animal",
+      "explanation": "It's unlawful to interfere with a service animal, and you should not honk.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.1: Sharing with people",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-036",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "In Washington, what is the penalty for passing a stopped school bus?",
+      "options": [
+        "A warning",
+        "Fines are doubled",
+        "A $25 fine",
+        "There is no penalty if no children are visible"
+      ],
+      "correctAnswer": "Fines are doubled",
+      "explanation": "Fines are doubled for anyone who passes a stopped school bus.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.2: Sharing with school buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-037",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "On a school bus in Washington, what do red flashing lights mean?",
+      "options": [
+        "Slow down",
+        "Stop",
+        "Pass with caution",
+        "The bus is about to move"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "On school buses, red means stop and yellow means caution or slow down.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.2: Sharing with school buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-038",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "In Washington, when must you yield to a transit bus?",
+      "options": [
+        "Never — buses must wait",
+        "When it has signaled and is pulling back onto the roadway",
+        "Only in bus lanes",
+        "Only at bus stops with shelters"
+      ],
+      "correctAnswer": "When it has signaled and is pulling back onto the roadway",
+      "explanation": "Yield to any transit vehicle that has signaled and is pulling back onto the roadway.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.3: Sharing with transit buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-039",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "hard",
+      "question": "According to Washington's driver guide, about how far does a loaded truck traveling 55 mph need to come to a complete stop?",
+      "options": [
+        "150 feet",
+        "250 feet",
+        "450 feet",
+        "1,000 feet"
+      ],
+      "correctAnswer": "450 feet",
+      "explanation": "A loaded truck traveling at 55 mph needs about 450 feet to come to a complete stop.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.4: Sharing with large vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-040",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "Before merging back in front of a large truck in Washington, you should:",
+      "options": [
+        "Count to two",
+        "See both of the truck's headlights in your rearview mirror",
+        "Honk to let the driver know",
+        "Speed up to 10 mph over the limit"
+      ],
+      "correctAnswer": "See both of the truck's headlights in your rearview mirror",
+      "explanation": "Make sure you can clearly see both of the truck's headlights in your rearview mirror before merging in front of it.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.4: Sharing with large vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-041",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "Under Washington's driver guide, may you share a lane with a motorcyclist?",
+      "options": [
+        "Yes, if the lane is wide",
+        "Yes, in heavy traffic",
+        "No — never move into the same lane alongside a motorcyclist",
+        "Only on freeways"
+      ],
+      "correctAnswer": "No — never move into the same lane alongside a motorcyclist",
+      "explanation": "Never move into the same lane alongside a motorcyclist, even if the lane is wide.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.5: Sharing with motorcycles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-042",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "When passing a bicyclist in Washington, leave at least how much space?",
+      "options": [
+        "1 foot",
+        "2 feet",
+        "3 feet",
+        "6 feet"
+      ],
+      "correctAnswer": "3 feet",
+      "explanation": "Leave at least 3 feet of space when passing a bicyclist.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.6: Sharing with bicyclists",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-043",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "According to Washington's driver guide, how far can it take a train to come to a full stop?",
+      "options": [
+        "About 100 feet",
+        "About 500 feet",
+        "Up to a mile",
+        "About 50 feet"
+      ],
+      "correctAnswer": "Up to a mile",
+      "explanation": "It can take up to a mile for a train to come to a full stop.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.7: Sharing the road with trains",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-044",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "When you must stop for a train in Washington, stop how far from the nearest rail?",
+      "options": [
+        "Between 5 and 10 feet",
+        "Between 15 and 50 feet",
+        "Exactly 100 feet",
+        "At least 200 feet"
+      ],
+      "correctAnswer": "Between 15 and 50 feet",
+      "explanation": "Stop between 15 and 50 feet away from the nearest rail.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.7: Sharing the road with trains",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-045",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "Who has the right-of-way at a railroad crossing in Washington?",
+      "options": [
+        "The vehicle that arrives first",
+        "Trains — always",
+        "Vehicles, if the gate is up",
+        "Emergency vehicles only"
+      ],
+      "correctAnswer": "Trains — always",
+      "explanation": "Trains always have the right-of-way.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.7: Sharing the road with trains",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-046",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "How can you identify a slow-moving agricultural vehicle in Washington?",
+      "options": [
+        "A flashing green light",
+        "A triangle sign or emblem on the back",
+        "A blue flag",
+        "A square yellow sign on the front"
+      ],
+      "correctAnswer": "A triangle sign or emblem on the back",
+      "explanation": "Slow-moving vehicles display a triangle sign or emblem on the back.",
+      "sourceTitle": "Washington State Driver Guide",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/driver-guides/washington-state-driver-guide-text-only",
+      "sourceSection": "4.8: Sharing with agricultural vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wa-d-047",
+      "state": "WA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "On Washington's knowledge test, how many correct answers do you need to pass?",
+      "options": [
+        "28 out of 35",
+        "32 out of 40",
+        "40 out of 50",
+        "15 out of 18"
+      ],
+      "correctAnswer": "32 out of 40",
+      "explanation": "The Washington knowledge test is multiple choice; you must get 32 out of 40 correct to pass.",
+      "sourceTitle": "Do I need to take a test? — Washington State Department of Licensing",
+      "sourceUrl": "https://dol.wa.gov/driver-licenses-and-permits/driver-training-and-testing/do-i-need-take-test",
+      "sourceSection": "Knowledge test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ]
+}

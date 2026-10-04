@@ -1,0 +1,1243 @@
+{
+  "stateCode": "IN",
+  "stateName": "Indiana",
+  "slug": "indiana",
+  "agencyShortName": "Indiana BMV",
+  "officialSource": {
+    "name": "Indiana Bureau of Motor Vehicles",
+    "url": "https://www.in.gov/bmv/"
+  },
+  "officialDomains": [
+    "in.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Indiana Bureau of Motor Vehicles",
+      "url": "https://www.in.gov/bmv/"
+    },
+    {
+      "kind": "handbook",
+      "title": "Indiana Driver's Manual — Chapter 6: Traffic Signs and Signals (PDF)",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf"
+    },
+    {
+      "kind": "handbook",
+      "title": "Indiana Driver's Manual — Chapter 7: Safe Vehicle Operation (PDF)",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf"
+    },
+    {
+      "kind": "sample-test",
+      "title": "BMV Practice Knowledge Exam (PDF)",
+      "url": "https://www.in.gov/bmv/files/practice-knowledge-exam.pdf"
+    },
+    {
+      "kind": "licensing",
+      "title": "Knowledge Exam",
+      "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam"
+    }
+  ],
+  "intro": "Indiana's knowledge exam has two parts — traffic maneuvers and traffic signs — and you need at least 80% on each. Our Indiana bank comes from the official Indiana Driver's Manual.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Learner's permit / operator license",
+      "shortName": "Knowledge exam",
+      "available": true,
+      "description": "The written knowledge exam with a traffic-signs section and a traffic-maneuvers section.",
+      "testRules": {
+        "officialQuestionCount": null,
+        "officialPassingCorrect": null,
+        "officialPassingPercent": 80,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "The exam has multiple-choice questions in two sections: traffic maneuvers and traffic signs.",
+          "You need 80% or higher correct on each component. The BMV page we verified does not state the total number of questions, so our mock is scored at 80% overall."
+        ],
+        "source": {
+          "title": "Knowledge Exam — Indiana BMV",
+          "url": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam",
+          "section": "Knowledge Exam"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "practice-exam",
+          "label": "Indiana practice exam",
+          "description": "40 mixed questions from signs and traffic maneuvers, scored at Indiana's official 80% passing rate.",
+          "questionCount": 40,
+          "passingCorrect": null,
+          "passingPercent": 80,
+          "isOfficialFormat": false
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Hitting the brakes after a blowout. Indiana's manual says to ease off the gas and let the car slow down.",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Tire Blowout"
+    },
+    {
+      "text": "Mixing up yield rules at all-way stops. When two vehicles arrive together, the vehicle on the left yields.",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — All-Way Stops"
+    },
+    {
+      "text": "Studying only the rules. You also need 80% on the separate traffic signs section.",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam",
+      "sourceSection": "Knowledge Exam"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What score do I need on the Indiana knowledge exam?",
+      "a": "80% or higher on each of the two components — traffic maneuvers and traffic signs.",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam"
+    },
+    {
+      "q": "How old must I be for an Indiana learner's permit?",
+      "a": "15 if you are enrolled in driver education; 16 or older if you are not.",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf"
+    },
+    {
+      "q": "How long is an Indiana learner's permit valid?",
+      "a": "Two years from the date of issuance. You must hold it for at least 180 days before applying for a license.",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf"
+    }
+  ],
+  "categories": [
+    "emergencies",
+    "licensing",
+    "right-of-way",
+    "safe-driving",
+    "sharing-the-road",
+    "signs-signals",
+    "speed-limits"
+  ],
+  "questions": [
+    {
+      "id": "in-d-001",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How is Indiana's knowledge exam scored?",
+      "options": [
+        "You need 70% overall",
+        "Two sections — traffic maneuvers and traffic signs — and you need 80% or higher on each",
+        "One section, 100% required on signs",
+        "There is no passing score"
+      ],
+      "correctAnswer": "Two sections — traffic maneuvers and traffic signs — and you need 80% or higher on each",
+      "explanation": "The exam has multiple-choice questions in two sections (traffic maneuvers and traffic signs); you need 80% or higher correct on each component.",
+      "sourceTitle": "Knowledge Exam — Indiana BMV",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/learners-permits-and-drivers-licenses-overview/learners-permit/knowledge-exam",
+      "sourceSection": "Knowledge Exam",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-002",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "If you are enrolled in an approved driver education program, how old must you be for an Indiana learner's permit?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correctAnswer": "15",
+      "explanation": "Applicants enrolled in driver education must be at least 15 years of age.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-003",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "If you are not enrolled in driver education, how old must you be for an Indiana learner's permit?",
+      "options": [
+        "15",
+        "15½",
+        "16",
+        "18"
+      ],
+      "correctAnswer": "16",
+      "explanation": "Applicants not enrolled in driver education must be 16 years of age or older.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-004",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How long is an Indiana learner's permit valid?",
+      "options": [
+        "6 months",
+        "1 year",
+        "Two years",
+        "Four years"
+      ],
+      "correctAnswer": "Two years",
+      "explanation": "Learner's permits are valid for two years from the date of issuance.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-005",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How long must you hold an Indiana learner's permit before applying for a license?",
+      "options": [
+        "30 days",
+        "90 days",
+        "At least 180 days",
+        "One year"
+      ],
+      "correctAnswer": "At least 180 days",
+      "explanation": "You must hold a learner's permit for at least 180 days before applying for a license.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-006",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How many hours of supervised driving practice does Indiana require before a probationary license?",
+      "options": [
+        "At least 20 hours",
+        "At least 30 hours",
+        "At least 50 hours, including 10 at night",
+        "At least 100 hours"
+      ],
+      "correctAnswer": "At least 50 hours, including 10 at night",
+      "explanation": "Applicants must complete at least 50 hours of supervised driving practice, including at least 10 hours at night.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-007",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "An Indiana permit holder under 18 who is not in driver education may drive with which supervisor?",
+      "options": [
+        "Any licensed driver 18 or older",
+        "A licensed driver 25 or older, or a licensed spouse 21 or older",
+        "Any adult",
+        "Only a parent"
+      ],
+      "correctAnswer": "A licensed driver 25 or older, or a licensed spouse 21 or older",
+      "explanation": "The supervising driver must be a licensed driver at least 25 years old, or a spouse at least 21.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-008",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "During the first 180 days of an Indiana probationary license, when may you NOT drive?",
+      "options": [
+        "Between 10 p.m. and 5 a.m.",
+        "Between midnight and 6 a.m.",
+        "Between 1 a.m. and 5 a.m.",
+        "Any time after sunset"
+      ],
+      "correctAnswer": "Between 10 p.m. and 5 a.m.",
+      "explanation": "For the first 180 days, probationary drivers may not drive between 10 p.m. and 5 a.m.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-009",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "During the first 180 days of an Indiana probationary license, who may ride as a passenger?",
+      "options": [
+        "Anyone",
+        "Only a licensed person 25 or older, a spouse 21 or older, or immediate family",
+        "Up to two friends",
+        "Only passengers over 18"
+      ],
+      "correctAnswer": "Only a licensed person 25 or older, a spouse 21 or older, or immediate family",
+      "explanation": "No passengers for the first 180 days except a licensed person 25 or older, a spouse 21 or older, and immediate family members.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_1.pdf",
+      "sourceSection": "Chapter 1: Obtaining a New Credential",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-010",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, brown traffic signs indicate:",
+      "options": [
+        "Construction zones",
+        "Recreational and cultural interest sites",
+        "Hospitals",
+        "School zones"
+      ],
+      "correctAnswer": "Recreational and cultural interest sites",
+      "explanation": "Brown traffic signs indicate nearby recreational and cultural interest sites.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-011",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, blue traffic signs display:",
+      "options": [
+        "Regulations",
+        "Road services and information",
+        "Warnings",
+        "Construction notices"
+      ],
+      "correctAnswer": "Road services and information",
+      "explanation": "Blue traffic signs display road services and information.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-012",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, green traffic signs indicate:",
+      "options": [
+        "Hazards",
+        "Permitted movements, directions or guidance",
+        "School zones",
+        "Speed limits"
+      ],
+      "correctAnswer": "Permitted movements, directions or guidance",
+      "explanation": "Green traffic signs indicate permitted movements and directions or guidance.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-013",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, orange traffic signs warn drivers about:",
+      "options": [
+        "Temporary traffic conditions",
+        "Hospitals",
+        "Parks",
+        "Interstate exits"
+      ],
+      "correctAnswer": "Temporary traffic conditions",
+      "explanation": "Orange traffic signs warn drivers of temporary traffic conditions.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-014",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, white traffic signs display:",
+      "options": [
+        "Traffic regulations such as speed limits",
+        "Recreation areas",
+        "Detours",
+        "Services"
+      ],
+      "correctAnswer": "Traffic regulations such as speed limits",
+      "explanation": "White traffic signs display traffic regulations, such as speed limits.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-015",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Indiana, red traffic signs convey regulations that require drivers to:",
+      "options": [
+        "Plan ahead",
+        "Take immediate action",
+        "Look for services",
+        "Prepare for construction"
+      ],
+      "correctAnswer": "Take immediate action",
+      "explanation": "Red traffic signs convey traffic regulations that require drivers to take immediate action.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-016",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Indiana, circular traffic signs alert drivers to:",
+      "options": [
+        "School zones",
+        "Upcoming railroad crossings",
+        "Hospitals",
+        "Curves"
+      ],
+      "correctAnswer": "Upcoming railroad crossings",
+      "explanation": "Circular traffic signs alert drivers to upcoming railroad crossings.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Shapes",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-017",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Where are pennant-shaped signs posted in Indiana?",
+      "options": [
+        "On the right side of one-way roads",
+        "On the left-hand side of two-way roads",
+        "At school entrances",
+        "Above interstate lanes"
+      ],
+      "correctAnswer": "On the left-hand side of two-way roads",
+      "explanation": "Pennant-shaped traffic signs are posted on the left-hand side of two-way roads.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Shapes",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-018",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, diamond-shaped signs warn drivers of:",
+      "options": [
+        "Upcoming road conditions and hazards",
+        "Speed limits",
+        "Parking rules",
+        "Tourist sites"
+      ],
+      "correctAnswer": "Upcoming road conditions and hazards",
+      "explanation": "Diamond-shaped traffic signs warn drivers of upcoming road conditions and hazards.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Shapes",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-019",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, a five-sided traffic sign warns that you are:",
+      "options": [
+        "Entering an area near a school",
+        "Approaching a railroad",
+        "Near a hospital",
+        "On a one-way street"
+      ],
+      "correctAnswer": "Entering an area near a school",
+      "explanation": "Five-sided traffic signs warn drivers that they are entering an area near a school.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Sign Shapes",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-020",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, if you are facing a green light:",
+      "options": [
+        "You must stop",
+        "You have the right of way",
+        "You must yield to cross traffic",
+        "You may only turn right"
+      ],
+      "correctAnswer": "You have the right of way",
+      "explanation": "A green light means go; if you are facing a green light, you have the right of way.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-021",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a steady yellow light mean in Indiana?",
+      "options": [
+        "The green light has ended and the signal is about to turn red",
+        "Speed up",
+        "The signal is broken",
+        "Pedestrians may cross"
+      ],
+      "correctAnswer": "The green light has ended and the signal is about to turn red",
+      "explanation": "A steady yellow light means the green light has ended and the signal is about to turn red.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-022",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Indiana, a yellow flashing arrow for a turn means:",
+      "options": [
+        "You have the right of way",
+        "You may turn only after yielding",
+        "Stop and wait for green",
+        "The lane is closed"
+      ],
+      "correctAnswer": "You may turn only after yielding",
+      "explanation": "A yellow flashing arrow means you may proceed with the turn only after you have yielded.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_6.pdf",
+      "sourceSection": "Chapter 6: Traffic Signs and Signals — Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-023",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Indiana, when may you cross a solid yellow line?",
+      "options": [
+        "To pass any time",
+        "Only to turn",
+        "Never",
+        "When traffic is light"
+      ],
+      "correctAnswer": "Only to turn",
+      "explanation": "You may cross a broken yellow line to pass when safe, but you should not cross a solid yellow line except to turn.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Lane Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "in-d-024",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "hard",
+      "question": "After passing in Indiana, you must return to the right side of the road no less than how far before any oncoming vehicle?",
+      "options": [
+        "50 feet",
+        "100 feet",
+        "200 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "100 feet",
+      "explanation": "You must return to the right side of the road no less than 100 feet before any oncoming vehicle.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Passing Other Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-025",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "In Indiana, you may not pass within 100 feet of:",
+      "options": [
+        "A gas station",
+        "An intersection, railroad crossing, bridge, viaduct or tunnel",
+        "A bus stop",
+        "A school sign"
+      ],
+      "correctAnswer": "An intersection, railroad crossing, bridge, viaduct or tunnel",
+      "explanation": "Passing is prohibited within 100 feet of an intersection, railroad crossing, bridge, viaduct or tunnel.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Prohibited Passing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-026",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "If you miss your exit on an Indiana interstate, what should you do?",
+      "options": [
+        "Make a U-turn through the median",
+        "Back up on the shoulder",
+        "Proceed to the next exit and re-enter",
+        "Stop and wait"
+      ],
+      "correctAnswer": "Proceed to the next exit and re-enter",
+      "explanation": "Never make a U-turn on an interstate highway; proceed to the next exit and re-enter.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — U-Turns",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-027",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "At an Indiana all-way stop, who proceeds first?",
+      "options": [
+        "The largest vehicle",
+        "The first vehicle to stop at the intersection",
+        "The vehicle on the left",
+        "Whoever honks"
+      ],
+      "correctAnswer": "The first vehicle to stop at the intersection",
+      "explanation": "The first vehicle to stop at the intersection is the first to proceed.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — All-Way Stops",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-028",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "At an Indiana all-way stop, if two vehicles arrive at the same time:",
+      "options": [
+        "The vehicle on the right yields",
+        "The vehicle on the left yields",
+        "The faster vehicle goes",
+        "Both go together"
+      ],
+      "correctAnswer": "The vehicle on the left yields",
+      "explanation": "When vehicles arrive at the same time, the vehicle on the left yields the right-of-way.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — All-Way Stops",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-029",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "In an Indiana roundabout, traffic moves:",
+      "options": [
+        "Clockwise, entering with left turns",
+        "Counterclockwise, entering and exiting only with right turns",
+        "In any direction",
+        "Clockwise, with right turns"
+      ],
+      "correctAnswer": "Counterclockwise, entering and exiting only with right turns",
+      "explanation": "In a roundabout, traffic enters or exits only through right turns and proceeds counterclockwise.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-030",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What is the maximum speed for passenger vehicles on Indiana rural interstates (unless posted lower)?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "70 mph",
+        "75 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "Passenger vehicles may not exceed 70 mph or the posted limit on rural interstates.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-031",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "What is the speed limit on an Indiana urban interstate (unless posted otherwise)?",
+      "options": [
+        "45 mph",
+        "55 mph",
+        "65 mph",
+        "70 mph"
+      ],
+      "correctAnswer": "55 mph",
+      "explanation": "On an urban interstate highway, vehicles may not exceed 55 mph or the posted speed.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-032",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "In most Indiana urban residential areas, the speed limit is:",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "30 mph",
+      "explanation": "In most urban residential areas, vehicles may not exceed 30 mph or the posted speed.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-033",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "What is the speed limit in Indiana alleys (unless posted otherwise)?",
+      "options": [
+        "5 mph",
+        "10 mph",
+        "15 mph",
+        "20 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "In alleys, vehicles may not exceed 15 mph or the posted speed limit.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-034",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "Indiana's manual recommends staying at least how far behind the vehicle ahead?",
+      "options": [
+        "One car length",
+        "Two to three seconds",
+        "Ten seconds",
+        "100 feet at all speeds"
+      ],
+      "correctAnswer": "Two to three seconds",
+      "explanation": "Stay at least two to three seconds behind the vehicle ahead.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Following Distance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-035",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "In Indiana, what must you do when you approach a school bus with flashing red lights and its stop arm extended?",
+      "options": [
+        "Slow down and pass",
+        "Stop",
+        "Honk",
+        "Pass on the left"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "You must stop when you approach a school bus with flashing red lights activated and stop arm extended.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-036",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "easy",
+      "question": "When an emergency vehicle with lights and siren approaches in Indiana, you must:",
+      "options": [
+        "Speed up",
+        "Yield, move to the right and come to a complete stop",
+        "Stop in your lane",
+        "Follow it closely"
+      ],
+      "correctAnswer": "Yield, move to the right and come to a complete stop",
+      "explanation": "Motorists must yield the right of way, move over to the right and come to a complete stop.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Emergency Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-037",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "hard",
+      "question": "Which vehicles must always stop at railroad crossings in Indiana?",
+      "options": [
+        "All passenger cars",
+        "School buses and vehicles carrying passengers for hire",
+        "Motorcycles",
+        "Pickup trucks"
+      ],
+      "correctAnswer": "School buses and vehicles carrying passengers for hire",
+      "explanation": "All school buses and all vehicles carrying passengers for hire must stop at railroad crossings.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_7.pdf",
+      "sourceSection": "Chapter 7: Safe Vehicle Operation — Railroad Crossings",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-038",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "easy",
+      "question": "If you are involved in a crash in Indiana, you must:",
+      "options": [
+        "Leave if no one is hurt",
+        "Stop immediately at or as close as possible to the scene",
+        "Drive to the nearest police station first",
+        "Call your insurer before stopping"
+      ],
+      "correctAnswer": "Stop immediately at or as close as possible to the scene",
+      "explanation": "The driver of a vehicle involved in an accident must stop immediately or as close as possible to the scene.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — What To Do After an Accident",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-039",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "In Indiana, when should you NOT move your vehicle after a crash?",
+      "options": [
+        "When it is blocking traffic",
+        "When the crash involves injury, death or entrapment",
+        "When it is raining",
+        "When it is on the shoulder"
+      ],
+      "correctAnswer": "When the crash involves injury, death or entrapment",
+      "explanation": "Do not move the vehicle if the accident results in injury, death or entrapment.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Should You Move Your Vehicle?",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-040",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "If a crash in Indiana injures another person, the driver is required to:",
+      "options": [
+        "Leave a note",
+        "Provide reasonable assistance",
+        "Move the injured person immediately",
+        "Wait for insurance"
+      ],
+      "correctAnswer": "Provide reasonable assistance",
+      "explanation": "If the accident results in injury or death, the driver must provide reasonable assistance.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Provide Reasonable Assistance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-041",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "According to Indiana's manual, what three things can you do to avoid a collision?",
+      "options": [
+        "Honk, flash lights, swerve",
+        "Stop quickly, turn quickly, speed up",
+        "Brake, close eyes, steer",
+        "Stop, reverse, park"
+      ],
+      "correctAnswer": "Stop quickly, turn quickly, speed up",
+      "explanation": "Depending on the situation, you can stop quickly, turn quickly or speed up.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Avoiding Collisions",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-042",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "If your wheels drift onto the shoulder in Indiana, you should:",
+      "options": [
+        "Jerk the wheel back immediately",
+        "Not turn back onto the pavement right away",
+        "Brake hard",
+        "Speed up"
+      ],
+      "correctAnswer": "Not turn back onto the pavement right away",
+      "explanation": "If your wheels drift onto the shoulder, do not try to turn back onto the pavement right away.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Driving off the Pavement",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-043",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "hard",
+      "question": "If your vehicle plunges into water, Indiana's manual says to:",
+      "options": [
+        "Open the door right away",
+        "Remove your seat belt and open a window instead of trying to open a door",
+        "Wait for it to sink",
+        "Call 911 before moving"
+      ],
+      "correctAnswer": "Remove your seat belt and open a window instead of trying to open a door",
+      "explanation": "Do not attempt to open a door. Remove your seat belt and open a window.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Plunging into Water",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-044",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "In Indiana, how far behind your disabled vehicle should a red reflective triangle be placed on level road?",
+      "options": [
+        "50 feet",
+        "100 feet",
+        "200 feet",
+        "1,000 feet"
+      ],
+      "correctAnswer": "200 feet",
+      "explanation": "Place your red reflective triangle 200 feet behind your vehicle (500 feet if you are on a hill).",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-045",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "easy",
+      "question": "If you must exit your vehicle on a roadside shoulder in Indiana, exit:",
+      "options": [
+        "On the driver's side",
+        "On the passenger side",
+        "Through the rear hatch",
+        "It doesn't matter"
+      ],
+      "correctAnswer": "On the passenger side",
+      "explanation": "If you must exit while on a roadside shoulder, exit on the passenger side.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Roadside Emergency Situations",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-046",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "If you have a tire blowout in Indiana, you should:",
+      "options": [
+        "Brake hard immediately",
+        "Take your foot off the gas and let the car slow down without braking",
+        "Steer sharply to the shoulder",
+        "Speed up"
+      ],
+      "correctAnswer": "Take your foot off the gas and let the car slow down without braking",
+      "explanation": "Take your foot off the gas pedal, do not apply the brakes, and let the car slow down.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Tire Blowout",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-047",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "If your brakes fail, Indiana's manual says to:",
+      "options": [
+        "Turn off the engine",
+        "Shift to a lower gear if possible and pump the brake pedal fast and hard",
+        "Put the car in reverse",
+        "Open the door"
+      ],
+      "correctAnswer": "Shift to a lower gear if possible and pump the brake pedal fast and hard",
+      "explanation": "Shift to a lower gear if possible and pump the brake pedal fast and hard several times.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Brake Failure",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-048",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "easy",
+      "question": "When a police officer signals you to stop in Indiana, how can you acknowledge the officer?",
+      "options": [
+        "Flash your high beams",
+        "Turn on your right turn signal",
+        "Honk twice",
+        "Wave out the window"
+      ],
+      "correctAnswer": "Turn on your right turn signal",
+      "explanation": "Acknowledge the officer's presence by turning on your right turn signal.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Traffic Stops by Law Enforcement",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "in-d-049",
+      "state": "IN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "To avoid carbon monoxide poisoning, Indiana's manual says to never:",
+      "options": [
+        "Open your windows",
+        "Let your engine run in a closed garage",
+        "Use the heater",
+        "Drive at night"
+      ],
+      "correctAnswer": "Let your engine run in a closed garage",
+      "explanation": "Never let your vehicle's engine run in a closed garage.",
+      "sourceTitle": "Indiana Driver's Manual",
+      "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/files/Drivers_Manual_Chapter_8.pdf",
+      "sourceSection": "Chapter 8: Accidents and Emergency Situations — Carbon Monoxide Poisoning",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ]
+}

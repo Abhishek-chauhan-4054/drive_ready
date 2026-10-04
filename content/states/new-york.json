@@ -1,0 +1,1140 @@
+{
+  "stateCode": "NY",
+  "stateName": "New York",
+  "slug": "new-york",
+  "agencyShortName": "NY DMV",
+  "officialSource": {
+    "name": "New York State Department of Motor Vehicles",
+    "url": "https://dmv.ny.gov/"
+  },
+  "officialDomains": [
+    "dmv.ny.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "New York State DMV",
+      "url": "https://dmv.ny.gov/"
+    },
+    {
+      "kind": "handbook",
+      "title": "New York State Driver's Manual (online, with chapter quizzes)",
+      "url": "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests"
+    },
+    {
+      "kind": "sample-test",
+      "title": "Official chapter quizzes (Chapters 4–11 and Road Signs)",
+      "url": "https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests"
+    },
+    {
+      "kind": "licensing",
+      "title": "Learner permits",
+      "url": "https://dmv.ny.gov/driver-license/get-learner-permit"
+    }
+  ],
+  "intro": "New York's written test has 20 questions. You must answer at least 14 correctly, including two of the four road sign questions.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Operator / Junior Operator (Class D / DJ)",
+      "shortName": "Class D",
+      "available": true,
+      "description": "The 20-question written test used for Class D, DJ, M, MJ and E licenses.",
+      "testRules": {
+        "officialQuestionCount": 20,
+        "officialPassingCorrect": 14,
+        "officialPassingPercent": null,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [
+          {
+            "tag": "road-sign",
+            "label": "Road sign questions",
+            "questionCount": 4,
+            "minCorrect": 2
+          }
+        ],
+        "notes": [
+          "You must correctly answer at least 14 of 20 questions AND at least 2 of the 4 road sign questions.",
+          "Class D knowledge tests are offered in multiple languages, on touch screens or paper."
+        ],
+        "source": {
+          "title": "New York State Driver's Manual",
+          "url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+          "section": "Chapter 1: Driver Licenses — Vision and Knowledge Tests"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "knowledge",
+          "label": "Full 20-question mock",
+          "description": "Official format: 20 questions including 4 road sign questions. Pass with 14 correct and 2 of 4 signs.",
+          "questionCount": 20,
+          "passingCorrect": 14,
+          "passingPercent": null,
+          "isOfficialFormat": true,
+          "sectionRequirements": [
+            {
+              "tag": "road-sign",
+              "label": "Road sign questions",
+              "questionCount": 4,
+              "minCorrect": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "class-m",
+      "name": "Motorcycle (Class M / MJ)",
+      "shortName": "Class M",
+      "available": false,
+      "description": "Motorcycle applicants also study the Motorcycle Operator's Manual (MV-21MC). Coming soon."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Turning right on red in New York City. It's not allowed unless a sign permits it.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Steady Red"
+    },
+    {
+      "text": "Getting 14 right but missing 3 of the 4 sign questions — that's still a fail. Learn sign colors and shapes.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Vision and Knowledge Tests"
+    },
+    {
+      "text": "Assuming work-zone fines only double when workers are present. They double even when workers aren't there.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Work Zones"
+    },
+    {
+      "text": "Forgetting that a traffic officer's direction overrides signals, signs and markings.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Officers"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many questions are on the New York permit test?",
+      "a": "The written test has 20 questions. You must answer at least 14 correctly, including at least two of the four road sign questions.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses"
+    },
+    {
+      "q": "Which chapters of the Driver's Manual should I study?",
+      "a": "The manual's practice quizzes cover the rules-of-the-road chapters (Chapters 4 through 11) and the Road Signs section.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control"
+    },
+    {
+      "q": "How many supervised practice hours do junior drivers need?",
+      "a": "Junior drivers must certify at least 50 hours of practice, including at least 15 hours after sunset, on form MV-262 at the road test.",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses"
+    },
+    {
+      "q": "Are these the official NY DMV test questions?",
+      "a": "No. They are original practice questions written from the New York State Driver's Manual, and each links to the chapter it comes from."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ny-d-001",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In New York, warning signs are normally:",
+      "options": [
+        "White rectangles with black letters",
+        "Green with white letters",
+        "Blue with white letters",
+        "Yellow and diamond-shaped with black letters or symbols"
+      ],
+      "correctAnswer": "Yellow and diamond-shaped with black letters or symbols",
+      "explanation": "Warning signs normally are yellow and diamond-shaped, with black letters or symbols. They tell you that you are approaching a hazardous location or a location with a special rule.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-002",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Destination signs in New York are:",
+      "options": [
+        "Green with white letters",
+        "Blue with white letters",
+        "Orange with black letters",
+        "Yellow with black letters"
+      ],
+      "correctAnswer": "Green with white letters",
+      "explanation": "Destination signs are green with white letters and show the direction and distance to locations.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs: Destination Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-003",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Blue signs with white letters or symbols show:",
+      "options": [
+        "Hazards ahead",
+        "The location of services such as rest areas, gas, and medical facilities",
+        "Distances to cities",
+        "Construction zones"
+      ],
+      "correctAnswer": "The location of services such as rest areas, gas, and medical facilities",
+      "explanation": "Service signs are blue with white letters or symbols and show the location of services such as rest areas, gas stations, camping and medical facilities.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs: Service Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-004",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Orange signs with black letters or symbols indicate:",
+      "options": [
+        "A school zone",
+        "People are working on or near the roadway",
+        "A hospital nearby",
+        "A scenic route"
+      ],
+      "correctAnswer": "People are working on or near the roadway",
+      "explanation": "Work area signs are orange with black letters or symbols. A work-area speed limit as low as 25 mph can be posted, and you must always obey flag persons.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs: Work Area Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-005",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Regulation signs in New York are normally:",
+      "options": [
+        "Yellow diamonds",
+        "Green rectangles",
+        "White rectangles with black letters or symbols",
+        "Orange diamonds"
+      ],
+      "correctAnswer": "White rectangles with black letters or symbols",
+      "explanation": "Regulation signs normally are white rectangles with black letters or symbols, though some are different shapes and some use red letters or symbols.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-006",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A regulation sign showing a red circle with a slash over a symbol means:",
+      "options": [
+        "The action shown is required",
+        "You are approaching a hazard",
+        "Services are available ahead",
+        "The action shown is not allowed, or certain vehicles are restricted"
+      ],
+      "correctAnswer": "The action shown is not allowed, or certain vehicles are restricted",
+      "explanation": "A red circle with a slash over a symbol indicates that an action, like a right turn, is not allowed or that some vehicles are restricted from the road.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs: Other Regulation Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-007",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "At a YIELD sign, you must:",
+      "options": [
+        "Always come to a full stop",
+        "Never stop; merge at speed",
+        "Stop only if a police officer is present",
+        "Slow down, prepare to stop, and come to a full stop if traffic conditions require it"
+      ],
+      "correctAnswer": "Slow down, prepare to stop, and come to a full stop if traffic conditions require it",
+      "explanation": "At a YIELD sign, decrease speed and prepare to stop and yield to vehicles and pedestrians. You must come to a full stop if traffic conditions require it.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs: Yield Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-008",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "At a STOP sign with no stop line, where must you stop?",
+      "options": [
+        "Before you enter the crosswalk",
+        "In the middle of the crosswalk",
+        "Past the crosswalk where you can see",
+        "Anywhere within 50 feet"
+      ],
+      "correctAnswer": "Before you enter the crosswalk",
+      "explanation": "You must stop before the stop line if there is one. If not, stop before you enter the crosswalk. With neither, stop before entering the intersection at the point that gives you a view of traffic.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Signs: Stop Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ny-d-009",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "May you turn right on a steady red light in New York City?",
+      "options": [
+        "Yes, after a full stop",
+        "Only where a sign permits it",
+        "Yes, without stopping if clear",
+        "Only between 9 PM and 5 AM"
+      ],
+      "correctAnswer": "Only where a sign permits it",
+      "explanation": "You are not allowed to turn on a red light in New York City unless a sign that permits it is posted.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Signals: Steady Red",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-010",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "hard",
+      "question": "Outside New York City, when may you turn left on a steady red light?",
+      "options": [
+        "Never",
+        "Whenever no traffic is coming",
+        "Only with a green arrow",
+        "When turning from a one-way road into another one-way road, after stopping and yielding"
+      ],
+      "correctAnswer": "When turning from a one-way road into another one-way road, after stopping and yielding",
+      "explanation": "You can turn left at a steady red light when turning from a one-way road into another one-way road, after a full stop and yielding to traffic and pedestrians — unless a sign, signal, or marking prohibits it.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Signals: Steady Red",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-011",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A flashing red traffic light means the same as:",
+      "options": [
+        "A YIELD sign",
+        "A flashing yellow light",
+        "A green light",
+        "A STOP sign"
+      ],
+      "correctAnswer": "A STOP sign",
+      "explanation": "A flashing red light means the same as a STOP sign: stop, yield the right-of-way, and go when it is safe.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Signals: Flashing Red",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-012",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What does New York law require if the traffic lights at an intersection are out of service?",
+      "options": [
+        "Proceed as if the light were green",
+        "Slow to 15 mph and continue",
+        "Stop as you would for a stop sign, then follow right-of-way rules",
+        "Yield only to vehicles on the left"
+      ],
+      "correctAnswer": "Stop as you would for a stop sign, then follow right-of-way rules",
+      "explanation": "State law requires that if traffic lights are out of service or not working correctly, you must stop as you would for a stop sign and then continue according to right-of-way rules.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Signals: Traffic Lights",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-013",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "hard",
+      "question": "Above a lane, a steady yellow \"X\" means:",
+      "options": [
+        "This lane is for left turns only",
+        "Move out of this lane",
+        "Do not drive in this lane",
+        "You may use this lane"
+      ],
+      "correctAnswer": "Move out of this lane",
+      "explanation": "Lane-use control lights: steady red X — do not drive in this lane; steady yellow X — move from this lane; flashing yellow X — left turns only; green arrow — you may use this lane.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Signals: Lane Use Control Lights",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-014",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Double solid lines separate two lanes. When may you cross them?",
+      "options": [
+        "To pass a slow vehicle",
+        "Whenever the road ahead is clear",
+        "Never, under any circumstances",
+        "Only to turn left into or out of the highway, such as at a driveway"
+      ],
+      "correctAnswer": "Only to turn left into or out of the highway, such as at a driveway",
+      "explanation": "With double solid lines you cannot pass or change lanes. You may cross only to turn left to enter or leave the highway (e.g., a driveway or a U-turn).",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Pavement Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-015",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What does an edge line that angles toward the center of the road indicate?",
+      "options": [
+        "The road is narrower ahead",
+        "A passing zone begins",
+        "A bike lane begins",
+        "The shoulder may be used as a lane"
+      ],
+      "correctAnswer": "The road is narrower ahead",
+      "explanation": "An edge line that angles toward the center of the road shows that the road is narrower ahead.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Pavement Markings: Edge and Lane Lines",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-016",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "A diamond symbol painted in a lane indicates:",
+      "options": [
+        "A school crossing",
+        "A reserved lane, such as for buses, HOVs, or bicycles",
+        "A railroad crossing",
+        "A no-parking zone"
+      ],
+      "correctAnswer": "A reserved lane, such as for buses, HOVs, or bicycles",
+      "explanation": "The diamond symbol indicates reserved lanes for buses, high-occupancy vehicles, bicycles or other special vehicles.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Pavement Markings: Diamond Symbol",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-017",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "A traffic officer signals you to drive through a red light. What should you do?",
+      "options": [
+        "Wait for the light to turn green",
+        "Stop and ask the officer",
+        "Follow the officer's direction",
+        "Turn right instead"
+      ],
+      "correctAnswer": "Follow the officer's direction",
+      "explanation": "Directions given by traffic officers take precedence over signs, signals, or pavement markings. If an officer signals you to drive through a red light, you must do it.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-4-traffic-control",
+      "sourceSection": "Chapter 4: Traffic Control — Traffic Officers",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-018",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "To pass New York's written test, how many questions must you answer correctly?",
+      "options": [
+        "At least 12 of 20",
+        "At least 14 of 20",
+        "At least 16 of 20",
+        "At least 18 of 20"
+      ],
+      "correctAnswer": "At least 14 of 20",
+      "explanation": "To pass the written test for a Class D, M, DJ, MJ or E license, you must correctly answer at least 14 of the 20 questions.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Vision and Knowledge Tests",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-019",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Besides getting 14 of 20 correct, what else does the New York written test require?",
+      "options": [
+        "Finishing within 15 minutes",
+        "Correctly answering two of the four road sign questions",
+        "Answering all road sign questions correctly",
+        "Passing a separate signs test"
+      ],
+      "correctAnswer": "Correctly answering two of the four road sign questions",
+      "explanation": "You must correctly answer at least 14 of the 20 questions, and you must correctly answer two of the four questions about road signs.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Vision and Knowledge Tests",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-020",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What vision standard must you meet to pass New York's vision test?",
+      "options": [
+        "20/20 in both eyes",
+        "20/40 in both eyes without lenses",
+        "20/70 in one eye",
+        "20/40 in at least one eye, with or without corrective lenses"
+      ],
+      "correctAnswer": "20/40 in at least one eye, with or without corrective lenses",
+      "explanation": "To pass the vision test, you must have 20/40 vision in at least one eye with or without corrective lenses.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Vision and Knowledge Tests",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-021",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "With a New York learner permit, your supervising driver must be at least:",
+      "options": [
+        "18 years old",
+        "25 years old",
+        "Your parent, regardless of age",
+        "21 years old and licensed for the vehicle you're driving"
+      ],
+      "correctAnswer": "21 years old and licensed for the vehicle you're driving",
+      "explanation": "When you practice, you must be supervised by a licensed driver who is at least 21, holds a license valid for the vehicle, and is seated in the front seat with you.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — The Learner Permit and Road Test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-022",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Before your road test, the manual says you should have at least 50 hours of practice. How many of those should be after sunset?",
+      "options": [
+        "At least 15",
+        "At least 5",
+        "At least 10",
+        "At least 25"
+      ],
+      "correctAnswer": "At least 15",
+      "explanation": "It is important to have at least 50 hours of practice, with at least 15 hours after sunset. Junior drivers must present form MV-262 certifying this.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Preparing for the Road Test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-023",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How long must a junior learner permit be held before taking the road test?",
+      "options": [
+        "At least six months",
+        "30 days",
+        "Three months",
+        "One year"
+      ],
+      "correctAnswer": "At least six months",
+      "explanation": "Your permit must be held in valid status for a minimum of six months in order to take the road test.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — For Junior Drivers with Permits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-024",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "With a junior learner permit in New York City (the 5 boroughs), when may you NOT drive?",
+      "options": [
+        "Between midnight and 5 AM only",
+        "Between 9 PM and 5 AM",
+        "On weekends",
+        "Between 5 AM and 9 PM"
+      ],
+      "correctAnswer": "Between 9 PM and 5 AM",
+      "explanation": "Under the regional restrictions for a junior permit in New York City, you must NOT drive between 9 PM and 5 AM.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Regional Restrictions for a Junior Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-025",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "If you hold a junior permit, who is the only passenger allowed in the front seat?",
+      "options": [
+        "Any licensed adult",
+        "A family member",
+        "Your supervising driver",
+        "Any passenger wearing a seat belt"
+      ],
+      "correctAnswer": "Your supervising driver",
+      "explanation": "If you hold a junior permit, the only passenger allowed in the front seat is your supervising driver.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Driving with a Junior Learner Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-026",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How soon must you notify New York DMV after changing your address?",
+      "options": [
+        "Within 30 days",
+        "Within 60 days",
+        "Within 10 days",
+        "At your next renewal"
+      ],
+      "correctAnswer": "Within 10 days",
+      "explanation": "If you change your address you must notify DMV within 10 days.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Change of Address",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-027",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "After becoming a New York resident, how long do you have to get a New York driver license?",
+      "options": [
+        "10 days",
+        "60 days",
+        "30 days",
+        "90 days"
+      ],
+      "correctAnswer": "30 days",
+      "explanation": "Drivers who have moved here must turn in their out-of-state license and get a New York license within 30 days of becoming a permanent resident.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Driver Licenses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-028",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age for a Junior Operator (Class DJ) license?",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "16"
+      ],
+      "correctAnswer": "16",
+      "explanation": "The Junior Operator, Class DJ license has a minimum age of 16, with restrictions on where, when, and with whom you can drive.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-1-driver-licenses",
+      "sourceSection": "Chapter 1: Driver Licenses — Types of Licenses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-029",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "If no speed limit is posted in New York State (outside cities with lower limits), the maximum is:",
+      "options": [
+        "50 mph",
+        "60 mph",
+        "55 mph",
+        "65 mph"
+      ],
+      "correctAnswer": "55 mph",
+      "explanation": "You must obey the speed limit. If no limit is posted, drive no more than 55 mph.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-030",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "Unless another limit is posted, what is the speed limit in New York City?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit is 25 mph in New York City unless another limit is posted.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-031",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "New York's manual recommends the two-second rule. In bad weather or when following large trucks, you should increase it to at least:",
+      "options": [
+        "Two and a half seconds",
+        "Six seconds",
+        "Ten seconds",
+        "Three or four seconds"
+      ],
+      "correctAnswer": "Three or four seconds",
+      "explanation": "Use the two-second rule for a good space cushion. In bad weather and when following large trucks, increase the count to at least three or four seconds.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Allow Yourself Space",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-032",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "An aggressive driver is following you. What should you do?",
+      "options": [
+        "Pull over and confront them",
+        "Brake suddenly to warn them",
+        "Don't stop or leave your vehicle; drive to the nearest police station",
+        "Speed up to lose them"
+      ],
+      "correctAnswer": "Don't stop or leave your vehicle; drive to the nearest police station",
+      "explanation": "If an aggressive driver is following you, do not stop or leave your vehicle. Drive to the nearest police station.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Aggressive Drivers",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-033",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "Approaching a roundabout, who has the right-of-way?",
+      "options": [
+        "Traffic entering the roundabout",
+        "The vehicle on your right",
+        "Traffic already in the roundabout",
+        "The larger vehicle"
+      ],
+      "correctAnswer": "Traffic already in the roundabout",
+      "explanation": "Roundabouts follow the yield-at-entry rule: look to the left — traffic in the roundabout has the right-of-way. Enter when there is an adequate gap.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-034",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "hard",
+      "question": "Modern roundabouts are designed to restrict the speed of all vehicles within them to:",
+      "options": [
+        "15 mph or less",
+        "40 mph or less",
+        "30 mph or less",
+        "The posted road speed"
+      ],
+      "correctAnswer": "30 mph or less",
+      "explanation": "Roundabouts are designed so that the speed of all vehicles is restricted to 30 mph (50 km/h) or less within the roundabout.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-035",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "In New York, a first offense for talking on a hand-held phone while driving can bring a fine of up to $200 and how many license points?",
+      "options": [
+        "Five",
+        "Two",
+        "Three",
+        "Eight"
+      ],
+      "correctAnswer": "Five",
+      "explanation": "Speaking into or listening to a hand-held mobile phone while driving is a traffic infraction. A first offense can mean a fine of up to $200 and five license points.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Using a Cellular or Mobile Telephone",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-036",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "hard",
+      "question": "A junior or probationary driver is convicted of using a hand-held phone while driving for the first time. The penalty is:",
+      "options": [
+        "A warning letter",
+        "A 30-day suspension",
+        "A two-year revocation",
+        "A 120-day suspension"
+      ],
+      "correctAnswer": "A 120-day suspension",
+      "explanation": "Drivers with probationary and junior licenses who use a hand-held phone or text while driving receive a 120-day suspension for a first conviction.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Penalties for Texting, Electronic Device Use",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-037",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "New York law requires tires to have at least how much tread?",
+      "options": [
+        "2/32 of an inch",
+        "1/32 of an inch",
+        "4/32 of an inch",
+        "1/4 of an inch"
+      ],
+      "correctAnswer": "2/32 of an inch",
+      "explanation": "The law requires that your tires have at least 2/32nds of an inch of tread. It is also illegal to drive on tires with cuts down to the cords, bumps, or bulges.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Vehicle Condition",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-038",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "How far should you sit from the air bag cover in the steering wheel?",
+      "options": [
+        "At least 10 inches from the center of your chest",
+        "At least 4 inches",
+        "At least 18 inches",
+        "Distance doesn't matter"
+      ],
+      "correctAnswer": "At least 10 inches from the center of your chest",
+      "explanation": "You should sit with at least 10 inches between the center of your chest and the cover of the air bag.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Seat Belts, Child Safety Seats, and Air Bags",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-039",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "Under New York law, a child must ride rear-facing until at least what age (or the seat's limit)?",
+      "options": [
+        "One year old",
+        "Two years old",
+        "Three years old",
+        "Four years old"
+      ],
+      "correctAnswer": "Two years old",
+      "explanation": "A child under four must be in a federally approved child safety seat, and must ride rear-facing until two years old or until reaching the seat's highest weight or height limit.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Seat Belts, Child Safety Seats, and Air Bags",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-040",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "Children between ages 4 and 7 must generally ride in:",
+      "options": [
+        "The front seat with a lap belt",
+        "An appropriate child restraint such as a booster seat used with a lap and shoulder belt",
+        "A seat belt only",
+        "A rear-facing infant seat"
+      ],
+      "correctAnswer": "An appropriate child restraint such as a booster seat used with a lap and shoulder belt",
+      "explanation": "A child between four and seven must be restrained in an appropriate federally approved child restraint system, commonly a booster seat used with a lap and shoulder belt.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Seat Belts, Child Safety Seats, and Air Bags",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-041",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "easy",
+      "question": "A driver who fails to buckle up in New York can face a fine of up to:",
+      "options": [
+        "$25",
+        "$100",
+        "$50",
+        "$200"
+      ],
+      "correctAnswer": "$50",
+      "explanation": "The driver must be properly restrained by a seat belt and can face a fine of up to $50 for failing to buckle up.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Seat Belts, Child Safety Seats, and Air Bags",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-042",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "Speeding fines in New York work zones double:",
+      "options": [
+        "Only when workers are visible",
+        "Only at night",
+        "Even when workers or work vehicles are not there",
+        "Only on interstate highways"
+      ],
+      "correctAnswer": "Even when workers or work vehicles are not there",
+      "explanation": "When you speed in work zones, ticket fines double, even when the workers or work vehicles are not there.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — How to Drive Safely in Work Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-043",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "To prevent drowsy driving on a long trip, how often does the manual suggest scheduling stops?",
+      "options": [
+        "Every 50 miles or one hour",
+        "Every 300 miles",
+        "Every 100 miles or two hours",
+        "Only when you feel tired"
+      ],
+      "correctAnswer": "Every 100 miles or two hours",
+      "explanation": "Before a trip, schedule regular stops for every 100 miles or two hours, get enough sleep, and plan long trips with a companion.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — Drowsy and Fatigued Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ny-d-044",
+      "state": "NY",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "A flagger in a work zone signals you to stop. The flagger's direction:",
+      "options": [
+        "Is only a suggestion",
+        "Applies only to trucks",
+        "Can be ignored if the light is green",
+        "Has the same authority as a sign, and you can be ticketed for disobeying it"
+      ],
+      "correctAnswer": "Has the same authority as a sign, and you can be ticketed for disobeying it",
+      "explanation": "A flagger has the same authority as a sign, which means you can receive a ticket for disobeying their directions.",
+      "sourceTitle": "New York State Driver's Manual",
+      "sourceUrl": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-8-defensive-driving",
+      "sourceSection": "Chapter 8: Defensive Driving — How to Drive Safely in Work Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ],
+  "categories": [
+    "signs-signals",
+    "right-of-way",
+    "licensing",
+    "speed-limits",
+    "safe-driving",
+    "equipment"
+  ]
+}

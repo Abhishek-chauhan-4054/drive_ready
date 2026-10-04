@@ -1,0 +1,73 @@
+{
+  "stateCode": "FL",
+  "stateName": "Florida",
+  "slug": "florida",
+  "agencyShortName": "FLHSMV",
+  "officialSource": {
+    "name": "Florida Department of Highway Safety and Motor Vehicles",
+    "url": "https://www.flhsmv.gov/"
+  },
+  "officialDomains": [
+    "flhsmv.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Florida HSMV",
+      "url": "https://www.flhsmv.gov/"
+    },
+    {
+      "kind": "licensing",
+      "title": "Class E Knowledge Exam & Driving Skills Test",
+      "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+    },
+    {
+      "kind": "handbook",
+      "title": "Official Florida Driver License Handbook (PDF)",
+      "url": "https://www.flhsmv.gov/pdf/handbooks/englishdriverhandbook.pdf"
+    }
+  ],
+  "intro": "Florida's Class E Knowledge Exam has 50 multiple-choice questions on traffic laws, safe driving practices and traffic controls. You need 40 correct (80%) to pass.",
+  "testTypes": [
+    {
+      "id": "class-e",
+      "name": "Regular driver (Class E)",
+      "shortName": "Class E",
+      "available": false,
+      "description": "Florida's practice question bank is being verified against the official handbook.",
+      "testRules": {
+        "officialQuestionCount": 50,
+        "officialPassingCorrect": 40,
+        "officialPassingPercent": 80,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "You must pass the Class E Knowledge Exam to obtain a learner's license.",
+          "Applicants under 18 can take the Class E Knowledge Exam online through a registered third-party administrator."
+        ],
+        "source": {
+          "title": "FLHSMV — Class E Knowledge Exam & Driving Skills Test",
+          "url": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/",
+          "section": "Class E Knowledge Exam"
+        }
+      },
+      "mockPresets": []
+    }
+  ],
+  "commonMistakes": [],
+  "faq": [
+    {
+      "q": "How many questions are on the Florida Class E Knowledge Exam?",
+      "a": "50 multiple-choice questions about Florida traffic laws, safe driving practices and identifying traffic controls. You must answer 40 correctly (80%).",
+      "sourceUrl": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+    },
+    {
+      "q": "Can I take the Florida knowledge exam online?",
+      "a": "Applicants under 18 can take the Class E Knowledge Exam online through a registered third-party administrator.",
+      "sourceUrl": "https://www.flhsmv.gov/driver-licenses-id-cards/licensing-requirements-teens-graduated-driver-license-laws-driving-curfews/class-e-knowledge-exam-driving-skills-test/"
+    }
+  ],
+  "questions": [],
+  "categories": []
+}

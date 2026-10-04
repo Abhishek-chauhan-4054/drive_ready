@@ -1,0 +1,660 @@
+{
+  "stateCode": "MI",
+  "stateName": "Michigan",
+  "slug": "michigan",
+  "agencyShortName": "Michigan Secretary of State",
+  "officialSource": {
+    "name": "Michigan Department of State",
+    "url": "https://www.michigan.gov/sos"
+  },
+  "officialDomains": [
+    "michigan.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Michigan Secretary of State",
+      "url": "https://www.michigan.gov/sos"
+    },
+    {
+      "kind": "handbook",
+      "title": "What Every Driver Must Know — Chapter 1: Your Driver's License (PDF)",
+      "url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf"
+    },
+    {
+      "kind": "handbook",
+      "title": "What Every Driver Must Know — Chapter 5: Signs, Pavement Markings and Signals (PDF)",
+      "url": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753"
+    },
+    {
+      "kind": "licensing",
+      "title": "First-time license or ID",
+      "url": "https://www.michigan.gov/sos/all-services/first-time-license-or-id"
+    }
+  ],
+  "intro": "Michigan's Graduated Driver Licensing starts at 14 years, 9 months. Our Michigan starter bank covers licensing and signs, pavement markings and signals from the official What Every Driver Must Know manual — more chapters are being verified.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Operator license (Graduated Driver Licensing)",
+      "shortName": "Knowledge test",
+      "available": true,
+      "description": "Practice for Michigan's knowledge test, based on What Every Driver Must Know.",
+      "testRules": {
+        "officialQuestionCount": null,
+        "officialPassingCorrect": null,
+        "officialPassingPercent": null,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "We have not yet verified the official question count or passing score for Michigan's knowledge test, so the Michigan mock is scored against an 80% readiness target — not an official passing score.",
+          "Our Michigan bank currently covers Chapter 1 (licensing) and Chapter 5 (signs, pavement markings and signals)."
+        ],
+        "source": {
+          "title": "What Every Driver Must Know (Michigan Department of State)",
+          "url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+          "section": "Chapter 1: Your Driver's License"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "review",
+          "label": "Michigan review test",
+          "description": "All verified Michigan questions, scored against an 80% readiness target (not an official score).",
+          "questionCount": 23,
+          "passingCorrect": null,
+          "passingPercent": null,
+          "isOfficialFormat": false
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Crossing a solid white line to pass. In Michigan, that's illegal — solid white lines mark the road edge.",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Solid white lines"
+    },
+    {
+      "text": "Carrying a car full of friends on a Level 2 license. You may have no more than one passenger under 21 unless an exception applies.",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 2 Intermediate License"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old must I be for a Michigan Level 1 Learner's License?",
+      "a": "At least 14 years, 9 months old.",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf"
+    },
+    {
+      "q": "How many supervised hours does Michigan require?",
+      "a": "A minimum of 50 hours, including 10 hours at night, and you must hold your Level 1 license for at least six months.",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf"
+    }
+  ],
+  "categories": [
+    "licensing",
+    "signs-signals"
+  ],
+  "questions": [
+    {
+      "id": "mi-d-001",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age for a Michigan Level 1 Learner's License?",
+      "options": [
+        "14 years",
+        "14 years, 9 months",
+        "15 years, 6 months",
+        "16 years"
+      ],
+      "correctAnswer": "14 years, 9 months",
+      "explanation": "You must be at least 14 years, 9 months old for a Level 1 Learner's License.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 1 Learner's License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "mi-d-002",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Who may supervise a Michigan Level 1 driver?",
+      "options": [
+        "Any licensed driver 18 or older",
+        "A licensed parent, guardian or designated licensed adult 21 or older seated in the front seat",
+        "Any adult in the back seat",
+        "A sibling with a Level 2 license"
+      ],
+      "correctAnswer": "A licensed parent, guardian or designated licensed adult 21 or older seated in the front seat",
+      "explanation": "Level 1 drivers must be accompanied by a licensed parent, guardian or designated licensed adult age 21 or older seated in the front seat.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 1 Learner's License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "mi-d-003",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How many hours of supervised driving must a Michigan Level 1 driver complete?",
+      "options": [
+        "30 hours",
+        "40 hours",
+        "At least 50 hours, including 10 at night",
+        "100 hours"
+      ],
+      "correctAnswer": "At least 50 hours, including 10 at night",
+      "explanation": "Level 1 drivers must complete a minimum of 50 hours of supervised driving, including 10 hours at night.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 1 Learner's License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "mi-d-004",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How long must you hold a Michigan Level 1 Learner's License before moving on?",
+      "options": [
+        "30 days",
+        "90 days",
+        "At least six months",
+        "One year"
+      ],
+      "correctAnswer": "At least six months",
+      "explanation": "You must have held your Level 1 Learner's License for at least six months.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 1 Learner's License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "mi-d-005",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "With a Michigan Level 2 Intermediate License, when may you generally NOT drive (without an exception)?",
+      "options": [
+        "Between 9 p.m. and 6 a.m.",
+        "Between 10 p.m. and 5 a.m.",
+        "Between midnight and 6 a.m.",
+        "Any time after sunset"
+      ],
+      "correctAnswer": "Between 10 p.m. and 5 a.m.",
+      "explanation": "Level 2 drivers may not drive between 10 p.m. and 5 a.m. unless accompanied by an authorized adult, driving for employment or going to/from an authorized activity.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 2 Intermediate License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "mi-d-006",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "With a Michigan Level 2 Intermediate License, how many passengers under 21 may you carry (without an exception)?",
+      "options": [
+        "None",
+        "No more than one",
+        "No more than three",
+        "No limit"
+      ],
+      "correctAnswer": "No more than one",
+      "explanation": "You may not have more than one passenger under 21 unless an authorized adult is present, passengers are immediate family, or you are driving for employment or an authorized activity.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_One_Your_Drivers_License.pdf",
+      "sourceSection": "Chapter 1: Your Driver's License — Graduated Driver Licensing: Level 2 Intermediate License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "mi-d-007",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, which sign shape means STOP?",
+      "options": [
+        "Triangle",
+        "Octagon",
+        "Diamond",
+        "Pentagon"
+      ],
+      "correctAnswer": "Octagon",
+      "explanation": "Michigan's driver manual shows that an octagon means STOP.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-008",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, a triangle-shaped sign means:",
+      "options": [
+        "STOP",
+        "YIELD",
+        "SCHOOL",
+        "WARNING"
+      ],
+      "correctAnswer": "YIELD",
+      "explanation": "A triangle-shaped sign means YIELD.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-009",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, a diamond-shaped sign indicates:",
+      "options": [
+        "A warning",
+        "A service",
+        "A school",
+        "A stop"
+      ],
+      "correctAnswer": "A warning",
+      "explanation": "Diamond-shaped signs indicate a WARNING.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-010",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, a pentagon-shaped sign means:",
+      "options": [
+        "Railroad crossing",
+        "School",
+        "Yield",
+        "No passing"
+      ],
+      "correctAnswer": "School",
+      "explanation": "A pentagon-shaped sign means SCHOOL.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-011",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "According to Michigan's manual, what does a sign's shape tell you?",
+      "options": [
+        "Nothing — only color matters",
+        "It gives a clue to the sign's meaning and purpose",
+        "The sign's age",
+        "Who installed it"
+      ],
+      "correctAnswer": "It gives a clue to the sign's meaning and purpose",
+      "explanation": "A traffic sign's shape gives you a clue as to its meaning and purpose.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-012",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, a red traffic sign color means:",
+      "options": [
+        "Directions or guidance",
+        "Stop, prohibited or forbidden",
+        "General warning",
+        "Recreation"
+      ],
+      "correctAnswer": "Stop, prohibited or forbidden",
+      "explanation": "Red means stop, prohibited or forbidden.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic sign colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-013",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, orange traffic signs mean:",
+      "options": [
+        "Caution for construction or maintenance",
+        "School zone",
+        "Hospital nearby",
+        "Directions"
+      ],
+      "correctAnswer": "Caution for construction or maintenance",
+      "explanation": "Orange means caution for construction or maintenance.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic sign colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-014",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Michigan, fluorescent yellow-green signs warn about:",
+      "options": [
+        "Construction",
+        "School, pedestrian or bicycle caution",
+        "Railroad crossings",
+        "Tourist areas"
+      ],
+      "correctAnswer": "School, pedestrian or bicycle caution",
+      "explanation": "Fluorescent yellow-green means school, pedestrian or bicycle caution.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic sign colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-015",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, green traffic signs provide:",
+      "options": [
+        "Warnings",
+        "Directions and guidance",
+        "Regulations",
+        "Construction alerts"
+      ],
+      "correctAnswer": "Directions and guidance",
+      "explanation": "Green signs provide directions and guidance.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic sign colors",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-016",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, broken white lines:",
+      "options": [
+        "Separate traffic moving in opposite directions",
+        "Separate traffic lanes moving in the same direction",
+        "Mark no-passing zones",
+        "Mark parking spaces"
+      ],
+      "correctAnswer": "Separate traffic lanes moving in the same direction",
+      "explanation": "Broken white lines separate traffic lanes moving in the same direction.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Broken white lines",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-017",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Michigan, is it legal to cross a solid white line when passing?",
+      "options": [
+        "Yes, if it is safe",
+        "No, it is illegal",
+        "Only on freeways",
+        "Only at night"
+      ],
+      "correctAnswer": "No, it is illegal",
+      "explanation": "Solid white lines mark the right edge of the road, and it is illegal to cross solid white lines when passing.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Solid white lines",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-018",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Michigan, a single broken yellow line usually marks:",
+      "options": [
+        "The right edge of the road",
+        "The center of a two-way road where you may pass if it is safe",
+        "A bike lane",
+        "A no-passing zone"
+      ],
+      "correctAnswer": "The center of a two-way road where you may pass if it is safe",
+      "explanation": "A single broken yellow line usually marks the center line of a two-way roadway where a vehicle may pass if it is safe to do so.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Broken yellow lines",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-019",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A double solid yellow line down the middle of a Michigan two-lane road means:",
+      "options": [
+        "Passing is allowed both ways",
+        "Passing is not allowed for vehicles traveling in either direction",
+        "Only trucks may pass",
+        "Passing is allowed at night"
+      ],
+      "correctAnswer": "Passing is not allowed for vehicles traveling in either direction",
+      "explanation": "A double solid yellow line means passing is not allowed for vehicles traveling in either direction.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Solid yellow lines",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-020",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Where is the red light located on a Michigan traffic signal?",
+      "options": [
+        "At the bottom",
+        "In the middle",
+        "At the top",
+        "On the left"
+      ],
+      "correctAnswer": "At the top",
+      "explanation": "The red light is at the top of a traffic signal in Michigan.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-021",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a flashing red light mean in Michigan?",
+      "options": [
+        "Slow down",
+        "Come to a full stop, then proceed when the road is clear",
+        "The signal is about to turn green",
+        "Yield only to the right"
+      ],
+      "correctAnswer": "Come to a full stop, then proceed when the road is clear",
+      "explanation": "A flashing red light means come to a full stop and proceed when the road is clear.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-022",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "On a Michigan 5-section signal head, what does a lit green arrow give turning drivers?",
+      "options": [
+        "A yield turn",
+        "A protected turn — conflicting traffic is stopped",
+        "A turn only after stopping",
+        "A warning"
+      ],
+      "correctAnswer": "A protected turn — conflicting traffic is stopped",
+      "explanation": "When the green arrow is lit, turning drivers have a protected turn, meaning all oncoming or conflicting traffic is stopped.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — The 5-section-head signal",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "mi-d-023",
+      "state": "MI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Michigan, a green light means:",
+      "options": [
+        "Go immediately without looking",
+        "Proceed with caution after checking for pedestrians and vehicles",
+        "Stop if a pedestrian is nearby",
+        "Turn only"
+      ],
+      "correctAnswer": "Proceed with caution after checking for pedestrians and vehicles",
+      "explanation": "A green light means proceed with caution after checking for pedestrians and vehicles.",
+      "sourceTitle": "What Every Driver Must Know (Michigan Department of State)",
+      "sourceUrl": "https://www.michigan.gov/-/media/Project/Websites/sos/01piercej/WEDMK_Chapter_Five_Signs_Pavement_Markings_and_Signals.pdf?rev=368eef362a8240588bd1a02c66041753",
+      "sourceSection": "Chapter 5: Signs, Pavement Markings and Signals — Traffic signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    }
+  ]
+}

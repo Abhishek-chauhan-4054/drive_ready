@@ -1,0 +1,411 @@
+{
+  "stateCode": "TN",
+  "stateName": "Tennessee",
+  "slug": "tennessee",
+  "agencyShortName": "Tennessee Driver Services",
+  "officialSource": {
+    "name": "Tennessee Department of Safety and Homeland Security",
+    "url": "https://www.tn.gov/safety"
+  },
+  "officialDomains": [
+    "tn.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Tennessee Department of Safety — Driver Services",
+      "url": "https://www.tn.gov/safety"
+    },
+    {
+      "kind": "handbook",
+      "title": "Tennessee Comprehensive Driver License Manual (PDF)",
+      "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+    },
+    {
+      "kind": "sample-test",
+      "title": "Official practice knowledge tests",
+      "url": "https://www.tn.gov/dlpractice"
+    }
+  ],
+  "intro": "Tennessee learner permits (Class PD) start at age 15. Our Tennessee bank is a verified starter set focused on licensing rules and the hands-free law; road-sign and rules-of-the-road questions are being added.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Regular driver (Class D)",
+      "shortName": "Class D",
+      "available": true,
+      "description": "Knowledge test for the Class PD learner permit and Class D license.",
+      "testRules": {
+        "officialQuestionCount": null,
+        "officialPassingCorrect": null,
+        "officialPassingPercent": null,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "We have not yet verified the official question count or passing score from the manual, so the Tennessee mock is a practice review scored against an 80% readiness target — not an official passing score.",
+          "The manual we verified states its information is current as of July 1, 2022. Always check tn.gov/safety for updates."
+        ],
+        "source": {
+          "title": "Tennessee Comprehensive Driver License Manual",
+          "url": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+          "section": "Section A, Chapter 4: The Examinations"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "review",
+          "label": "Tennessee review test",
+          "description": "All verified Tennessee questions, scored against an 80% readiness target (not an official score).",
+          "questionCount": 14,
+          "passingCorrect": null,
+          "passingPercent": null,
+          "isOfficialFormat": false
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Thinking you can touch your phone for GPS at a red light. Tennessee requires you to pull over and stop first.",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Distracted Driving"
+    },
+    {
+      "text": "Assuming any adult can supervise a permit driver. The supervising driver must be licensed, at least 21, and sitting beside you.",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1 — Class PD"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How old do you have to be to get a learner permit in Tennessee?",
+      "a": "You must be at least 15 and pass the knowledge test and vision screening for a Class D license.",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+    },
+    {
+      "q": "How long must I hold my permit before getting a license?",
+      "a": "If you are under 18, you must hold a valid Class PD for 180 days and meet the Graduated Driver License requirements, including certification of 50 hours of driving.",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+    },
+    {
+      "q": "Does Tennessee have an official practice test?",
+      "a": "Yes. The manual points to official practice knowledge tests at tn.gov/dlpractice.",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tn-d-001",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age for a Tennessee Class PD learner permit?",
+      "options": [
+        "14",
+        "15",
+        "15½",
+        "16"
+      ],
+      "correctAnswer": "15",
+      "explanation": "To obtain a Class PD license, you must have reached the age of 15 and pass the knowledge test and vision screening for a Class D license.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Your License — Class PD Learner Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-002",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "A Class PD learner permit holder may drive only when accompanied by:",
+      "options": [
+        "A licensed driver at least 21 years old sitting in the seat beside them",
+        "Any licensed driver age 18+",
+        "Any adult passenger",
+        "A licensed driver in the back seat"
+      ],
+      "correctAnswer": "A licensed driver at least 21 years old sitting in the seat beside them",
+      "explanation": "A driver with a Class PD license may operate an automobile only when accompanied by a licensed driver who is at least 21 years old and sitting in the seat beside the driver.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Your License — Class PD Learner Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-003",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "If you are under 18, how long must you hold a valid Class PD before exchanging it for a license?",
+      "options": [
+        "180 days",
+        "30 days",
+        "90 days",
+        "One year"
+      ],
+      "correctAnswer": "180 days",
+      "explanation": "If you are younger than 18, you must have held a valid Class PD for 180 days and meet the Graduated Driver License requirements.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Your License — Class PD Learner Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-004",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Minors applying after the learner-permit period must present certification of how many hours of behind-the-wheel experience?",
+      "options": [
+        "20 hours",
+        "30 hours",
+        "50 hours",
+        "100 hours"
+      ],
+      "correctAnswer": "50 hours",
+      "explanation": "The documents checklist requires certification of 50 hours of behind-the-wheel driving experience (form SF-1256) after holding the learner permit for six months.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-2: Applying for Your License — Documents and Forms Checklist",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-005",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age for a Tennessee Class D license?",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "16"
+      ],
+      "correctAnswer": "16",
+      "explanation": "To qualify for a Class D license, you must be at least 16 and pass a vision screening, knowledge test, and driving test. Under 18 also requires the Intermediate (GDL) qualifications.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Your License — Class D License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-006",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "Under Tennessee's hands-free law, it is illegal for a driver to:",
+      "options": [
+        "Use a phone with a hands-free system",
+        "Listen to the radio",
+        "Hold a cellphone or mobile device with any part of their body",
+        "Use a vehicle's built-in GPS set before the trip"
+      ],
+      "correctAnswer": "Hold a cellphone or mobile device with any part of their body",
+      "explanation": "Tennessee's 2019 hands-free law (Public Chapter No. 412) makes it illegal to hold a phone with any part of the body, write, send or read texts, watch or record video, and more.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Distracted Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-007",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "You need to change your phone's GPS route while driving in Tennessee. What should you do?",
+      "options": [
+        "Use the phone at a red light",
+        "Pull over to a safe place, come to a full stop, then use the phone",
+        "Hold the phone below the dashboard",
+        "Ask for help from a passenger in the back seat only"
+      ],
+      "correctAnswer": "Pull over to a safe place, come to a full stop, then use the phone",
+      "explanation": "You are not allowed to touch your phone to use GPS. If you need it, find a safe place to pull over, bring the vehicle to a full stop, and then operate the phone.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Distracted Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-008",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "According to the Tennessee manual, sending or reading a text takes your eyes off the road for a minimum of:",
+      "options": [
+        "1 second",
+        "2 seconds",
+        "5 seconds",
+        "10 seconds"
+      ],
+      "correctAnswer": "5 seconds",
+      "explanation": "Sending or reading a text takes your eyes off the road for a minimum of 5 seconds — at 55 mph, like driving the length of a football field with your eyes closed.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Distracted Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-009",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "New residents with a license from another state must get a Tennessee license no later than:",
+      "options": [
+        "10 days",
+        "30 days after establishing residency",
+        "60 days",
+        "One year"
+      ],
+      "correctAnswer": "30 days after establishing residency",
+      "explanation": "New or returning residents holding a license from another state must obtain a Tennessee driver license no later than thirty days after establishing residency.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-2: Applying for Your License — New Residents",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-010",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How soon must you notify the Tennessee Department of Safety of an address change?",
+      "options": [
+        "Within 30 days",
+        "Within 60 days",
+        "At your next renewal",
+        "Within 10 days"
+      ],
+      "correctAnswer": "Within 10 days",
+      "explanation": "State law requires you to notify the Department of Safety within ten days of a residence address change.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-2: Frequently Asked Questions — How Do I Change My Address?",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-011",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "A Tennessee hardship (Class H) license may be issued to a minor as young as:",
+      "options": [
+        "13",
+        "15",
+        "14",
+        "16"
+      ],
+      "correctAnswer": "14",
+      "explanation": "A Class H hardship license may be issued to a minor who is 14 to operate a Class D vehicle or Class M motorcycle, only in cases of family hardship.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Your License — Class H Hardship",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-012",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "A Tennessee Class H hardship license is valid:",
+      "options": [
+        "At any time of day",
+        "Only on weekends",
+        "Only with a parent in the car",
+        "Only during daylight hours, for travel to authorized locations"
+      ],
+      "correctAnswer": "Only during daylight hours, for travel to authorized locations",
+      "explanation": "The Class H license is valid only for daylight hours and for travel to authorized locations specified in the approval letter.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Your License — Class H Hardship",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-013",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "If you drive without your license in your possession in Tennessee, the fine is:",
+      "options": [
+        "Not less than $2 and no more than $50",
+        "$100 to $500",
+        "Up to $1,000",
+        "There is no penalty"
+      ],
+      "correctAnswer": "Not less than $2 and no more than $50",
+      "explanation": "Not having your license with you is a Class D misdemeanor; you may be fined not less than $2.00 and no more than $50.00.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-1: Penalties for Driving Without a License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "tn-d-014",
+      "state": "TN",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "If your Tennessee license has been expired for more than 30 days, the late fee is:",
+      "options": [
+        "$1",
+        "$5 (rising to $10 after six months)",
+        "$25",
+        "$50"
+      ],
+      "correctAnswer": "$5 (rising to $10 after six months)",
+      "explanation": "If your license has expired more than thirty days, there is a $5.00 late fee. After six months the late fee doubles to $10.00.",
+      "sourceTitle": "Tennessee Comprehensive Driver License Manual",
+      "sourceUrl": "https://www.tn.gov/content/dam/tn/safety/documents/DL_Manual.pdf",
+      "sourceSection": "Section A-2: Frequently Asked Questions — Don't Let Your License Expire",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ],
+  "categories": [
+    "licensing",
+    "safe-driving"
+  ]
+}

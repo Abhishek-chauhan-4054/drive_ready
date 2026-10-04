@@ -1,0 +1,1678 @@
+{
+  "stateCode": "PA",
+  "stateName": "Pennsylvania",
+  "slug": "pennsylvania",
+  "agencyShortName": "PennDOT",
+  "officialSource": {
+    "name": "PennDOT Driver & Vehicle Services",
+    "url": "https://www.pa.gov/agencies/dmv"
+  },
+  "officialDomains": [
+    "pa.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "PennDOT Driver & Vehicle Services",
+      "url": "https://www.pa.gov/agencies/dmv"
+    },
+    {
+      "kind": "handbook",
+      "title": "Pennsylvania Driver's Manual (online)",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual"
+    },
+    {
+      "kind": "sample-test",
+      "title": "Official sample knowledge test",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/test-your-knowledge"
+    },
+    {
+      "kind": "licensing",
+      "title": "Applying for a learner's permit",
+      "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit"
+    }
+  ],
+  "intro": "Pennsylvania's knowledge test has 18 multiple-choice questions — you need 15 correct to get your learner's permit. Our bank covers every chapter of the official online Pennsylvania Driver's Manual.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Learner's permit (Class C)",
+      "shortName": "Knowledge test",
+      "available": true,
+      "description": "The 18-question knowledge test required before a Pennsylvania learner's permit is issued.",
+      "testRules": {
+        "officialQuestionCount": 18,
+        "officialPassingCorrect": 15,
+        "officialPassingPercent": null,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "The knowledge test consists of 18 multiple-choice questions. You must answer 15 correctly to pass.",
+          "It covers traffic signs, Pennsylvania's driving laws and safe-driving practices, and must be passed before a learner's permit is issued."
+        ],
+        "source": {
+          "title": "Pennsylvania Driver's Manual",
+          "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing",
+          "section": "Chapter 1: Testing — Knowledge Test"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "knowledge",
+          "label": "Full 18-question mock",
+          "description": "Official format: 18 multiple-choice questions. Pass with 15 correct.",
+          "questionCount": 18,
+          "passingCorrect": 15,
+          "passingPercent": null,
+          "isOfficialFormat": true
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Stopping too close to a school bus. Pennsylvania requires at least 10 feet, whether you're behind it or facing it.",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — School Buses"
+    },
+    {
+      "text": "Treating a dark traffic signal like a green light. A non-working signal is a four-way STOP.",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Non-Functioning Traffic Lights"
+    },
+    {
+      "text": "Using daytime running lights in work zones. Pennsylvania requires your actual headlights to be on.",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — Work Zones"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many questions are on the Pennsylvania permit test?",
+      "a": "18 multiple-choice questions. You must answer 15 correctly to pass.",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing"
+    },
+    {
+      "q": "How old do I have to be for a Pennsylvania learner's permit?",
+      "a": "You can apply when you are 16 or older. The permit is valid for one year.",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit"
+    },
+    {
+      "q": "How many practice hours do I need before the road test?",
+      "a": "If you are under 18: at least 65 hours, including 10 at night and 5 in bad weather, and you must wait six months after the permit is issued.",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit"
+    }
+  ],
+  "categories": [
+    "emergencies",
+    "equipment",
+    "licensing",
+    "parking",
+    "right-of-way",
+    "safe-driving",
+    "sharing-the-road",
+    "signs-signals",
+    "speed-limits"
+  ],
+  "questions": [
+    {
+      "id": "pa-d-001",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "On Pennsylvania's learner's permit knowledge test, how many questions must you answer correctly?",
+      "options": [
+        "12 of 18",
+        "15 of 18",
+        "18 of 20",
+        "40 of 50"
+      ],
+      "correctAnswer": "15 of 18",
+      "explanation": "The knowledge test has 18 multiple-choice questions, and you must answer 15 correctly to pass.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing",
+      "sourceSection": "Chapter 1: Testing — Knowledge Test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-002",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What does Pennsylvania's knowledge test measure?",
+      "options": [
+        "Only road signs",
+        "Traffic signs, Pennsylvania driving laws and safe-driving practices",
+        "Vehicle repair knowledge",
+        "Only parking rules"
+      ],
+      "correctAnswer": "Traffic signs, Pennsylvania driving laws and safe-driving practices",
+      "explanation": "The test measures your knowledge of traffic signs, Pennsylvania's driving laws and safe-driving practices.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/testing",
+      "sourceSection": "Chapter 1: Testing — Knowledge Test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-003",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age to apply for a Pennsylvania learner's permit?",
+      "options": [
+        "15",
+        "15½",
+        "16",
+        "17"
+      ],
+      "correctAnswer": "16",
+      "explanation": "You may apply for a learner's permit when you are 16 years of age or older.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit",
+      "sourceSection": "Chapter 1: Applying for a Learner's Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-004",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How long is a Pennsylvania learner's permit valid?",
+      "options": [
+        "90 days",
+        "6 months",
+        "One year from the issue date",
+        "Two years"
+      ],
+      "correctAnswer": "One year from the issue date",
+      "explanation": "Your learner's permit is valid for one year from the issue date printed on your initial permit.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit",
+      "sourceSection": "Chapter 1: Junior Learner's Permit Information",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-005",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "Who may supervise a Pennsylvania junior learner's permit holder?",
+      "options": [
+        "Any licensed driver age 18 or older",
+        "A licensed driver at least 21, or a parent, guardian, person in loco parentis or spouse who is at least 18",
+        "Only a certified driving instructor",
+        "Any adult passenger, licensed or not"
+      ],
+      "correctAnswer": "A licensed driver at least 21, or a parent, guardian, person in loco parentis or spouse who is at least 18",
+      "explanation": "You may only drive under the supervision of a licensed driver who is at least 21, or a parent, guardian, person in loco parentis or spouse who is 18 or older.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit",
+      "sourceSection": "Chapter 1: Junior Learner's Permit Information",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-006",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, how long must you wait after your learner's permit is issued before taking the road test (if under 18)?",
+      "options": [
+        "30 days",
+        "3 months",
+        "Six months",
+        "One year"
+      ],
+      "correctAnswer": "Six months",
+      "explanation": "You must wait the mandatory six months from your permit issue date before the road test.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit",
+      "sourceSection": "Chapter 1: Applying for a Learner's Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-007",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "How many hours of supervised behind-the-wheel practice must a Pennsylvania driver under 18 complete?",
+      "options": [
+        "At least 30 hours",
+        "At least 50 hours, including 10 at night",
+        "At least 65 hours, including 10 at night and 5 in bad weather",
+        "At least 100 hours"
+      ],
+      "correctAnswer": "At least 65 hours, including 10 at night and 5 in bad weather",
+      "explanation": "Drivers under 18 must complete at least 65 hours of skill-building, including at least 10 hours at night and 5 hours in bad weather.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/applying-for-a-learners-permit",
+      "sourceSection": "Chapter 1: Applying for a Learner's Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-008",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, where must you stop for a steady red light?",
+      "options": [
+        "In the middle of the intersection",
+        "Before the marked stop line or crosswalk",
+        "Only if cross traffic is present",
+        "After the crosswalk"
+      ],
+      "correctAnswer": "Before the marked stop line or crosswalk",
+      "explanation": "At a steady red light, you must stop before crossing the marked stop line or crosswalk.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-009",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, may you turn right on a steady red light?",
+      "options": [
+        "Never",
+        "Yes, unless a NO TURN ON RED sign is posted",
+        "Only between 10 p.m. and 6 a.m.",
+        "Only if a police officer waves you on"
+      ],
+      "correctAnswer": "Yes, unless a NO TURN ON RED sign is posted",
+      "explanation": "You may turn right while the light is red unless a NO TURN ON RED sign is posted.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-010",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "hard",
+      "question": "When may you turn left on a red light in Pennsylvania (after stopping)?",
+      "options": [
+        "Never",
+        "From any left lane onto any street",
+        "From the left lane of a one-way street onto another one-way street",
+        "Only when turning into a driveway"
+      ],
+      "correctAnswer": "From the left lane of a one-way street onto another one-way street",
+      "explanation": "After stopping, you may turn left on red if you are in the left lane turning from a one-way street onto another one-way street.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-011",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a steady yellow light tell you in Pennsylvania?",
+      "options": [
+        "Speed up to clear the intersection",
+        "A steady red light will soon appear",
+        "The signal is broken",
+        "Pedestrians must cross"
+      ],
+      "correctAnswer": "A steady red light will soon appear",
+      "explanation": "A steady yellow light tells you a steady red light will soon appear.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-012",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What does a steady red arrow mean in Pennsylvania?",
+      "options": [
+        "Turn with caution",
+        "Stop; you may not turn in the direction the arrow points",
+        "Turn after yielding",
+        "The lane is closed ahead"
+      ],
+      "correctAnswer": "Stop; you may not turn in the direction the arrow points",
+      "explanation": "A steady red arrow means you must stop and may not turn in the direction the arrow points.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-013",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What does a steady yellow arrow mean in Pennsylvania?",
+      "options": [
+        "The protected or permitted turn is about to end",
+        "You may turn without slowing",
+        "U-turns are allowed",
+        "Pedestrians have a green light"
+      ],
+      "correctAnswer": "The protected or permitted turn is about to end",
+      "explanation": "A steady yellow arrow means the movement permitted by the green arrow or flashing yellow arrow is about to end.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-014",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, a turn made during a steady green arrow is:",
+      "options": [
+        "Prohibited",
+        "Protected",
+        "Only allowed for buses",
+        "A yield turn"
+      ],
+      "correctAnswer": "Protected",
+      "explanation": "A steady green arrow means you may turn the way it points, and the turn is 'protected.'",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Red, Yellow, and Green Traffic Lights and Arrows",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-015",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, a flashing red light has the same meaning as:",
+      "options": [
+        "A YIELD sign",
+        "A STOP sign",
+        "A green light",
+        "A speed limit sign"
+      ],
+      "correctAnswer": "A STOP sign",
+      "explanation": "A flashing red light has the same meaning as a STOP sign — come to a complete stop.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Flashing Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-016",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a flashing yellow light mean in Pennsylvania?",
+      "options": [
+        "Stop completely",
+        "Caution — slow down, look and proceed with care",
+        "The light is about to turn green",
+        "No turns allowed"
+      ],
+      "correctAnswer": "Caution — slow down, look and proceed with care",
+      "explanation": "A flashing yellow light means CAUTION: slow down, look and proceed with care.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Flashing Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-017",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, a flashing yellow arrow means you may turn, but first you must:",
+      "options": [
+        "Honk",
+        "Yield to oncoming traffic and pedestrians",
+        "Come to a full stop for 3 seconds",
+        "Wait for a green ball"
+      ],
+      "correctAnswer": "Yield to oncoming traffic and pedestrians",
+      "explanation": "With a flashing yellow arrow you may turn with caution, but you must first yield to oncoming traffic and pedestrians.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Flashing Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-018",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "How should you treat a traffic signal that is not working in Pennsylvania?",
+      "options": [
+        "Like a green light",
+        "Like a four-way STOP",
+        "Like a YIELD sign for side streets only",
+        "Ignore it and follow the car ahead"
+      ],
+      "correctAnswer": "Like a four-way STOP",
+      "explanation": "A non-functioning traffic signal should be treated as though it were a four-way STOP sign.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Non-Functioning Traffic Lights",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-019",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "hard",
+      "question": "In Pennsylvania, what does a steady yellow 'X' over a traffic lane mean?",
+      "options": [
+        "You may use the lane",
+        "Change lanes — the lane's direction of travel is about to be reversed",
+        "The lane is for buses only",
+        "Speed up to merge"
+      ],
+      "correctAnswer": "Change lanes — the lane's direction of travel is about to be reversed",
+      "explanation": "A steady yellow X means you must change lanes because the direction of travel for that lane is about to be reversed.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Lane Use Control Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-020",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, a steady red 'X' over a lane means:",
+      "options": [
+        "You may use the lane with caution",
+        "You are not allowed to use that lane",
+        "The lane is for left turns",
+        "Toll lane ahead"
+      ],
+      "correctAnswer": "You are not allowed to use that lane",
+      "explanation": "A steady red X over a lane means you are not allowed to use the traffic lane.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Lane Use Control Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-021",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "A pedestrian in Pennsylvania is already in the street when the flashing DON'T WALK signal begins. What should they do?",
+      "options": [
+        "Return to the curb immediately",
+        "Finish crossing",
+        "Stop in the middle of the street",
+        "Wait for the next WALK signal in the street"
+      ],
+      "correctAnswer": "Finish crossing",
+      "explanation": "When the flashing DON'T WALK begins, pedestrians already in the street should finish crossing.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signals",
+      "sourceSection": "Chapter 2: Signals — Pedestrian Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-022",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, which sign is the only octagon-shaped (8-sided) sign on the highway?",
+      "options": [
+        "YIELD",
+        "STOP",
+        "SCHOOL",
+        "RAILROAD CROSSING"
+      ],
+      "correctAnswer": "STOP",
+      "explanation": "The STOP sign is the only octagon-shaped sign you see on the highway.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Regulatory Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-023",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What shape is a YIELD sign in Pennsylvania?",
+      "options": [
+        "Octagon",
+        "Triangle",
+        "Diamond",
+        "Pentagon"
+      ],
+      "correctAnswer": "Triangle",
+      "explanation": "YIELD signs are triangular (3-sided).",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Regulatory Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-024",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What does a SPEED LIMIT sign in Pennsylvania indicate?",
+      "options": [
+        "The minimum speed allowed",
+        "The maximum legal speed under ideal conditions",
+        "A suggested speed for trucks",
+        "The average speed of traffic"
+      ],
+      "correctAnswer": "The maximum legal speed under ideal conditions",
+      "explanation": "A SPEED LIMIT sign indicates the maximum legal speed under ideal conditions for that stretch of highway.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Regulatory Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-025",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Pennsylvania warning signs are usually:",
+      "options": [
+        "Red octagons",
+        "Diamond-shaped with black symbols or words on a yellow background",
+        "Green rectangles",
+        "Blue squares"
+      ],
+      "correctAnswer": "Diamond-shaped with black symbols or words on a yellow background",
+      "explanation": "Warning signs are usually diamond-shaped with black symbols or words on a yellow background.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Warning Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-026",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Which Pennsylvania sign is the only pennant-shaped warning sign?",
+      "options": [
+        "NO PASSING ZONE",
+        "SCHOOL",
+        "YIELD",
+        "WORK ZONE"
+      ],
+      "correctAnswer": "NO PASSING ZONE",
+      "explanation": "The NO PASSING ZONE sign is the only pennant-shaped warning sign.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Warning Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-027",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, highway and expressway guide signs are:",
+      "options": [
+        "Green with white letters",
+        "Blue with white letters",
+        "Brown with white letters",
+        "Orange with black letters"
+      ],
+      "correctAnswer": "Green with white letters",
+      "explanation": "Highway and expressway guide signs are green with white letters.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Guide Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-028",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, what color are service signs (like gas, food or lodging)?",
+      "options": [
+        "Green with white letters",
+        "Blue with white letters or symbols",
+        "Red with white letters",
+        "Yellow with black letters"
+      ],
+      "correctAnswer": "Blue with white letters or symbols",
+      "explanation": "Service signs are square or rectangular and blue with white letters or symbols.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Guide Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-029",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "How are Pennsylvania work zone signs different from regular warning signs?",
+      "options": [
+        "They are round",
+        "They are orange with black lettering instead of yellow",
+        "They are green",
+        "They are always rectangular"
+      ],
+      "correctAnswer": "They are orange with black lettering instead of yellow",
+      "explanation": "Work zone signs are normally diamond-shaped like warning signs, but orange with black lettering.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Work Zone Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-030",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Which sign is the only pentagon-shaped sign used on Pennsylvania roads?",
+      "options": [
+        "YIELD",
+        "SCHOOL",
+        "STOP",
+        "NO PASSING ZONE"
+      ],
+      "correctAnswer": "SCHOOL",
+      "explanation": "The SCHOOL sign is the only pentagon-shaped sign used on the roadway.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — SCHOOL",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-031",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, how should you treat a railroad crossbuck sign?",
+      "options": [
+        "As a STOP sign",
+        "As a YIELD sign",
+        "As a speed limit sign",
+        "As advisory only"
+      ],
+      "correctAnswer": "As a YIELD sign",
+      "explanation": "You should treat the crossbuck sign as a YIELD sign.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/signs",
+      "sourceSection": "Chapter 2: Signs — Railroad Crossbuck Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-032",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "On Pennsylvania roads, yellow lines divide:",
+      "options": [
+        "Lanes going the same direction",
+        "Traffic traveling in opposite directions",
+        "Bike lanes from car lanes",
+        "Parking spaces"
+      ],
+      "correctAnswer": "Traffic traveling in opposite directions",
+      "explanation": "Yellow lines divide traffic traveling in opposite directions.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/pavement-markings",
+      "sourceSection": "Chapter 2: Pavement Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-033",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, solid white lines divide:",
+      "options": [
+        "Traffic going in opposite directions",
+        "Lanes of traffic traveling in the same direction",
+        "Only the shoulder from the road",
+        "Toll lanes"
+      ],
+      "correctAnswer": "Lanes of traffic traveling in the same direction",
+      "explanation": "Solid white lines divide lanes of traffic traveling in the same direction.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/pavement-markings",
+      "sourceSection": "Chapter 2: Pavement Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-034",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "On a Pennsylvania road with a solid yellow line next to a broken yellow line, when may you pass?",
+      "options": [
+        "Never",
+        "When the broken line is on your side and it is safe",
+        "When the solid line is on your side",
+        "Only at night"
+      ],
+      "correctAnswer": "When the broken line is on your side and it is safe",
+      "explanation": "You may pass if the broken line is on your side of the road and safe conditions exist.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/pavement-markings",
+      "sourceSection": "Chapter 2: Pavement Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-035",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A double solid yellow centerline in Pennsylvania means:",
+      "options": [
+        "Passing is allowed in both directions",
+        "Passing is not allowed for traffic in either direction",
+        "Passing is allowed only for motorcycles",
+        "The road is one-way"
+      ],
+      "correctAnswer": "Passing is not allowed for traffic in either direction",
+      "explanation": "Passing by traffic traveling in either direction is not allowed on roads marked with a double solid yellow centerline.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/pavement-markings",
+      "sourceSection": "Chapter 2: Pavement Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-036",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, how may vehicles use a center lane marked for two-way left turns?",
+      "options": [
+        "For passing",
+        "Only to make left turns, from either direction",
+        "As a travel lane in heavy traffic",
+        "For parking"
+      ],
+      "correctAnswer": "Only to make left turns, from either direction",
+      "explanation": "Vehicles traveling in either direction may use the center lane only to make left turns.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/pavement-markings",
+      "sourceSection": "Chapter 2: Pavement Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "pa-d-037",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "When a Pennsylvania school bus has flashing red lights and its stop arm extended, how far away must you stop?",
+      "options": [
+        "At least 5 feet",
+        "At least 10 feet",
+        "At least 25 feet",
+        "At least 50 feet"
+      ],
+      "correctAnswer": "At least 10 feet",
+      "explanation": "You must stop at least 10 feet away from the bus, whether you are behind it or coming toward it.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-038",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, when do you NOT have to stop for a school bus with flashing red lights?",
+      "options": [
+        "When you are behind it",
+        "When you are on the opposite side of a divided highway separated by a barrier or median",
+        "When no children are visible",
+        "When you are late"
+      ],
+      "correctAnswer": "When you are on the opposite side of a divided highway separated by a barrier or median",
+      "explanation": "If you are driving on the opposite side of a divided highway (barriers, guide rails, trees or a median), you do not have to stop.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-039",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "hard",
+      "question": "What is the penalty in Pennsylvania for failing to stop for a school bus with flashing red lights and its stop arm extended?",
+      "options": [
+        "A warning letter",
+        "A 60-day license suspension, five points and a fine",
+        "Two points only",
+        "A $25 fine only"
+      ],
+      "correctAnswer": "A 60-day license suspension, five points and a fine",
+      "explanation": "Failure to stop results in a 60-day suspension, five points on your record and a fine.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-040",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "Under Pennsylvania's Steer Clear Law, what must you do when approaching an emergency response area?",
+      "options": [
+        "Honk and continue",
+        "Move into a lane not adjacent to the area, or reduce speed if you can't move over",
+        "Stop in your lane",
+        "Speed up to pass quickly"
+      ],
+      "correctAnswer": "Move into a lane not adjacent to the area, or reduce speed if you can't move over",
+      "explanation": "The Steer Clear Law requires motorists to move into a lane not adjacent to an emergency response area, or reduce speed if unable to move over.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — Steer Clear Law",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-041",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "After an emergency vehicle passes you in Pennsylvania, how far should you stay behind it?",
+      "options": [
+        "100 feet",
+        "200 feet",
+        "At least 500 feet",
+        "1 mile"
+      ],
+      "correctAnswer": "At least 500 feet",
+      "explanation": "Pull over and stop; start driving again after the emergency vehicle passes, keeping at least 500 feet away from it.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — Emergency Vehicles and Situations",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-042",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "When driving through a Pennsylvania work zone, what must you do with your lights?",
+      "options": [
+        "Turn on hazard lights",
+        "Turn on your headlights, not just daytime running lights",
+        "Turn off all lights",
+        "Use high beams"
+      ],
+      "correctAnswer": "Turn on your headlights, not just daytime running lights",
+      "explanation": "You must turn on your vehicle's headlights, not just the daytime running lights, in work zones.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — Work Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-043",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What happens to fines for speeding in an active Pennsylvania work zone?",
+      "options": [
+        "They are waived",
+        "They are doubled",
+        "They are halved",
+        "They stay the same"
+      ],
+      "correctAnswer": "They are doubled",
+      "explanation": "Fines are doubled for certain violations in active work zones, including speeding.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — Work Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-044",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "When approaching or passing a bicyclist in Pennsylvania, you should:",
+      "options": [
+        "Honk",
+        "Slow down to a safe speed",
+        "Speed up to pass quickly",
+        "Flash your high beams"
+      ],
+      "correctAnswer": "Slow down to a safe speed",
+      "explanation": "When approaching or passing a bicycle, slow down to a safe speed.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/special-circumstances-and-emergencies",
+      "sourceSection": "Chapter 3: Special Circumstances and Emergencies — Sharing the Road With Pedestrians, Bicyclists, and Motorcyclists",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-045",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "On dry pavement, Pennsylvania's manual recommends a following distance of at least:",
+      "options": [
+        "1 second",
+        "2 seconds",
+        "4 seconds",
+        "10 seconds"
+      ],
+      "correctAnswer": "4 seconds",
+      "explanation": "A 4-second following distance lets you steer or brake to avoid a hazard safely when the pavement is dry.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-space",
+      "sourceSection": "Chapter 3: Managing Space",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-046",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "hard",
+      "question": "If you do not have at least how much space on one side of your vehicle as an escape path, Pennsylvania's manual says to increase your following distance?",
+      "options": [
+        "2 feet",
+        "4 feet",
+        "8 feet",
+        "15 feet"
+      ],
+      "correctAnswer": "8 feet",
+      "explanation": "Without at least 8 feet of space on at least one side, allow more space in front by increasing following distance.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-space",
+      "sourceSection": "Chapter 3: Managing Space",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-047",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "If someone is tailgating you in Pennsylvania, what should you do if possible?",
+      "options": [
+        "Brake suddenly",
+        "Move over to the right lane",
+        "Speed up",
+        "Turn on your hazard lights"
+      ],
+      "correctAnswer": "Move over to the right lane",
+      "explanation": "If someone is following too closely, move over to the right lane if possible.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-space",
+      "sourceSection": "Chapter 3: Managing Space",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-048",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What is the maximum speed limit in Pennsylvania?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "70 mph",
+        "75 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "The maximum speed limit in Pennsylvania is 70 mph.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+      "sourceSection": "Chapter 3: Managing Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-049",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "In a Pennsylvania school zone with flashing lights, the speed limit is:",
+      "options": [
+        "10 mph",
+        "15 mph",
+        "20 mph",
+        "25 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "In school zones, the speed limit is 15 mph when the lights on the school zone sign are flashing or during the posted times.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+      "sourceSection": "Chapter 3: Managing Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-050",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "Can you be ticketed in Pennsylvania while driving within the posted speed limit?",
+      "options": [
+        "No, never",
+        "Yes, for driving too fast for conditions",
+        "Only on interstates",
+        "Only at night"
+      ],
+      "correctAnswer": "Yes, for driving too fast for conditions",
+      "explanation": "Even within the posted limit, you can be ticketed for driving too fast for conditions.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+      "sourceSection": "Chapter 3: Managing Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-051",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, you may not park within how many feet of a fire hydrant?",
+      "options": [
+        "10 feet",
+        "15 feet",
+        "20 feet",
+        "30 feet"
+      ],
+      "correctAnswer": "15 feet",
+      "explanation": "Do not park within 15 feet of a fire hydrant.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/parking",
+      "sourceSection": "Chapter 3: Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-052",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, you may not park within how many feet of a crosswalk at an intersection?",
+      "options": [
+        "10 feet",
+        "15 feet",
+        "20 feet",
+        "50 feet"
+      ],
+      "correctAnswer": "20 feet",
+      "explanation": "Do not park within 20 feet of a crosswalk at an intersection.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/parking",
+      "sourceSection": "Chapter 3: Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-053",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, you may not park within how many feet of a stop sign, yield sign or flashing signal at the side of the road?",
+      "options": [
+        "15 feet",
+        "20 feet",
+        "30 feet",
+        "100 feet"
+      ],
+      "correctAnswer": "30 feet",
+      "explanation": "Do not park within 30 feet of any flashing signal, stop sign, yield sign or traffic control device at the side of a roadway.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/parking",
+      "sourceSection": "Chapter 3: Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-054",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, you may not park within how many feet of the nearest rail at a railroad crossing?",
+      "options": [
+        "15 feet",
+        "25 feet",
+        "50 feet",
+        "100 feet"
+      ],
+      "correctAnswer": "50 feet",
+      "explanation": "Do not park within 50 feet of the nearest rail at a railroad crossing.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/parking",
+      "sourceSection": "Chapter 3: Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-055",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "easy",
+      "question": "When parallel parking along a curb in Pennsylvania, how close must you be?",
+      "options": [
+        "No more than 6 inches",
+        "No more than 12 inches",
+        "No more than 18 inches",
+        "No more than 24 inches"
+      ],
+      "correctAnswer": "No more than 12 inches",
+      "explanation": "Park as close to the curb as you can, but no more than 12 inches away.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/parking",
+      "sourceSection": "Chapter 3: Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-056",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "When parking downhill in Pennsylvania, which way should your front wheels point?",
+      "options": [
+        "Straight ahead",
+        "Completely to the left",
+        "Completely to the right",
+        "It doesn't matter"
+      ],
+      "correctAnswer": "Completely to the right",
+      "explanation": "When parking downhill, turn your steering wheel so your wheels are completely to the right.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/parking",
+      "sourceSection": "Chapter 3: Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-057",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "At a Pennsylvania four-way stop, if two vehicles arrive at the same time, who goes first?",
+      "options": [
+        "The driver on the left",
+        "The driver on the right",
+        "The larger vehicle",
+        "Whoever honks first"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "If two vehicles reach the intersection at the same time, the driver on the left yields to the driver on the right.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/negotiating-intersections",
+      "sourceSection": "Chapter 3: Negotiating Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-058",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, drivers turning left must yield to:",
+      "options": [
+        "Nobody",
+        "Oncoming vehicles going straight ahead",
+        "Vehicles behind them",
+        "Parked cars"
+      ],
+      "correctAnswer": "Oncoming vehicles going straight ahead",
+      "explanation": "Drivers turning left must yield to oncoming vehicles going straight ahead.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/negotiating-intersections",
+      "sourceSection": "Chapter 3: Negotiating Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-059",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "When entering a roundabout in Pennsylvania, you must yield to:",
+      "options": [
+        "Drivers waiting to enter behind you",
+        "Drivers already in the circle",
+        "Nobody — you have the right-of-way",
+        "Only trucks"
+      ],
+      "correctAnswer": "Drivers already in the circle",
+      "explanation": "Drivers entering a roundabout must yield the right-of-way to drivers already in the circle.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/negotiating-intersections",
+      "sourceSection": "Chapter 3: Negotiating Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-060",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "In Pennsylvania, a driver entering a road from a driveway or alley must:",
+      "options": [
+        "Go first",
+        "Wait until the main road is clear",
+        "Honk and enter",
+        "Flash headlights and enter"
+      ],
+      "correctAnswer": "Wait until the main road is clear",
+      "explanation": "A vehicle entering a public highway from an alley, private road or driveway must wait until the main road is clear.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/negotiating-intersections",
+      "sourceSection": "Chapter 3: Negotiating Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-061",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "Pennsylvania's manual says to signal how long before a turn?",
+      "options": [
+        "1 second",
+        "Three to four seconds",
+        "10 seconds",
+        "Only as you begin turning"
+      ],
+      "correctAnswer": "Three to four seconds",
+      "explanation": "Signal three to four seconds before your turn.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/turning-merging-and-passing",
+      "sourceSection": "Chapter 3: Turning, Merging, and Passing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-062",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, you may not pass within how many feet of an intersection or railroad crossing?",
+      "options": [
+        "50 feet",
+        "100 feet",
+        "200 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "100 feet",
+      "explanation": "You may not pass within 100 feet of or while crossing any intersection or railroad grade crossing.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/turning-merging-and-passing",
+      "sourceSection": "Chapter 3: Turning, Merging, and Passing — You May Not Pass If",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-063",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "On a two-lane, two-way road in Pennsylvania, where should you make a left turn from?",
+      "options": [
+        "The right edge of the road",
+        "As close to the centerline as possible",
+        "The shoulder",
+        "The middle of the lane"
+      ],
+      "correctAnswer": "As close to the centerline as possible",
+      "explanation": "On two-lane, two-way streets, make left turns from as close to the centerline as possible.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/turning-merging-and-passing",
+      "sourceSection": "Chapter 3: Turning, Merging, and Passing — Left and Right Turns",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-064",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "easy",
+      "question": "Under Pennsylvania's Child Restraint Law, children under age 4 must ride in:",
+      "options": [
+        "A booster seat",
+        "A federally approved child passenger restraint system",
+        "A regular seat belt",
+        "The front seat"
+      ],
+      "correctAnswer": "A federally approved child passenger restraint system",
+      "explanation": "Children under 4 must be buckled into a federally approved child passenger restraint system.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/chapter-5-laws-and-related-issues",
+      "sourceSection": "Chapter 5: Laws and Related Issues — Child Restraint Law",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-065",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, children ages 4 through 7 must ride in:",
+      "options": [
+        "A federally approved booster seat",
+        "Any seat with a lap belt",
+        "A rear-facing seat",
+        "The front seat"
+      ],
+      "correctAnswer": "A federally approved booster seat",
+      "explanation": "Children 4 and older but under 8 must be buckled into a federally approved child booster seat.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/chapter-5-laws-and-related-issues",
+      "sourceSection": "Chapter 5: Laws and Related Issues — Child Restraint Law",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-066",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Pennsylvania, passengers age 8 through 17 must wear seat belts:",
+      "options": [
+        "Only in the front seat",
+        "No matter where they ride in the vehicle",
+        "Only on highways",
+        "Only if the driver is under 18"
+      ],
+      "correctAnswer": "No matter where they ride in the vehicle",
+      "explanation": "Passengers age 8 or older but under 18 must wear seat belts no matter where they are riding.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/chapter-5-laws-and-related-issues",
+      "sourceSection": "Chapter 5: Laws and Related Issues — Seat Belt Law",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "pa-d-067",
+      "state": "PA",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "What is the fine for violating Pennsylvania's anti-texting law?",
+      "options": [
+        "$25",
+        "$50",
+        "$100",
+        "$500"
+      ],
+      "correctAnswer": "$50",
+      "explanation": "Violating the anti-texting law is a primary summary offense carrying a $50 fine.",
+      "sourceTitle": "Pennsylvania Driver's Manual",
+      "sourceUrl": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/chapter-5-laws-and-related-issues",
+      "sourceSection": "Chapter 5: Laws and Related Issues — Anti-Texting Law",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ]
+}

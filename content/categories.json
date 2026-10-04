@@ -1,0 +1,20 @@
+{
+  "_comment": "Global topic taxonomy. A question's category must be one of these ids. 'group' powers the Road Signs / Traffic Laws / Safe Driving practice modes.",
+  "groups": [
+    { "id": "signs", "label": "Road Signs & Signals" },
+    { "id": "laws", "label": "Traffic Laws" },
+    { "id": "safety", "label": "Safe Driving" }
+  ],
+  "categories": [
+    { "id": "signs-signals", "label": "Signs, Signals & Markings", "group": "signs" },
+    { "id": "right-of-way", "label": "Right-of-Way", "group": "laws" },
+    { "id": "speed-limits", "label": "Speed Limits & Work Zones", "group": "laws" },
+    { "id": "parking", "label": "Parking", "group": "laws" },
+    { "id": "licensing", "label": "Permits & Licensing", "group": "laws" },
+    { "id": "sharing-the-road", "label": "Sharing the Road", "group": "safety" },
+    { "id": "safe-driving", "label": "Safe Driving Habits", "group": "safety" },
+    { "id": "alcohol-drugs", "label": "Alcohol & Drugs", "group": "safety" },
+    { "id": "emergencies", "label": "Crashes & Emergencies", "group": "safety" },
+    { "id": "equipment", "label": "Seat Belts, Lights & Equipment", "group": "safety" }
+  ]
+}

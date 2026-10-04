@@ -1,0 +1,1457 @@
+{
+  "stateCode": "WI",
+  "stateName": "Wisconsin",
+  "slug": "wisconsin",
+  "agencyShortName": "Wisconsin DMV",
+  "officialSource": {
+    "name": "Wisconsin Department of Transportation — DMV",
+    "url": "https://wisconsindot.gov/"
+  },
+  "officialDomains": [
+    "wisconsindot.gov",
+    "wi.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Wisconsin DOT — DMV",
+      "url": "https://wisconsindot.gov/"
+    },
+    {
+      "kind": "handbook",
+      "title": "Wisconsin Motorists' Handbook (BDS126, PDF)",
+      "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+    },
+    {
+      "kind": "sample-test",
+      "title": "Official Class D practice test",
+      "url": "https://widmv-practice-tests.wi.gov/class-d-driver-license"
+    },
+    {
+      "kind": "licensing",
+      "title": "Teen knowledge test information",
+      "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/teen-hw-aply/knowledge.aspx"
+    },
+    {
+      "kind": "licensing",
+      "title": "Graduated driver license FAQs",
+      "url": "https://wisconsindot.gov/Pages/dmv/teen-driver/yr-frst-lcns/gdlfaqs.aspx"
+    }
+  ],
+  "intro": "Wisconsin uses two tests: a 15-question Highway Signs Test (12 correct to pass) and a 50-question Knowledge Test (40 correct to pass).",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Regular driver (Class D)",
+      "shortName": "Class D",
+      "available": true,
+      "description": "Highway Signs Test and Knowledge Test for the Class D instruction permit.",
+      "testRules": {
+        "officialQuestionCount": 50,
+        "officialPassingCorrect": 40,
+        "officialPassingPercent": 80,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "Knowledge Test: 50 questions, 40 correct (80%) to pass; takes about 45 minutes.",
+          "Highway Signs Test: 15 questions, 12 correct (80%) to pass.",
+          "Applicants ages 15–17 may take the knowledge test online for a fee."
+        ],
+        "source": {
+          "title": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+          "url": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+          "section": "Section 1: Driving Test Requirements"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "knowledge",
+          "label": "Knowledge test mock",
+          "description": "Official format is 50 questions with 40 correct to pass. Our verified bank is still growing, so this mock uses every available non-sign question and scores at 80%.",
+          "questionCount": 50,
+          "passingCorrect": 40,
+          "passingPercent": 80,
+          "isOfficialFormat": true,
+          "excludeTags": [
+            "road-sign"
+          ]
+        },
+        {
+          "id": "signs",
+          "label": "Highway Signs Test mock",
+          "description": "Official format: 15 sign questions, 12 correct to pass.",
+          "questionCount": 15,
+          "passingCorrect": 12,
+          "passingPercent": 80,
+          "isOfficialFormat": true,
+          "includeTags": [
+            "road-sign"
+          ]
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Using the two-second rule. Wisconsin teaches a four-second following distance, plus a second for each adverse condition.",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — B. Understanding Vehicle Speed"
+    },
+    {
+      "text": "Stopping in the intersection on a yellow. If you are already in it when the light turns yellow, keep going.",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 5 — A. Traffic Signals"
+    },
+    {
+      "text": "Mixing up hill parking: uphill with a curb is wheels LEFT; uphill without a curb and downhill are wheels RIGHT.",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — J. Parking"
+    },
+    {
+      "text": "Forgetting the school-zone limit is 15 mph when children are present, not 25.",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — B. Understanding Vehicle Speed"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many questions are on the Wisconsin permit test?",
+      "a": "There are two tests: the Highway Signs Test (15 questions, 12 correct to pass) and the Knowledge Test (50 questions, 40 correct to pass).",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+    },
+    {
+      "q": "Can I take the Wisconsin knowledge test online?",
+      "a": "Applicants between ages 15 and 17 may take the knowledge test online for a fee of $10. Tests at a DMV customer service center are free.",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+    },
+    {
+      "q": "How many supervised driving hours do I need?",
+      "a": "Drivers under 18 must complete at least 50 hours, 10 of them during darkness, verified by their sponsor.",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf"
+    },
+    {
+      "q": "Are these official Wisconsin DMV questions?",
+      "a": "No. They are original practice questions written from the Wisconsin Motorists' Handbook. Wisconsin DMV also offers its own free practice test, linked on this page."
+    }
+  ],
+  "questions": [
+    {
+      "id": "wi-d-001",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How many questions are on Wisconsin's knowledge test, and how many must you answer correctly?",
+      "options": [
+        "40 questions; 30 correct",
+        "50 questions; 40 correct (80%)",
+        "25 questions; 20 correct",
+        "50 questions; 35 correct"
+      ],
+      "correctAnswer": "50 questions; 40 correct (80%)",
+      "explanation": "The knowledge test includes 50 questions and you need to answer 40 (80%) correctly. It takes about 45 minutes.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 1: Driving Test Requirements — C. Knowledge Test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-002",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "Wisconsin's separate Highway Signs Test has how many questions?",
+      "options": [
+        "10 questions; you need 8 correct",
+        "20 questions; you need 16 correct",
+        "25 questions; you need 20 correct",
+        "15 questions; you need 12 correct"
+      ],
+      "correctAnswer": "15 questions; you need 12 correct",
+      "explanation": "There are 15 questions on the Highway Signs Test and you need to answer 12 (80%) correctly.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 1: Driving Test Requirements — B. Highway Signs Test",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-003",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Wisconsin's vision requirement for regular car applicants includes visual acuity of at least:",
+      "options": [
+        "20/20 in both eyes",
+        "20/40 in one eye, plus a 70-degree field of vision from the center of each eye",
+        "20/50 in one eye",
+        "20/40 in both eyes only"
+      ],
+      "correctAnswer": "20/40 in one eye, plus a 70-degree field of vision from the center of each eye",
+      "explanation": "Applicants need visual acuity of at least 20/40 in one eye (corrected or uncorrected) and a 70-degree field of vision from the center of each eye.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 1: Driving Test Requirements — A. Vision Screening",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-004",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age for a Wisconsin instruction permit?",
+      "options": [
+        "14",
+        "15½",
+        "15",
+        "16"
+      ],
+      "correctAnswer": "15",
+      "explanation": "If under 18, you must be at least 15, pass the knowledge test, signs test and vision screening, and be enrolled in driver education including behind-the-wheel.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 2: Progression of Licenses — B. Instruction Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-005",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Under 18, how many hours of supervised driving must your sponsor verify before a probationary license?",
+      "options": [
+        "50 hours, including 10 during darkness",
+        "30 hours, including 5 at night",
+        "40 hours, all in daylight",
+        "60 hours, including 15 at night"
+      ],
+      "correctAnswer": "50 hours, including 10 during darkness",
+      "explanation": "With a valid instruction permit you must practice at least 40 hours in daylight and 10 hours in darkness — 50 total — verified by your sponsor.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 2: Progression of Licenses — C. Probationary License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-006",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "With a Wisconsin instruction permit, who must be in the seat beside you when you drive during hours of darkness?",
+      "options": [
+        "A qualified instructor, or a licensed person age 25+ with at least two years of driving experience",
+        "Any licensed driver age 18+",
+        "Any passenger age 21+",
+        "No one — permits allow solo night driving"
+      ],
+      "correctAnswer": "A qualified instructor, or a licensed person age 25+ with at least two years of driving experience",
+      "explanation": "During hours of darkness, a permit holder must be accompanied by a qualified instructor or a licensed person 25 or older with at least two years of licensed driving experience in the seat beside them.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 2: Progression of Licenses — B. Instruction Permit",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-007",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "For drivers under 18, Wisconsin's graduated driver license (GDL) restrictions apply for the first:",
+      "options": [
+        "Three months",
+        "Six months",
+        "Nine months (unless you turn 18 first)",
+        "Two years"
+      ],
+      "correctAnswer": "Nine months (unless you turn 18 first)",
+      "explanation": "GDL passenger and hour restrictions are required for the first nine months, unless you turn 18 before then. Violations can extend them six months.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 2: Progression of Licenses — C. Probationary License",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-008",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "When may an instruction permit or probationary license holder use a cell phone while driving in Wisconsin?",
+      "options": [
+        "Only to report an emergency",
+        "With a hands-free device",
+        "At red lights only",
+        "When a licensed adult is present"
+      ],
+      "correctAnswer": "Only to report an emergency",
+      "explanation": "Instruction permit and probationary license holders can only use a cell phone to report an emergency.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 9: Dangerous Driving Behaviors — B. Distracted Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-009",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "What following-distance rule does the Wisconsin handbook teach?",
+      "options": [
+        "The two-second rule",
+        "The four-second rule, adding a second for each adverse condition",
+        "One car length per 10 mph",
+        "The six-second rule"
+      ],
+      "correctAnswer": "The four-second rule, adding a second for each adverse condition",
+      "explanation": "Use the Four Second Following Distance Rule. Add a second for every adverse condition such as heavier traffic, rain, snow or ice.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — B. Understanding Vehicle Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-010",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "Unless otherwise posted, what is the speed limit in Wisconsin residential areas?",
+      "options": [
+        "15 mph",
+        "30 mph",
+        "25 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "Unless otherwise posted, the speed limit in residential areas is 25 miles per hour.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — B. Understanding Vehicle Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-011",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What is the normal speed limit in a Wisconsin school zone when children are present?",
+      "options": [
+        "15 mph",
+        "10 mph",
+        "20 mph",
+        "25 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "The normal speed limit in a school zone when children are present is 15 miles per hour.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — B. Understanding Vehicle Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-012",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "What is the maximum speed limit in outlying parts of cities and villages with no posted speed limit?",
+      "options": [
+        "25 mph",
+        "35 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "correctAnswer": "35 mph",
+      "explanation": "The maximum speed limit in outlying parts of cities and villages with no posted speed limit is 35 mph.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — B. Understanding Vehicle Speed",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-013",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "You must yield to a pedestrian using a guide dog or white cane. How far away should you stop?",
+      "options": [
+        "At least three feet away",
+        "At least ten feet away until the person is off the roadway",
+        "At the next intersection",
+        "No set distance — just slow down"
+      ],
+      "correctAnswer": "At least ten feet away until the person is off the roadway",
+      "explanation": "Yield to pedestrians using a guide dog or carrying a white cane, even if they are not in the intersection. Stop at least ten feet away until the person is off the roadway.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — A. Right-Of-Way",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-014",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "Two drivers arrive at a four-way stop at the same time. Who goes first?",
+      "options": [
+        "The driver on the left",
+        "The driver on the right",
+        "The driver going straight",
+        "The larger vehicle"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "Yield to the driver who arrives first at a four-way stop. If drivers arrive at the same time, the driver on the right goes first.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — A. Right-Of-Way",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-015",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "Wisconsin requires low-beam headlights when you cannot see a vehicle or person how far away?",
+      "options": [
+        "200 feet",
+        "300 feet",
+        "1,000 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "500 feet",
+      "explanation": "You must use low beams when you cannot see a vehicle or person 500 feet (about one block) away, and from a half hour past sunset to a half hour before sunrise.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — K. Communication",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-016",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "When turning at an intersection, how early should you start signaling?",
+      "options": [
+        "About one second before",
+        "About 500 feet before",
+        "Only once you begin turning",
+        "About three seconds (about 100 feet) before the turn"
+      ],
+      "correctAnswer": "About three seconds (about 100 feet) before the turn",
+      "explanation": "If you are turning at an intersection, start signaling about three seconds (about 100 feet) before the turn.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — K. Communication",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-017",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "Parking uphill next to a curb, which way should you turn your front wheels?",
+      "options": [
+        "All the way to the left",
+        "All the way to the right",
+        "Straight ahead",
+        "It doesn't matter if the brake is set"
+      ],
+      "correctAnswer": "All the way to the left",
+      "explanation": "Parked uphill with a curb, turn your wheels all the way to the left. Uphill without a curb, turn them right. Downhill, turn them right. Set your parking brake.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — J. Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-018",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "Parking downhill, which way should you turn your wheels?",
+      "options": [
+        "All the way to the right",
+        "All the way to the left",
+        "Straight ahead",
+        "Left only if there is a curb"
+      ],
+      "correctAnswer": "All the way to the right",
+      "explanation": "If you are parked downhill, move your wheels all the way to the right and set your emergency brake.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — J. Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-019",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "easy",
+      "question": "In Wisconsin, parking is not allowed:",
+      "options": [
+        "Within 100 feet of any intersection",
+        "On any residential street at night",
+        "Next to any white curb",
+        "Where curbs have yellow markings or in front of fire hydrants"
+      ],
+      "correctAnswer": "Where curbs have yellow markings or in front of fire hydrants",
+      "explanation": "Parking is not allowed where there are yellow markings on the curb or in areas in front of fire hydrants. Also check for No Parking signs.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — J. Parking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-020",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "When a school bus is stopped with red lights flashing, you must stop at least:",
+      "options": [
+        "10 feet from the bus",
+        "50 feet from the bus",
+        "20 feet from the bus",
+        "100 feet from the bus"
+      ],
+      "correctAnswer": "20 feet from the bus",
+      "explanation": "When a school bus is stopped with its red lights flashing, stop at least 20 feet from it, whether it is on your side of the road or the opposite side.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 10: Sharing the Road — C. School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-021",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "When do you NOT need to stop for a school bus flashing red lights in Wisconsin?",
+      "options": [
+        "When it is on the opposite side of a two-lane road",
+        "When no children are visible",
+        "When you are already past the bus's front bumper",
+        "When it is on the other side of a divided highway with a barrier"
+      ],
+      "correctAnswer": "When it is on the other side of a divided highway with a barrier",
+      "explanation": "If you are on a divided highway and not on the side of the school bus, you do not need to stop. A divided highway has a barrier between opposing lanes.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 10: Sharing the Road — C. School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-022",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "When passing a bicyclist, give them at least:",
+      "options": [
+        "One foot of room",
+        "Six feet of room",
+        "Three feet of room",
+        "A full lane at all times"
+      ],
+      "correctAnswer": "Three feet of room",
+      "explanation": "Give bicyclists at least three feet of room when you pass, and wait for oncoming traffic to clear before passing.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 10: Sharing the Road — E. Bicycles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-023",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "How much room should you give a snowplow with flashing red, amber or green lights?",
+      "options": [
+        "At least 50 feet",
+        "At least 100 feet",
+        "At least 200 feet",
+        "At least 500 feet"
+      ],
+      "correctAnswer": "At least 200 feet",
+      "explanation": "Give snowplows at least 200 feet of room when their lights are flashing red, amber or green.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 7: Driving Conditions — C. Winter",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-024",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "hard",
+      "question": "According to the Wisconsin handbook, a large truck's No-Zone extends about:",
+      "options": [
+        "50 feet behind and 5 feet in front",
+        "200 feet behind and 20 feet in front",
+        "100 feet behind and 50 feet in front",
+        "20 feet behind and 200 feet in front"
+      ],
+      "correctAnswer": "200 feet behind and 20 feet in front",
+      "explanation": "No-Zones are areas where large vehicles cannot see you — about 200 feet behind and 20 feet in front of large trucks.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 10: Sharing the Road — F. No-Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-025",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "easy",
+      "question": "What alcohol concentration is allowed for Wisconsin drivers under age 21?",
+      "options": [
+        "0.00%",
+        "0.02%",
+        "0.04%",
+        "0.08%"
+      ],
+      "correctAnswer": "0.00%",
+      "explanation": "The legal alcohol concentration allowed for drivers under 21 is 0.00% — you cannot have any alcohol in your system while driving.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 9: Dangerous Driving Behaviors — A. Alcohol, Drugs and Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-026",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "medium",
+      "question": "If you refuse an officer's request to take a prohibited alcohol concentration (PAC) test, you will lose your driving privileges for at least:",
+      "options": [
+        "30 days",
+        "Six months",
+        "One year",
+        "Five years"
+      ],
+      "correctAnswer": "One year",
+      "explanation": "Under the Implied Consent Law, if you refuse, the officer must arrest you and you will lose your driving privileges for at least one year.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 9: Dangerous Driving Behaviors — A. Alcohol, Drugs and Driving (Implied Consent)",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-027",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Your Wisconsin driving privilege will be suspended or revoked if you get how many demerit points within 12 months?",
+      "options": [
+        "6 or more",
+        "12 or more",
+        "8 or more",
+        "15 or more"
+      ],
+      "correctAnswer": "12 or more",
+      "explanation": "You will not be able to drive if you get 12 or more demerit points within any 12-month period.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 11: Your Driving Privilege — A. Point System",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-028",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "A crash with no injuries must still be reported to police if property damage is:",
+      "options": [
+        "$200 or more",
+        "$500 or more",
+        "$1,000 or more",
+        "$2,500 or more"
+      ],
+      "correctAnswer": "$1,000 or more",
+      "explanation": "Report a crash to police if there is injury or death, property damage of $1,000 or more, government property damage of $200 or more, a vehicle can't be moved, or a driver appears impaired.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 8: Handling Emergencies — B. Crashes",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-029",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "Your car begins to hydroplane. What should you do?",
+      "options": [
+        "Ease off the gas, keep the wheel straight, and don't stop or turn until the tires grip",
+        "Brake hard immediately",
+        "Turn sharply toward the shoulder",
+        "Accelerate to regain traction"
+      ],
+      "correctAnswer": "Ease off the gas, keep the wheel straight, and don't stop or turn until the tires grip",
+      "explanation": "If you hydroplane, ease your foot off the gas, keep the wheel straight, and do not try to stop or turn until your tires are gripping the road again.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 7: Driving Conditions — B. Severe Weather",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-030",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "If your brakes stop working, what is the first step the handbook lists?",
+      "options": [
+        "Pump the brake pedal several times",
+        "Turn off the engine",
+        "Shift into reverse",
+        "Steer onto the median"
+      ],
+      "correctAnswer": "Pump the brake pedal several times",
+      "explanation": "If your brakes fail: pump the brake pedal several times, pull the parking brake (release it if you skid), and look for a safe place to slow to a stop.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 8: Handling Emergencies — C. Roadside Emergencies",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-031",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "Generally, Wisconsin children must ride in a child safety seat until age ___ and a booster seat until age ___.",
+      "options": [
+        "Two; six",
+        "Three; seven",
+        "Four; eight",
+        "Five; ten"
+      ],
+      "correctAnswer": "Four; eight",
+      "explanation": "Generally, children must be in a child safety seat until age four and in a booster seat until age eight.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 12: Other Important Information — D. Seat Belts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-032",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A red sign with eight sides and white letters means:",
+      "options": [
+        "Slow down and yield",
+        "No entry",
+        "Railroad crossing ahead",
+        "Come to a complete stop and wait until your path is clear"
+      ],
+      "correctAnswer": "Come to a complete stop and wait until your path is clear",
+      "explanation": "The stop sign has eight sides and is red with white letters. You must come to a complete stop and wait until your path is clear.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-033",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A downward-pointing red and white triangle means:",
+      "options": [
+        "Yield the right-of-way",
+        "Stop",
+        "No passing",
+        "Slow-moving vehicle"
+      ],
+      "correctAnswer": "Yield the right-of-way",
+      "explanation": "The Yield sign is a downward-pointing red and white triangle. It means you must yield the right-of-way to other vehicles.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-034",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A yellow pennant-shaped sign with black lettering marks:",
+      "options": [
+        "A school zone",
+        "A construction zone",
+        "A no passing zone",
+        "A hospital"
+      ],
+      "correctAnswer": "A no passing zone",
+      "explanation": "The No Passing Zone sign is a yellow pennant with black lettering. You may not pass any vehicle in the no passing zone.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-035",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "A triangle with reflective orange markings on the back of a vehicle means the vehicle:",
+      "options": [
+        "Carries hazardous materials",
+        "Is an emergency vehicle",
+        "May travel 25 mph or less",
+        "Is a school bus"
+      ],
+      "correctAnswer": "May travel 25 mph or less",
+      "explanation": "The Slow Moving Vehicle sign is triangle-shaped with reflective orange markings; the vehicle could travel at 25 mph or less.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-036",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Warning signs in Wisconsin are:",
+      "options": [
+        "Green with white lettering",
+        "Yellow with black lettering or symbols, and most are diamond-shaped",
+        "Blue with white lettering",
+        "White with red lettering"
+      ],
+      "correctAnswer": "Yellow with black lettering or symbols, and most are diamond-shaped",
+      "explanation": "Warning signs are yellow with black lettering or symbols. Most are diamond shaped and warn of a special situation or hazard ahead.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — A. Warning",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-037",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Orange diamond or rectangle signs indicate a work zone. What else is true in these areas?",
+      "options": [
+        "Speed limits are suspended",
+        "Passing is always allowed",
+        "Cell phones may be used hands-free only",
+        "Traffic fines double"
+      ],
+      "correctAnswer": "Traffic fines double",
+      "explanation": "Construction signs are orange with black lettering. Traffic fines double in these areas, and you can only use your cellphone to report an emergency.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — C. Construction",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-038",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Green or brown signs with white lettering are:",
+      "options": [
+        "Warning signs",
+        "Destination signs showing directions and distances",
+        "Regulatory signs",
+        "Construction signs"
+      ],
+      "correctAnswer": "Destination signs showing directions and distances",
+      "explanation": "Destination signs are square or rectangular, green or brown with white lettering, and show directions and distance to places. Brown signs point to recreational or scenic places.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — D. Destination",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-039",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Blue signs with white letters or symbols are:",
+      "options": [
+        "Warning signs",
+        "Construction signs",
+        "Railroad signs",
+        "Service signs, such as hospital or camping"
+      ],
+      "correctAnswer": "Service signs, such as hospital or camping",
+      "explanation": "Service signs are blue with white letters or symbols and show how to get to services nearby, such as camping or a hospital.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — E. Service",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-040",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A round yellow sign with an \"X\" and the letters R R means:",
+      "options": [
+        "A crossroad intersection",
+        "No entry",
+        "A roundabout ahead",
+        "A railroad crossing is ahead"
+      ],
+      "correctAnswer": "A railroad crossing is ahead",
+      "explanation": "The Railroad Crossing Warning sign is round with a yellow background and an X symbol with black lettering.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — H. Railroad Crossing",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-041",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "A Do Not Enter sign is commonly used:",
+      "options": [
+        "At school crossings",
+        "At railroad crossings",
+        "At the end of construction zones",
+        "On exit ramps going the wrong direction or one-way streets"
+      ],
+      "correctAnswer": "On exit ramps going the wrong direction or one-way streets",
+      "explanation": "Do Not Enter means you cannot enter. It is used on exit ramps going the wrong direction or one-way streets.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-042",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "School crossing and school zone warning signs in Wisconsin may be:",
+      "options": [
+        "Orange",
+        "Blue",
+        "Red",
+        "Fluorescent green or yellow"
+      ],
+      "correctAnswer": "Fluorescent green or yellow",
+      "explanation": "School Crossing / School Zone signs may be fluorescent green or yellow and show pedestrians with an arrow. Yield to crossing pedestrians.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — A. Warning",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-043",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What does a Keep Right sign tell you?",
+      "options": [
+        "The left lane is closed",
+        "A traffic island or obstacle divides the road ahead",
+        "Slower traffic must exit",
+        "Passing is required on the right"
+      ],
+      "correctAnswer": "A traffic island or obstacle divides the road ahead",
+      "explanation": "Keep Right means a traffic island or obstacle divides the road ahead.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-044",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "A blue sign with white lettering at a highway-railroad crossing shows:",
+      "options": [
+        "The distance to the next station",
+        "The train schedule",
+        "A detour route",
+        "A phone number to report problems or emergencies"
+      ],
+      "correctAnswer": "A phone number to report problems or emergencies",
+      "explanation": "The Report Problem or Emergency sign is blue with white lettering, posted at every highway-railroad crossing, and shows a phone number to report unsafe conditions.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — H. Railroad Crossing",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-045",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A railroad crossing gate is lowering. What should you do?",
+      "options": [
+        "Stop — never drive around or under a lowering or raised gate",
+        "Speed up to clear it",
+        "Drive around it if no train is visible",
+        "Honk and proceed"
+      ],
+      "correctAnswer": "Stop — never drive around or under a lowering or raised gate",
+      "explanation": "Train gates lower when a train is coming. Do not drive around the gate or under a raising or lowering gate.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — H. Railroad Crossing",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-046",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "The light turns steady yellow while you are already in the intersection. What should you do?",
+      "options": [
+        "Stop immediately",
+        "Continue through the intersection",
+        "Back up behind the stop line",
+        "Turn right to avoid the light"
+      ],
+      "correctAnswer": "Continue through the intersection",
+      "explanation": "A steady yellow means the light is about to change to red; stop before entering the intersection. If you are already in the intersection when it turns yellow, do not stop — continue through.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 5: Signals, Pavement Markings and Lane Controls — A. Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-047",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "hard",
+      "question": "When may you turn left on a steady red light in Wisconsin?",
+      "options": [
+        "Never",
+        "Whenever traffic is clear",
+        "When turning from a one-way street onto a one-way street, after stopping and yielding",
+        "Only with a flashing yellow arrow"
+      ],
+      "correctAnswer": "When turning from a one-way street onto a one-way street, after stopping and yielding",
+      "explanation": "You may turn left on red if you are turning from a one-way onto a one-way street. Stop first, yield to all traffic, then proceed.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 5: Signals, Pavement Markings and Lane Controls — A. Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-048",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "A solid white line between lanes means:",
+      "options": [
+        "You may change lanes freely",
+        "Do not cross it unless there is a hazard or you're turning within the next block",
+        "Traffic moves in opposite directions",
+        "Passing is encouraged"
+      ],
+      "correctAnswer": "Do not cross it unless there is a hazard or you're turning within the next block",
+      "explanation": "A solid white line between lanes means you cannot cross, except for a hazard or if you are turning within the next block.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 5: Signals, Pavement Markings and Lane Controls — B. Types of Line Markings",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-049",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "A flashing yellow arrow means:",
+      "options": [
+        "Stop and wait for green",
+        "Protected turn — oncoming traffic is stopped",
+        "No turns allowed",
+        "Yield first, then turn with caution"
+      ],
+      "correctAnswer": "Yield first, then turn with caution",
+      "explanation": "Flashing Yellow Arrow: yield first before turning and proceed with caution.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 5: Signals, Pavement Markings and Lane Controls — A. Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-050",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "How far ahead should you be able to see to keep good control of your vehicle?",
+      "options": [
+        "2 to 3 seconds ahead",
+        "10 to 15 seconds ahead",
+        "One car length ahead",
+        "One mile ahead"
+      ],
+      "correctAnswer": "10 to 15 seconds ahead",
+      "explanation": "To have better control, you need to see 10 to 15 seconds ahead. If you cannot, slow down.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — E. Sight Distance Rule",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-051",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "How often should you check your rearview mirror for tailgaters?",
+      "options": [
+        "Every 30 seconds",
+        "Only when changing lanes",
+        "Every 2 minutes",
+        "Every 6 to 8 seconds"
+      ],
+      "correctAnswer": "Every 6 to 8 seconds",
+      "explanation": "Check your rearview mirror every 6 to 8 seconds to see if someone is following too closely.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 3: The Basics — F. Space Between Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-052",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "As you enter a Wisconsin roundabout, you should:",
+      "options": [
+        "Expect traffic in the roundabout to yield to you",
+        "Yield to traffic on your left that is already in the roundabout",
+        "Stop even if the roundabout is empty",
+        "Drive clockwise"
+      ],
+      "correctAnswer": "Yield to traffic on your left that is already in the roundabout",
+      "explanation": "Traffic moves counterclockwise. Slow down, yield to pedestrians and bicycles, and yield to traffic on your left already in the roundabout. If it's empty, you do not need to wait.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 6: Driving Situations — A. Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-053",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "hard",
+      "question": "You are already inside a roundabout when an emergency vehicle with its siren on enters. What should you do?",
+      "options": [
+        "Stop immediately inside the roundabout",
+        "Safely exit at the next right, then pull over",
+        "Speed up and circle until it passes",
+        "Pull onto the center island"
+      ],
+      "correctAnswer": "Safely exit at the next right, then pull over",
+      "explanation": "If you are already in the roundabout, safely exit at the next right, then pull over. Avoid stopping in the roundabout.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 6: Driving Situations — A. Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-054",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "When are deer most active, according to the Wisconsin handbook?",
+      "options": [
+        "Midday",
+        "Only in winter",
+        "Only during rain",
+        "From sunset to sunrise"
+      ],
+      "correctAnswer": "From sunset to sunrise",
+      "explanation": "Deer are most active in the sunset to sunrise hours. Scan for the reflection of your headlights in their eyes and watch for more than one deer.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 6: Driving Situations — E. Watch for Deer",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "wi-d-055",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "You see a 2-Way Traffic warning sign. What does it tell you?",
+      "options": [
+        "The road ahead becomes one-way",
+        "Two lanes merge into one",
+        "Passing is allowed in both directions",
+        "You are leaving a one-way roadway and entering a road with opposing traffic"
+      ],
+      "correctAnswer": "You are leaving a one-way roadway and entering a road with opposing traffic",
+      "explanation": "The 2-Way Traffic sign appears when you are leaving a one-way roadway and entering a roadway with opposing traffic.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — A. Warning",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-056",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What should you do when you see a Reduced Speed Ahead sign?",
+      "options": [
+        "Slow down",
+        "Speed up to the new limit",
+        "Stop at the next intersection",
+        "Move to the left lane"
+      ],
+      "correctAnswer": "Slow down",
+      "explanation": "Reduced Speed Ahead means that you should slow down — for example, the road ahead may be slippery.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — B. Regulatory",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "wi-d-057",
+      "state": "WI",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Tall, thin blue or green mile marker signs along the highway help:",
+      "options": [
+        "Show the speed limit for trucks",
+        "Mark the start of a work zone",
+        "Show distance to the next rest area",
+        "Show where you are on the road and improve emergency response times"
+      ],
+      "correctAnswer": "Show where you are on the road and improve emergency response times",
+      "explanation": "Mile markers (reference markers) are tall, thin rectangular blue or green signs with the direction, route and mile number. They help locate you and improve emergency response times.",
+      "sourceTitle": "Wisconsin Motorists' Handbook (BDS126, 2026)",
+      "sourceUrl": "https://wisconsindot.gov/Documents/dmv/shared/bds126-motorists-handbook.pdf",
+      "sourceSection": "Section 4: Signs — F. Mile Marker",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    }
+  ],
+  "categories": [
+    "licensing",
+    "safe-driving",
+    "speed-limits",
+    "right-of-way",
+    "equipment",
+    "parking",
+    "sharing-the-road",
+    "alcohol-drugs",
+    "emergencies",
+    "signs-signals"
+  ]
+}

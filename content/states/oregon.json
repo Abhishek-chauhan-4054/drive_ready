@@ -1,0 +1,1613 @@
+{
+  "stateCode": "OR",
+  "stateName": "Oregon",
+  "slug": "oregon",
+  "agencyShortName": "Oregon DMV",
+  "officialSource": {
+    "name": "Oregon Driver & Motor Vehicle Services (ODOT)",
+    "url": "https://www.oregon.gov/odot/dmv/pages/index.aspx"
+  },
+  "officialDomains": [
+    "oregon.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "Oregon DMV",
+      "url": "https://www.oregon.gov/odot/dmv/pages/index.aspx"
+    },
+    {
+      "kind": "handbook",
+      "title": "Oregon Driver Manual (online)",
+      "url": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Table_of_Contents.aspx"
+    },
+    {
+      "kind": "licensing",
+      "title": "Oregon Driver Manual — Testing",
+      "url": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx"
+    }
+  ],
+  "intro": "Oregon's knowledge test has 35 multiple-choice questions — you need 28 correct. Our Oregon bank follows the official online Oregon Driver Manual section by section.",
+  "testTypes": [
+    {
+      "id": "class-d",
+      "name": "Class C driver license / instruction permit",
+      "shortName": "Knowledge test",
+      "available": true,
+      "description": "The 35-question knowledge test covering road signs, traffic laws and safe driving.",
+      "testRules": {
+        "officialQuestionCount": 35,
+        "officialPassingCorrect": 28,
+        "officialPassingPercent": null,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "The test includes questions about road signs, traffic laws and other information a driver needs. It has 35 multiple-choice questions; you must answer 28 correctly.",
+          "If you fail, you may test again the same day, depending on DMV office testing resource availability."
+        ],
+        "source": {
+          "title": "Oregon Driver Manual",
+          "url": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx",
+          "section": "Testing"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "knowledge",
+          "label": "Full 35-question mock",
+          "description": "Official format: 35 multiple-choice questions. Pass with 28 correct.",
+          "questionCount": 35,
+          "passingCorrect": 28,
+          "passingPercent": null,
+          "isOfficialFormat": true
+        }
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Parking 10 feet from a crosswalk. Oregon's rule for crosswalks at intersections is 20 feet — the 10-foot rule is for fire hydrants.",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_6.aspx",
+      "sourceSection": "Parking and Stopping"
+    },
+    {
+      "text": "Assuming teens can use hands-free phones. In Oregon, drivers under 18 may not use a mobile electronic device at all while driving.",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Distracted Driving"
+    },
+    {
+      "text": "Turning left on red onto a two-way street. It's only allowed from a one-way road onto another one-way road.",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Left Turns"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many questions are on the Oregon knowledge test?",
+      "a": "35 multiple-choice questions. You need 28 correct to pass.",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx"
+    },
+    {
+      "q": "Can I retake the Oregon knowledge test the same day?",
+      "a": "Yes — you may test again the same day, depending on testing resource availability at the DMV office.",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx"
+    },
+    {
+      "q": "How long must I hold my permit in Oregon?",
+      "a": "If you are under 18, at least 6 months before applying for a driver license.",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx"
+    }
+  ],
+  "categories": [
+    "alcohol-drugs",
+    "emergencies",
+    "equipment",
+    "licensing",
+    "parking",
+    "right-of-way",
+    "safe-driving",
+    "sharing-the-road",
+    "signs-signals",
+    "speed-limits"
+  ],
+  "questions": [
+    {
+      "id": "or-d-001",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "How many questions are on Oregon's knowledge test, and how many must you answer correctly?",
+      "options": [
+        "25 questions, 20 correct",
+        "35 questions, 28 correct",
+        "40 questions, 32 correct",
+        "50 questions, 40 correct"
+      ],
+      "correctAnswer": "35 questions, 28 correct",
+      "explanation": "The test has 35 multiple-choice questions, and you must answer 28 correctly to pass.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx",
+      "sourceSection": "Testing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-002",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "If you are under 18 and applying for an Oregon driver license, how long must you have held your permit?",
+      "options": [
+        "30 days",
+        "3 months",
+        "At least 6 months",
+        "1 year"
+      ],
+      "correctAnswer": "At least 6 months",
+      "explanation": "You must have held a permit for at least 6 months if you are under 18 and applying for a driver license.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx",
+      "sourceSection": "Testing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-003",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "hard",
+      "question": "If you take Oregon's knowledge test online and are under 18, who must supervise it?",
+      "options": [
+        "Nobody",
+        "A proctor over 21 years of age",
+        "Any sibling",
+        "A DMV employee only"
+      ],
+      "correctAnswer": "A proctor over 21 years of age",
+      "explanation": "If under 18, a proctor over 21 years of age must supervise the online test.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Testing.aspx",
+      "sourceSection": "Testing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-004",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What must you do at an octagon-shaped STOP sign in Oregon?",
+      "options": [
+        "Slow down",
+        "Come to a complete stop",
+        "Yield only to pedestrians",
+        "Stop only if traffic is present"
+      ],
+      "correctAnswer": "Come to a complete stop",
+      "explanation": "The STOP sign means you must come to a complete stop.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-005",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a triangular YIELD sign mean in Oregon?",
+      "options": [
+        "Stop completely every time",
+        "Reduce speed and yield the right of way",
+        "Speed up to merge",
+        "No entry"
+      ],
+      "correctAnswer": "Reduce speed and yield the right of way",
+      "explanation": "The YIELD sign means you should reduce speed and yield right of way.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-006",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Oregon, a High Occupancy Vehicle (HOV) lane is reserved for vehicles carrying at least:",
+      "options": [
+        "One person",
+        "Two persons",
+        "Four persons",
+        "Six persons"
+      ],
+      "correctAnswer": "Two persons",
+      "explanation": "The HOV lane is reserved for vehicles carrying at least two or more persons.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-007",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Oregon, what color are warning signs?",
+      "options": [
+        "Red",
+        "Green",
+        "Yellow",
+        "Blue"
+      ],
+      "correctAnswer": "Yellow",
+      "explanation": "Warning signs are yellow and alert you to known possible hazards.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-008",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a Lane Reduction sign tell you in Oregon?",
+      "options": [
+        "A new lane is opening",
+        "The indicated lane ends soon and vehicles in it must merge",
+        "Bike lane ahead",
+        "Road closed"
+      ],
+      "correctAnswer": "The indicated lane ends soon and vehicles in it must merge",
+      "explanation": "The indicated lane ends soon; vehicles in that lane must merge.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-009",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a steady red signal mean in Oregon?",
+      "options": [
+        "Slow down",
+        "Stop and remain stopped until the signal changes",
+        "Go if the road is clear",
+        "Yield to the left"
+      ],
+      "correctAnswer": "Stop and remain stopped until the signal changes",
+      "explanation": "A steady red signal means stop and remain stopped until the signal changes (except where turns on red are allowed).",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-010",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Oregon, a flashing red signal is treated the same as:",
+      "options": [
+        "A green light",
+        "A YIELD sign",
+        "A STOP sign",
+        "A school zone sign"
+      ],
+      "correctAnswer": "A STOP sign",
+      "explanation": "A flashing red or a dark signal is treated the same as a stop sign.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-011",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a steady yellow signal warn you of in Oregon?",
+      "options": [
+        "The signal is about to turn red",
+        "The signal is about to turn green",
+        "A school zone",
+        "A railroad crossing"
+      ],
+      "correctAnswer": "The signal is about to turn red",
+      "explanation": "A steady yellow signal warns you that the signal is about to turn red.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-012",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In Oregon, a flashing yellow signal means:",
+      "options": [
+        "Stop",
+        "Slow down and proceed with caution",
+        "Turn only",
+        "The road is closed"
+      ],
+      "correctAnswer": "Slow down and proceed with caution",
+      "explanation": "A flashing yellow signal means slow down and proceed with caution.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-013",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Oregon, what does a steady green arrow mean?",
+      "options": [
+        "You must yield to oncoming traffic",
+        "You have the right of way for that movement",
+        "Turn only after stopping",
+        "The arrow is advisory"
+      ],
+      "correctAnswer": "You have the right of way for that movement",
+      "explanation": "A steady green arrow means you have the right of way.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-014",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "In Oregon, what does a flashing yellow arrow mean?",
+      "options": [
+        "You have the right of way",
+        "You may make the movement, but you must yield first",
+        "Stop and wait",
+        "The arrow is broken"
+      ],
+      "correctAnswer": "You may make the movement, but you must yield first",
+      "explanation": "A flashing yellow arrow means you may make the movement indicated by the arrow, but first yield.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-015",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "If a traffic signal in Oregon is dark (for example, during a power outage), you should:",
+      "options": [
+        "Drive through without slowing",
+        "Stop as if there are stop signs in all directions",
+        "Yield only to the left",
+        "Use your horn and proceed"
+      ],
+      "correctAnswer": "Stop as if there are stop signs in all directions",
+      "explanation": "If a signal appears dark, stop as if there are stop signs in all directions.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-016",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "What are Oregon 'safety corridors'?",
+      "options": [
+        "Bike-only roads",
+        "Stretches of highway with more fatal and serious injury collisions",
+        "Truck parking areas",
+        "Toll lanes"
+      ],
+      "correctAnswer": "Stretches of highway with more fatal and serious injury collisions",
+      "explanation": "Safety corridors are designated stretches of highway with more fatal and serious injury collisions.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/dmv/pages/online_manual/study-section_1.aspx",
+      "sourceSection": "Signs and Traffic Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-017",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What does Oregon's Basic Rule law require?",
+      "options": [
+        "Always drive at the posted limit",
+        "Drive at a speed that is reasonable and cautious for existing conditions",
+        "Drive 5 mph under the limit",
+        "Match the speed of other traffic"
+      ],
+      "correctAnswer": "Drive at a speed that is reasonable and cautious for existing conditions",
+      "explanation": "You must drive at a speed that is reasonable and cautious for existing conditions.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — The Basic Rule Law",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-018",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What is the speed limit in an Oregon school speed zone?",
+      "options": [
+        "15 mph",
+        "20 mph",
+        "25 mph",
+        "30 mph"
+      ],
+      "correctAnswer": "20 mph",
+      "explanation": "The speed limit is 20 miles per hour within a school speed zone.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-019",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "What is the speed limit in an Oregon business district (unless posted otherwise)?",
+      "options": [
+        "15 mph",
+        "20 mph",
+        "25 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "20 mph",
+      "explanation": "The speed limit is 20 miles per hour in any business district.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-020",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What is the speed limit in Oregon residential districts (unless posted otherwise)?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit is 25 miles per hour in residential districts.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-021",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "In Oregon, what is the speed limit on roads and highways that don't meet any other definition?",
+      "options": [
+        "45 mph",
+        "50 mph",
+        "55 mph",
+        "65 mph"
+      ],
+      "correctAnswer": "55 mph",
+      "explanation": "The speed limit is 55 miles per hour on all roads and highways not meeting any other definition.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Speed Limits",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-022",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "Oregon's manual defines a safe following distance as:",
+      "options": [
+        "1 second",
+        "2–4 seconds",
+        "6–8 seconds",
+        "One car length per 10 mph"
+      ],
+      "correctAnswer": "2–4 seconds",
+      "explanation": "A safe following distance is defined as 2-4 seconds.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Following Distance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-023",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "At speeds greater than 30 mph in Oregon, your following distance should be:",
+      "options": [
+        "2 seconds",
+        "3 seconds",
+        "4 seconds or more",
+        "1 second"
+      ],
+      "correctAnswer": "4 seconds or more",
+      "explanation": "For speeds greater than 30 mph, a safe following distance should be 4 seconds or more.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Following Distance",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-024",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "On an Oregon road with a broken yellow center line, passing is:",
+      "options": [
+        "Not allowed",
+        "Allowed for both directions of travel",
+        "Allowed only for trucks",
+        "Allowed only at night"
+      ],
+      "correctAnswer": "Allowed for both directions of travel",
+      "explanation": "A broken yellow center line means passing is allowed for both directions of travel (when safe).",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Broken yellow center line",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-025",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A double solid yellow line in Oregon means:",
+      "options": [
+        "Passing is allowed for both directions",
+        "Passing is not allowed for both directions",
+        "Passing is allowed on the right",
+        "The lane is reversible"
+      ],
+      "correctAnswer": "Passing is not allowed for both directions",
+      "explanation": "With a double solid yellow line, passing is not allowed for both directions of traffic.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Double solid yellow line",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "or-d-026",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "In Oregon, when must your pass be started and completed?",
+      "options": [
+        "It may start anywhere if no one is coming",
+        "It may not begin before a passing zone starts and must be completed before the zone ends",
+        "It must be completed within 10 seconds",
+        "Only on the right shoulder"
+      ],
+      "correctAnswer": "It may not begin before a passing zone starts and must be completed before the zone ends",
+      "explanation": "Your pass may not begin before the start of a passing zone and must be completed before you enter the no-passing area.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Passing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-027",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "In Oregon, you may not pass when you are:",
+      "options": [
+        "On a straight road",
+        "Approaching, at or in an intersection or railroad crossing",
+        "In the left lane",
+        "Behind a bicycle"
+      ],
+      "correctAnswer": "Approaching, at or in an intersection or railroad crossing",
+      "explanation": "Do not pass when you are approaching, at or in an intersection or railroad crossing.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_2.aspx",
+      "sourceSection": "Lane Travel — Intersections and Railroads",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-028",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "In Oregon, use your turn signal at least how far before a turn or lane change?",
+      "options": [
+        "25 feet",
+        "50 feet",
+        "100 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "100 feet",
+      "explanation": "Use your turn signal at least 100 feet before the turn or lane change.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Turn Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-029",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "hard",
+      "question": "In Oregon, hand-and-arm signals should only be used when:",
+      "options": [
+        "It is raining",
+        "It is daylight and you can see people and vehicles clearly at 1,000 feet",
+        "Your turn signals work",
+        "You are in a parking lot"
+      ],
+      "correctAnswer": "It is daylight and you can see people and vehicles clearly at 1,000 feet",
+      "explanation": "Only use hand-and-arm signals in daylight and when you can clearly see people and vehicles at 1,000 feet.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Turn Signals",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-030",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "In Oregon, may you turn left onto a two-way road against a red light?",
+      "options": [
+        "Yes, after stopping",
+        "No, it is illegal",
+        "Only after 10 p.m.",
+        "Yes, if no traffic is coming"
+      ],
+      "correctAnswer": "No, it is illegal",
+      "explanation": "It is illegal to turn left onto a two-way road against a red light.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Left Turns",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-031",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "hard",
+      "question": "When may you turn left on red in Oregon?",
+      "options": [
+        "Never",
+        "From a one-way road onto a one-way road, after stopping and yielding",
+        "From any road, after stopping",
+        "Only at roundabouts"
+      ],
+      "correctAnswer": "From a one-way road onto a one-way road, after stopping and yielding",
+      "explanation": "You may turn left from a one-way road onto a one-way road against a red light after stopping and yielding to traffic and pedestrians.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Left Turn: One-Way Road to One-Way Road",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-032",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "At an Oregon four-way stop, who customarily goes first? And when in doubt?",
+      "options": [
+        "The largest vehicle; yield to the left",
+        "The driver who stopped first; when in doubt, yield to the driver on your right",
+        "The fastest driver; when in doubt, honk",
+        "The driver on the left; when in doubt, go"
+      ],
+      "correctAnswer": "The driver who stopped first; when in doubt, yield to the driver on your right",
+      "explanation": "It is common courtesy to let the driver who stops first go first. When in doubt, yield to the driver on your right.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-033",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "When entering an Oregon roundabout, you must yield to:",
+      "options": [
+        "Nobody",
+        "Traffic inside the roundabout and traffic exiting it",
+        "Only pedestrians",
+        "Traffic waiting to enter"
+      ],
+      "correctAnswer": "Traffic inside the roundabout and traffic exiting it",
+      "explanation": "You must yield to traffic inside as well as exiting the roundabout.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-034",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "In an Oregon multi-lane roundabout, it is illegal to:",
+      "options": [
+        "Use a turn signal",
+        "Pass or drive beside a truck",
+        "Exit to the right",
+        "Slow down"
+      ],
+      "correctAnswer": "Pass or drive beside a truck",
+      "explanation": "It is illegal to pass or drive beside a truck within the roundabout.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — Multi-lane Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-035",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "In Oregon, U-turns are not allowed at intersections controlled by a traffic signal unless:",
+      "options": [
+        "No police are present",
+        "A sign permits the turn",
+        "It is after midnight",
+        "You signal for 5 seconds"
+      ],
+      "correctAnswer": "A sign permits the turn",
+      "explanation": "U-turns are not allowed at intersections controlled by a traffic signal, unless a sign permits the turn.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_3.aspx",
+      "sourceSection": "Turns & Intersections — U-Turns",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-036",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "When a school bus's red lights are flashing in Oregon, you must:",
+      "options": [
+        "Slow to 20 mph and pass",
+        "Stop before reaching the bus and stay stopped until the red lights are turned off",
+        "Honk and pass on the left",
+        "Stop only if children are visible"
+      ],
+      "correctAnswer": "Stop before reaching the bus and stay stopped until the red lights are turned off",
+      "explanation": "When the red lights flash, stop before reaching the bus and remain stopped until the driver turns off the flashing red lights.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — School Buses",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-037",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "easy",
+      "question": "In Oregon, you must yield to emergency vehicles using a light or siren when they approach:",
+      "options": [
+        "Only from behind",
+        "From any direction",
+        "Only on highways",
+        "Only at intersections"
+      ],
+      "correctAnswer": "From any direction",
+      "explanation": "You must yield right of way to emergency vehicles approaching from any direction using a light or siren.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Emergency Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-038",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "medium",
+      "question": "On an Oregon road with two or more lanes in your direction, what must you do when approaching a stopped vehicle with lights flashing?",
+      "options": [
+        "Honk",
+        "Change lanes",
+        "Stop behind it",
+        "Speed up"
+      ],
+      "correctAnswer": "Change lanes",
+      "explanation": "On roads with two or more lanes going the same direction, you must change lanes when approaching any stopped vehicle with lights flashing.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Approaching Stopped Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-039",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "May you share a lane with a motorcyclist in Oregon?",
+      "options": [
+        "Yes, if the lane is wide",
+        "No — when passing, allow them a full lane",
+        "Yes, at low speeds",
+        "Only in traffic jams"
+      ],
+      "correctAnswer": "No — when passing, allow them a full lane",
+      "explanation": "It is against the law to share a lane with a motorcycle or moped rider; when passing, allow them a full lane.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Motorcycles and Mopeds",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-040",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "In Oregon, when must you stop for pedestrians crossing the road?",
+      "options": [
+        "Only at marked crosswalks",
+        "At any marked or unmarked crosswalk",
+        "Only at traffic signals",
+        "Only in school zones"
+      ],
+      "correctAnswer": "At any marked or unmarked crosswalk",
+      "explanation": "You must stop for pedestrians crossing the road at any marked or unmarked crosswalk.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Pedestrians",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-041",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "Near a large vehicle in Oregon, if you can't see the driver in the vehicle's side mirror:",
+      "options": [
+        "The driver can see you",
+        "The driver can't see you",
+        "You are at a safe distance",
+        "You should honk"
+      ],
+      "correctAnswer": "The driver can't see you",
+      "explanation": "If you can't see the driver in the side mirror of a large vehicle, the driver can't see you.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Large Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-042",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "What happens to traffic fines in Oregon work zones?",
+      "options": [
+        "They are doubled",
+        "They are waived",
+        "They are tripled at night only",
+        "They are unchanged"
+      ],
+      "correctAnswer": "They are doubled",
+      "explanation": "Traffic fines are doubled in all work zones.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Work Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-043",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "In Oregon, a pedestrian carrying a white cane or using a guide dog:",
+      "options": [
+        "Must wait for traffic to clear",
+        "Must be given the right of way",
+        "May only cross at signals",
+        "Has no special rights"
+      ],
+      "correctAnswer": "Must be given the right of way",
+      "explanation": "You must give the right of way to a pedestrian who is blind or deaf and blind carrying a white cane or using a guide dog.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — White Canes and Guide Dogs",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-044",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "In Oregon, a flashing yellow light on a school speed sign indicates:",
+      "options": [
+        "The school is closed",
+        "Children are arriving at or leaving school",
+        "A bus is stopped",
+        "A crossing guard is off duty"
+      ],
+      "correctAnswer": "Children are arriving at or leaving school",
+      "explanation": "A flashing yellow light on a school speed sign indicates children are arriving at or leaving school.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Flashing School Speed Limit Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-045",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "When may you drive in an Oregon bike lane?",
+      "options": [
+        "Never for travel, but you may cross it when turning or entering/leaving a driveway or alley",
+        "Any time it's empty",
+        "To pass slow traffic",
+        "For parking"
+      ],
+      "correctAnswer": "Never for travel, but you may cross it when turning or entering/leaving a driveway or alley",
+      "explanation": "Do not drive or park in a bike lane. You may cross a bike lane when turning or entering or leaving an alley, driveway or private road.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Bicycles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-046",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "emergencies",
+      "difficulty": "easy",
+      "question": "During a police stop in Oregon, the manual recommends that you:",
+      "options": [
+        "Get out of the car",
+        "Keep your hands on the steering wheel",
+        "Search for your documents immediately",
+        "Turn off all lights"
+      ],
+      "correctAnswer": "Keep your hands on the steering wheel",
+      "explanation": "Keep your hands on the steering wheel; passengers should keep their hands in plain view.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_4.aspx",
+      "sourceSection": "Sharing the Road — Police Stops",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-047",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "In Oregon, where there is no stop line, how far from the nearest rail must you stop at a railroad crossing?",
+      "options": [
+        "At least 5 feet",
+        "At least 10 feet",
+        "At least 15 feet",
+        "At least 50 feet"
+      ],
+      "correctAnswer": "At least 15 feet",
+      "explanation": "Stop at least 15 feet from the nearest rail.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_5.aspx",
+      "sourceSection": "Railroad Crossings, Light Rail and Street Cars",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-048",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "At an Oregon railroad crossing with a posted STOP sign, you must:",
+      "options": [
+        "Stop only if you see a train",
+        "Stop even if you do not see a train coming",
+        "Slow down only",
+        "Honk and proceed"
+      ],
+      "correctAnswer": "Stop even if you do not see a train coming",
+      "explanation": "Stop before railroad tracks when a stop sign is posted, even if you do not see a train coming.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_5.aspx",
+      "sourceSection": "Railroad Crossings, Light Rail and Street Cars",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-049",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "In Oregon, who should go first — your vehicle or a streetcar?",
+      "options": [
+        "Your vehicle",
+        "Always let streetcars and trains go first",
+        "Whoever arrives first",
+        "The vehicle on the right"
+      ],
+      "correctAnswer": "Always let streetcars and trains go first",
+      "explanation": "Always let streetcars and trains go first.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_5.aspx",
+      "sourceSection": "Railroad Crossings, Light Rail and Street Cars",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-050",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "easy",
+      "question": "In Oregon, you may not park within how many feet of a fire hydrant?",
+      "options": [
+        "5 feet",
+        "10 feet",
+        "15 feet",
+        "20 feet"
+      ],
+      "correctAnswer": "10 feet",
+      "explanation": "Do not park within 10 feet of a fire hydrant.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_6.aspx",
+      "sourceSection": "Parking and Stopping",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-051",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "In Oregon, you may not park within how many feet of a marked or unmarked crosswalk at an intersection?",
+      "options": [
+        "10 feet",
+        "15 feet",
+        "20 feet",
+        "30 feet"
+      ],
+      "correctAnswer": "20 feet",
+      "explanation": "Do not park within 20 feet of a marked or unmarked crosswalk at an intersection.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_6.aspx",
+      "sourceSection": "Parking and Stopping",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-052",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "hard",
+      "question": "Near a fire station driveway in Oregon, you may not park within:",
+      "options": [
+        "10 feet on either side",
+        "15 feet on the same side or 75 feet on the opposite side",
+        "25 feet on the same side only",
+        "50 feet on either side"
+      ],
+      "correctAnswer": "15 feet on the same side or 75 feet on the opposite side",
+      "explanation": "Do not park within 15 feet of a fire station driveway on the same side of the street, or within 75 feet on the opposite side.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_6.aspx",
+      "sourceSection": "Parking and Stopping",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-053",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "medium",
+      "question": "In Oregon, you may not park within how many feet of the nearest rail of a railroad or light rail crossing?",
+      "options": [
+        "15 feet",
+        "25 feet",
+        "50 feet",
+        "100 feet"
+      ],
+      "correctAnswer": "50 feet",
+      "explanation": "Do not park within 50 feet of the nearest rail of a railroad or light rail crossing.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_6.aspx",
+      "sourceSection": "Parking and Stopping",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-054",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "parking",
+      "difficulty": "easy",
+      "question": "When parallel parking in Oregon, your vehicle must be no more than how far from the curb?",
+      "options": [
+        "6 inches",
+        "12 inches",
+        "18 inches",
+        "24 inches"
+      ],
+      "correctAnswer": "12 inches",
+      "explanation": "Park parallel to and no more than 12 inches from the curb.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_6.aspx",
+      "sourceSection": "Parking and Stopping",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-055",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "easy",
+      "question": "If you are 21 or older in Oregon, you fail an alcohol test at a BAC of:",
+      "options": [
+        "0.02 percent or more",
+        "0.05 percent or more",
+        "0.08 percent or more",
+        "0.10 percent or more"
+      ],
+      "correctAnswer": "0.08 percent or more",
+      "explanation": "If you are 21 or over, you fail the test if your BAC is 0.08 percent or more.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Impaired Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-056",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "medium",
+      "question": "If you are under 21 in Oregon, you fail an alcohol test if your BAC is:",
+      "options": [
+        "0.08 percent or more",
+        "0.05 percent or more",
+        "Any amount",
+        "0.02 percent or more"
+      ],
+      "correctAnswer": "Any amount",
+      "explanation": "If you are under 21, you fail the test with a blood alcohol concentration of any amount.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Impaired Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-057",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "medium",
+      "question": "Under Oregon's implied consent rules, by driving you have agreed to:",
+      "options": [
+        "Carry a breathalyzer",
+        "Take a breath, blood or urine test when asked by a police officer",
+        "Never drink alcohol",
+        "Allow vehicle searches"
+      ],
+      "correctAnswer": "Take a breath, blood or urine test when asked by a police officer",
+      "explanation": "By driving a motor vehicle, you have agreed to take a breath, blood or urine test when asked by a police officer.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Impaired Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-058",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "alcohol-drugs",
+      "difficulty": "easy",
+      "question": "In Oregon, is it legal to have an open container of alcohol in a vehicle on the road?",
+      "options": [
+        "Yes, for passengers",
+        "No, it is illegal",
+        "Yes, if it's in the back seat",
+        "Yes, if the driver is sober"
+      ],
+      "correctAnswer": "No, it is illegal",
+      "explanation": "It is illegal to have an open bottle or other container with alcohol in it while you are in a vehicle on any road.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Impaired Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-059",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "easy",
+      "question": "In Oregon, may a 17-year-old driver use a cell phone while driving?",
+      "options": [
+        "Yes, with a hands-free accessory",
+        "No — drivers under 18 may not use a cell phone or mobile electronic device while driving",
+        "Yes, at red lights",
+        "Yes, for GPS only"
+      ],
+      "correctAnswer": "No — drivers under 18 may not use a cell phone or mobile electronic device while driving",
+      "explanation": "It is illegal for drivers under 18 to use a cell phone or other mobile electronic device while operating a vehicle.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Distracted Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-060",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "In Oregon, drivers 18 or older who use a cell phone while driving must:",
+      "options": [
+        "Hold it below the window",
+        "Use a hands-free accessory",
+        "Use speakerphone in their hand",
+        "Only text"
+      ],
+      "correctAnswer": "Use a hands-free accessory",
+      "explanation": "Drivers 18 or older must use a hands-free accessory to use a cell phone or other mobile electronic device.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Distracted Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-061",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "easy",
+      "question": "In Oregon, who must wear a safety belt?",
+      "options": [
+        "Only the driver",
+        "Only front-seat occupants",
+        "All drivers and passengers in all available seating positions",
+        "Only passengers under 16"
+      ],
+      "correctAnswer": "All drivers and passengers in all available seating positions",
+      "explanation": "Safety belt use is mandatory for all drivers and passengers in all available seating positions.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Safety Belts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-062",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Oregon, children must ride in approved child safety seats until they are:",
+      "options": [
+        "5 years old",
+        "8 years old or at least 4 feet 9 inches tall",
+        "10 years old",
+        "40 pounds"
+      ],
+      "correctAnswer": "8 years old or at least 4 feet 9 inches tall",
+      "explanation": "Child passengers must be restrained in approved child safety seats until they are 8 years of age or at least 4 feet 9 inches in height.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Safety Belts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-063",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "In Oregon, infants must ride rear-facing until they reach:",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "4 years"
+      ],
+      "correctAnswer": "2 years",
+      "explanation": "Infants must ride rear-facing until they reach two years of age.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Safety Belts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-064",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "easy",
+      "question": "In Oregon, headlights must be on from:",
+      "options": [
+        "Noon to midnight",
+        "Sunset to sunrise",
+        "One hour after sunset",
+        "Only in rain"
+      ],
+      "correctAnswer": "Sunset to sunrise",
+      "explanation": "Headlights must be turned on from sunset to sunrise.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Using Lights",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-065",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "equipment",
+      "difficulty": "medium",
+      "question": "Besides nighttime, Oregon requires headlights whenever conditions make it hard to see people or vehicles how far ahead?",
+      "options": [
+        "100 feet",
+        "500 feet",
+        "1,000 feet",
+        "1 mile"
+      ],
+      "correctAnswer": "1,000 feet",
+      "explanation": "Lights must be on any time conditions make it difficult to see people or vehicles 1,000 feet ahead.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Using Lights",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "or-d-066",
+      "state": "OR",
+      "licenseType": "class-d",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "Which of these is a warning sign of drowsy driving, according to Oregon's manual?",
+      "options": [
+        "Feeling hungry",
+        "Lots of yawning, heavy eyelids and drifting out of your lane",
+        "Checking mirrors often",
+        "Driving below the speed limit"
+      ],
+      "correctAnswer": "Lots of yawning, heavy eyelids and drifting out of your lane",
+      "explanation": "Yawning, head nodding, heavy eyelids, blurred vision and not staying in your lane can mean you are falling asleep.",
+      "sourceTitle": "Oregon Driver Manual",
+      "sourceUrl": "https://www.oregon.gov/odot/DMV/Pages/Online_Manual/Study-Section_7.aspx",
+      "sourceSection": "Safe and Responsible Driving — Fatigue and Drowsy Driving",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ]
+}

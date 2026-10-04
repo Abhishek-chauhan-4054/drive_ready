@@ -1,0 +1,963 @@
+{
+  "stateCode": "CA",
+  "stateName": "California",
+  "slug": "california",
+  "agencyShortName": "California DMV",
+  "officialSource": {
+    "name": "California Department of Motor Vehicles",
+    "url": "https://www.dmv.ca.gov/portal/"
+  },
+  "officialDomains": [
+    "dmv.ca.gov",
+    "dot.ca.gov"
+  ],
+  "lastReviewed": "2026-10-04",
+  "resources": [
+    {
+      "kind": "agency",
+      "title": "California DMV",
+      "url": "https://www.dmv.ca.gov/portal/"
+    },
+    {
+      "kind": "handbook",
+      "title": "California Driver's Handbook (online)",
+      "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/"
+    },
+    {
+      "kind": "sample-test",
+      "title": "California DMV sample knowledge tests",
+      "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/educational-materials/sample-driver-license-dl-knowledge-tests/"
+    },
+    {
+      "kind": "licensing",
+      "title": "Learner's permits — requirements",
+      "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/"
+    }
+  ],
+  "intro": "California's knowledge test is multiple choice and based on the California Driver's Handbook. California DMV states a passing score of 80%.",
+  "testTypes": [
+    {
+      "id": "class-c",
+      "name": "Regular driver (Class C)",
+      "shortName": "Class C",
+      "available": true,
+      "description": "Knowledge test for the standard passenger-vehicle permit and license.",
+      "testRules": {
+        "officialQuestionCount": null,
+        "officialPassingCorrect": null,
+        "officialPassingPercent": 80,
+        "timeLimitMinutes": null,
+        "sectionRequirements": [],
+        "notes": [
+          "California DMV states a passing score of 80%. The pages we verified do not state the number of questions, so our mock uses a practice length and is scored at 80%.",
+          "In-office knowledge tests must be started before 4:30 p.m."
+        ],
+        "source": {
+          "title": "California DMV — Learner's Permits",
+          "url": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/",
+          "section": "Take the knowledge test(s)"
+        }
+      },
+      "mockPresets": [
+        {
+          "id": "knowledge",
+          "label": "Class C mock test",
+          "description": "30 mixed questions scored at California's stated 80% passing score.",
+          "questionCount": 30,
+          "passingCorrect": null,
+          "passingPercent": 80,
+          "isOfficialFormat": false
+        }
+      ]
+    },
+    {
+      "id": "class-m",
+      "name": "Motorcycle (Class M)",
+      "shortName": "Class M",
+      "available": false,
+      "description": "Motorcycle questions are based on the separate California Motorcycle Handbook. Coming soon."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "text": "Turning at a red arrow. A red arrow means stop — you cannot turn on it, even after stopping.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Red Arrow"
+    },
+    {
+      "text": "Treating a flashing yellow like a stop. You don't need to stop — slow down and proceed with caution.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Flashing Yellow Light"
+    },
+    {
+      "text": "Forgetting that school-bus red lights require a stop from either direction unless the bus is across a divided or multilane highway.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Around Children"
+    },
+    {
+      "text": "Mixing up the 15 mph limits: blind intersections, alleys, and some railroad crossings are all 15 mph; school zones are 25 mph unless posted lower.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What score do I need to pass the California knowledge test?",
+      "a": "California DMV states that the passing score is 80%. The test is multiple choice and based on the California Driver's Handbook.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/"
+    },
+    {
+      "q": "How old do I have to be to get a California learner's permit?",
+      "a": "Applicants under 18 must be at least 15½ and meet the driver-education requirements. Adults 18 and over may also apply for an instruction permit.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/"
+    },
+    {
+      "q": "When can I take the knowledge test at a DMV office?",
+      "a": "In-office knowledge tests must be started before 4:30 p.m. during DMV business hours.",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/"
+    },
+    {
+      "q": "Are these the real California DMV test questions?",
+      "a": "No. These are original practice questions written from the official California Driver's Handbook. Each one links to the handbook section it is based on."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ca-c-001",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "In California, when may you turn right at a solid red traffic light?",
+      "options": [
+        "After stopping at the limit line and yielding, if no NO TURN ON RED sign is posted",
+        "Never — you must wait for a green light",
+        "Only when a green arrow is also lit",
+        "Without stopping, if no pedestrians are present"
+      ],
+      "correctAnswer": "After stopping at the limit line and yielding, if no NO TURN ON RED sign is posted",
+      "explanation": "A red light means stop, but you may turn right after stopping at the stop or limit line, yielding to pedestrians, and turning when safe — unless a NO TURN ON RED sign is posted.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Traffic Signals: Solid Red Light",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-002",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a red arrow signal mean?",
+      "options": [
+        "You may turn after a full stop if the way is clear",
+        "Proceed with caution in the direction of the arrow",
+        "The protected turn is about to begin",
+        "Stop and do not turn until a green light or green arrow appears"
+      ],
+      "correctAnswer": "Stop and do not turn until a green light or green arrow appears",
+      "explanation": "A red arrow means STOP. Do not turn at a red arrow; remain stopped until a green traffic signal light or green arrow appears.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Traffic Signals: Red Arrow",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-003",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What must you do at a flashing red signal light?",
+      "options": [
+        "Slow down; you do not need to stop",
+        "Stop and wait for the light to turn green",
+        "Speed up to clear the intersection",
+        "Stop, then go when it is safe"
+      ],
+      "correctAnswer": "Stop, then go when it is safe",
+      "explanation": "A flashing red signal light means STOP. After stopping, you may go when it is safe.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Traffic Signals: Flashing Red Light",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-004",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A flashing yellow traffic signal light means:",
+      "options": [
+        "Stop completely, then proceed",
+        "The light is about to turn green",
+        "Slow down and proceed with caution — you do not need to stop",
+        "Yield to traffic on your left only"
+      ],
+      "correctAnswer": "Slow down and proceed with caution — you do not need to stop",
+      "explanation": "A flashing yellow light is a warning to proceed with caution. Slow down and be alert; you do not need to stop.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Traffic Signals: Flashing Yellow Light",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-005",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "You approach an intersection where the traffic light is not working. What should you do?",
+      "options": [
+        "Proceed at normal speed if no one is coming",
+        "Yield only to vehicles on your right",
+        "Treat it like a flashing yellow light",
+        "Stop as if the intersection had STOP signs in all directions"
+      ],
+      "correctAnswer": "Stop as if the intersection had STOP signs in all directions",
+      "explanation": "When a traffic light is not working, stop as if the intersection is controlled by STOP signs in all directions, then proceed cautiously when safe.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Traffic Signals: Traffic Light Not Working",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-006",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "A pedestrian is still crossing while the pedestrian signal shows a flashing \"Don't Walk.\" What must you do?",
+      "options": [
+        "Yield to the pedestrian",
+        "Honk so the pedestrian hurries",
+        "Proceed, because the signal tells them not to walk",
+        "Drive around the pedestrian if there is room"
+      ],
+      "correctAnswer": "Yield to the pedestrian",
+      "explanation": "A flashing Don't Walk signal tells pedestrians not to start crossing, but drivers must still yield to pedestrians even if the Don't Walk light is flashing.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Pedestrian Signals and Signs",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-007",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A 5-sided (pentagon-shaped) sign means you are:",
+      "options": [
+        "Approaching a railroad crossing",
+        "Near a school — drive slowly and stop for children in the crosswalk",
+        "Entering a no-passing zone",
+        "Approaching a construction zone"
+      ],
+      "correctAnswer": "Near a school — drive slowly and stop for children in the crosswalk",
+      "explanation": "A 5-sided sign means you are near a school. Drive slowly and stop for children in the crosswalk.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Signs: 5-sided Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ca-c-008",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "medium",
+      "question": "Driving at night, how can you tell you have entered a road going the wrong way?",
+      "options": [
+        "Road reflectors shine blue in your headlights",
+        "The center line becomes solid white",
+        "Street lights turn amber",
+        "Road reflectors shine red in your headlights"
+      ],
+      "correctAnswer": "Road reflectors shine red in your headlights",
+      "explanation": "If you are driving the wrong way at night, the road reflectors will shine red in your headlights. DO NOT ENTER and WRONG WAY signs may also be posted.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Signs: WRONG WAY Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ca-c-009",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "A round yellow-and-black sign or an X-shaped sign warns that you are approaching:",
+      "options": [
+        "A railroad crossing",
+        "A school zone",
+        "A four-way stop",
+        "A hospital"
+      ],
+      "correctAnswer": "A railroad crossing",
+      "explanation": "A yellow and black circular sign or an X-shaped sign means you are approaching a railroad crossing. Look, listen, slow down, and prepare to stop.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Signs: Yellow and Black Circular Sign or X-shaped Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ca-c-010",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "What does a red circle with a red line through it mean?",
+      "options": [
+        "The action shown is recommended",
+        "The road ahead is closed",
+        "You are entering a school zone",
+        "The action shown inside the circle is not allowed"
+      ],
+      "correctAnswer": "The action shown inside the circle is not allowed",
+      "explanation": "The picture inside a red circle with a red line through it shows what you cannot do, and may be shown with words.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Signs: Red Circle with a Red Line Through It",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ca-c-011",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "signs-signals",
+      "difficulty": "easy",
+      "question": "Diamond-shaped signs:",
+      "options": [
+        "Show distances to cities",
+        "Warn you of specific road conditions and dangers ahead",
+        "Mark the location of services like gas",
+        "Indicate you must stop"
+      ],
+      "correctAnswer": "Warn you of specific road conditions and dangers ahead",
+      "explanation": "Diamond-shaped signs warn you of specific road conditions and dangers ahead.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Signs: Diamond-shaped Sign",
+      "lastVerified": "2026-10-04",
+      "status": "approved",
+      "tags": [
+        "road-sign"
+      ]
+    },
+    {
+      "id": "ca-c-012",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "At an intersection without STOP or YIELD signs, you and another vehicle arrive at the same time. Who has the right-of-way?",
+      "options": [
+        "The vehicle on your right",
+        "The vehicle on your left",
+        "The larger vehicle",
+        "Whoever is going straight"
+      ],
+      "correctAnswer": "The vehicle on your right",
+      "explanation": "Without STOP or YIELD signs, the first vehicle to arrive has the right-of-way. If another vehicle, pedestrian, or bicyclist arrives at the same time, give the right-of-way to the one on your right.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Right-of-Way Rules: Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-013",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "At a T intersection without STOP or YIELD signs, who has the right-of-way?",
+      "options": [
+        "Vehicles, bicyclists, and pedestrians on the through road",
+        "Vehicles on the road that ends",
+        "Whoever arrives first, regardless of road",
+        "Vehicles turning left"
+      ],
+      "correctAnswer": "Vehicles, bicyclists, and pedestrians on the through road",
+      "explanation": "At T intersections without STOP or YIELD signs, those on the through road (continuing straight) have the right-of-way.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Right-of-Way Rules: Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-014",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "hard",
+      "question": "Two vehicles meet on a steep, narrow mountain road where neither can pass. Which vehicle has the right-of-way?",
+      "options": [
+        "The vehicle facing downhill",
+        "The larger vehicle",
+        "The vehicle facing uphill",
+        "The vehicle closest to a turnout"
+      ],
+      "correctAnswer": "The vehicle facing uphill",
+      "explanation": "The vehicle facing uphill has the right-of-way. The vehicle facing downhill has more control when backing up, so it should back up until the uphill vehicle can pass.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Right-of-Way Rules: Mountain Roads",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-015",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "easy",
+      "question": "When entering a roundabout, you must:",
+      "options": [
+        "Yield to all traffic already in the roundabout",
+        "Expect traffic in the roundabout to yield to you",
+        "Stop at the center island",
+        "Travel clockwise around the island"
+      ],
+      "correctAnswer": "Yield to all traffic already in the roundabout",
+      "explanation": "Slow down as you approach, yield to all traffic already in the roundabout, and travel counter-clockwise without stopping or passing.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Right-of-Way Rules: Roundabouts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-016",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "right-of-way",
+      "difficulty": "medium",
+      "question": "A blind pedestrian at an intersection pulls in their cane and steps away from the curb. This usually means:",
+      "options": [
+        "They are about to cross",
+        "You must honk to confirm",
+        "You must wait for a green light",
+        "You may go"
+      ],
+      "correctAnswer": "You may go",
+      "explanation": "When a blind person pulls in their cane and steps away from the intersection, the gesture usually means you may go. Never honk at a blind person.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road/",
+      "sourceSection": "Section 7: Laws and Rules of the Road — Pedestrians: Pedestrians who are Blind",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-017",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "According to the California handbook, a large vehicle traveling 55 mph can take up to how many feet to stop?",
+      "options": [
+        "200 feet",
+        "300 feet",
+        "600 feet",
+        "400 feet"
+      ],
+      "correctAnswer": "400 feet",
+      "explanation": "An average passenger vehicle at 55 mph can stop within 300 feet; a large vehicle at the same speed can take up to 400 feet.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Sharing the Road: Braking",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-018",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "A bus or streetcar is stopped at a safety zone. What is the maximum speed at which you may pass it?",
+      "options": [
+        "5 mph",
+        "15 mph",
+        "10 mph",
+        "25 mph"
+      ],
+      "correctAnswer": "10 mph",
+      "explanation": "When a bus, streetcar, or trolley is stopped at a safety zone or traffic light, you may pass at no more than 10 mph. Never drive through a safety zone.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Buses, Streetcars, Trolleys",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-019",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "What following distance does the handbook recommend behind a motorcycle?",
+      "options": [
+        "At least three seconds",
+        "One second",
+        "Two car lengths",
+        "Ten feet"
+      ],
+      "correctAnswer": "At least three seconds",
+      "explanation": "Allow a safe three-second following distance behind motorcyclists so you can avoid hitting them if they brake suddenly or fall.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Motorcycles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-020",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "It is against the law to follow within how many feet of a fire engine, police vehicle, or ambulance using its siren or flashing lights?",
+      "options": [
+        "100 feet",
+        "200 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "300 feet",
+      "explanation": "It is against the law to follow within 300 feet of any fire engine, law enforcement vehicle, ambulance, or other emergency vehicle when its siren or flashing lights are on.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Emergency Vehicles",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-021",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "easy",
+      "question": "If you cannot change lanes to pass a bicyclist, how much space must you leave?",
+      "options": [
+        "At least three feet",
+        "At least one foot",
+        "At least six feet",
+        "Half a lane"
+      ],
+      "correctAnswer": "At least three feet",
+      "explanation": "When you cannot change lanes to pass a bicyclist, allow at least three feet between your vehicle and the bicyclist. If you can't, don't pass until you can.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Bicycles: Passing a Bicyclist",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-022",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "hard",
+      "question": "How far before a turn may you enter a bike lane?",
+      "options": [
+        "No more than 50 feet",
+        "No more than 200 feet before starting the turn",
+        "No more than 500 feet",
+        "Never — bike lanes may not be entered"
+      ],
+      "correctAnswer": "No more than 200 feet before starting the turn",
+      "explanation": "When preparing to turn, merge safely behind any bicyclist and enter a bike lane no more than 200 feet before starting the turn.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Bicycles: Passing a Bicyclist",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-023",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "Fines for traffic violations in a California work zone can be:",
+      "options": [
+        "Up to $100",
+        "$1,000 or more",
+        "Up to $250",
+        "The same as anywhere else"
+      ],
+      "correctAnswer": "$1,000 or more",
+      "explanation": "Fines for traffic violations in a work zone can be $1,000 or more, and fines are doubled in certain zones and when workers are present.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Road Workers and Work Zones: Fines and Double Fine Zones",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-024",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "Unless otherwise posted, what is the speed limit within 500 feet of a school while children are outside or crossing?",
+      "options": [
+        "25 mph",
+        "15 mph",
+        "20 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit is 25 mph within 500 feet of a school while children are outside or crossing the street. Some school zones may be as low as 15 mph.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Around Children",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-025",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "A school bus ahead is flashing red lights. What must you do?",
+      "options": [
+        "Stop from either direction and remain stopped while the red lights flash",
+        "Slow to 15 mph and pass carefully",
+        "Stop only if you are behind the bus",
+        "Stop only if children are visible"
+      ],
+      "correctAnswer": "Stop from either direction and remain stopped while the red lights flash",
+      "explanation": "When the bus flashes red lights you must stop from either direction until the children are safely across and the lights stop flashing. Failing to stop can mean a fine of up to $1,000 and a one-year suspension.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Around Children",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-026",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "hard",
+      "question": "When do you NOT need to stop for a school bus flashing red lights?",
+      "options": [
+        "When no children are visible",
+        "When it is on the other side of a divided or multilane highway (two or more lanes each way)",
+        "When you are running late",
+        "When the bus is stopped on a two-lane road"
+      ],
+      "correctAnswer": "When it is on the other side of a divided or multilane highway (two or more lanes each way)",
+      "explanation": "If the school bus is on the other side of a divided or multilane highway (two or more lanes in each direction), you do not need to stop.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Around Children",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-027",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "What is the speed limit at a blind intersection in California?",
+      "options": [
+        "10 mph",
+        "20 mph",
+        "15 mph",
+        "25 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "An intersection is blind if it has no stop signs at any corner and your view is blocked. The speed limit for a blind intersection is 15 mph.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Blind Intersections",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-028",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "medium",
+      "question": "What is the speed limit in an alley?",
+      "options": [
+        "15 mph",
+        "5 mph",
+        "10 mph",
+        "25 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "An alley is a road no wider than 25 feet used to reach the rear or side entrances of properties. The speed limit in an alley is 15 mph.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Alleys",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-029",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "When crossing devices warn that a train is coming, you must stop at least how far from the nearest track?",
+      "options": [
+        "5 feet",
+        "15 feet",
+        "50 feet",
+        "100 feet"
+      ],
+      "correctAnswer": "15 feet",
+      "explanation": "When crossing devices or a person warn you a train is coming, stop at least 15 feet from the nearest track.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Near Railroad or Light Rail Tracks",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-030",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "hard",
+      "question": "The 15 mph railroad speed limit applies within 100 feet of a crossing when:",
+      "options": [
+        "Any train is visible",
+        "It is after sunset",
+        "The crossing has gates",
+        "You cannot see the tracks for 400 feet in both directions"
+      ],
+      "correctAnswer": "You cannot see the tracks for 400 feet in both directions",
+      "explanation": "The speed limit is 15 mph within 100 feet of a railroad crossing where you cannot see the tracks for 400 feet in both directions. You may go faster if the crossing has gates, a warning signal, or a flagman.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Near Railroad or Light Rail Tracks",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-031",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "speed-limits",
+      "difficulty": "easy",
+      "question": "Unless otherwise posted, the speed limit in a business or residential district is:",
+      "options": [
+        "25 mph",
+        "20 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "In business or residential districts the speed limit is 25 mph unless otherwise posted.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Business or Residential Districts",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-032",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "Neighborhood electric vehicles (NEVs) and low-speed vehicles are restricted from roads where the speed limit is greater than:",
+      "options": [
+        "25 mph",
+        "35 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "correctAnswer": "35 mph",
+      "explanation": "NEVs and LSVs reach a maximum speed of 25 mph and are restricted from roads where the speed limit is greater than 35 mph.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Neighborhood Electric Vehicles (NEV) and Low-speed Vehicles (LSV)",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-033",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "sharing-the-road",
+      "difficulty": "medium",
+      "question": "A truck displays a diamond-shaped hazardous-load placard. What must it do at railroad tracks?",
+      "options": [
+        "Cross only at 15 mph",
+        "Use the far-left lane",
+        "Stop before crossing",
+        "Turn on its hazard lights and continue"
+      ],
+      "correctAnswer": "Stop before crossing",
+      "explanation": "A diamond-shaped sign on a truck means its load may be dangerous. Vehicles with these signs must stop before crossing railroad tracks.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Vehicles with Hazardous Loads",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-034",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "safe-driving",
+      "difficulty": "medium",
+      "question": "When you are towing a vehicle or trailer, which lane must you drive in?",
+      "options": [
+        "The far-left lane",
+        "Any lane",
+        "The center lane only",
+        "The far-right lane or a lane marked for slower vehicles"
+      ],
+      "correctAnswer": "The far-right lane or a lane marked for slower vehicles",
+      "explanation": "When towing a vehicle or trailer you must drive in the far-right lane or a lane marked for slower vehicles. With four or more lanes and none marked, use only the two right-hand lanes.",
+      "sourceTitle": "California Driver's Handbook",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/laws-and-rules-of-the-road-cont1/",
+      "sourceSection": "Section 7: Laws and Rules of the Road (Continued) — Towing",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-035",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What is the minimum age to apply for a California provisional instruction permit?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "15½"
+      ],
+      "correctAnswer": "15½",
+      "explanation": "To apply for a California instruction permit under age 18, you must be at least 15½ but under 18 and meet the driver-education requirements.",
+      "sourceTitle": "California DMV — Learner's Permits",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/",
+      "sourceSection": "To apply for a California Instruction Permit (under age 18)",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-036",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "easy",
+      "question": "What passing score does California DMV state for the knowledge test?",
+      "options": [
+        "70%",
+        "75%",
+        "90%",
+        "80%"
+      ],
+      "correctAnswer": "80%",
+      "explanation": "California DMV states that the knowledge test uses multiple-choice questions based on the California Driver's Handbook and the passing score is 80%.",
+      "sourceTitle": "California DMV — Learner's Permits",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/",
+      "sourceSection": "Take the knowledge test(s)",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    },
+    {
+      "id": "ca-c-037",
+      "state": "CA",
+      "licenseType": "class-c",
+      "contentType": "PRACTICE",
+      "category": "licensing",
+      "difficulty": "medium",
+      "question": "Under California's minimum financial responsibility rules, what is the minimum coverage for damage to property?",
+      "options": [
+        "$5,000",
+        "$15,000",
+        "$10,000",
+        "$30,000"
+      ],
+      "correctAnswer": "$15,000",
+      "explanation": "California requires minimum limits of $30,000 for injury/death to one person, $60,000 for injury/death to more than one person, and $15,000 for property damage.",
+      "sourceTitle": "California DMV — Learner's Permits",
+      "sourceUrl": "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/learners-permits/",
+      "sourceSection": "FAQs — What is Financial Responsibility (Insurance)?",
+      "lastVerified": "2026-10-04",
+      "status": "approved"
+    }
+  ],
+  "categories": [
+    "signs-signals",
+    "right-of-way",
+    "sharing-the-road",
+    "speed-limits",
+    "safe-driving",
+    "licensing"
+  ]
+}
