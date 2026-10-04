@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SiteHeader, SiteFooter, WhatsAppFloat } from "@/components/SiteChrome";
 import { Analytics } from "@/components/Analytics";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
 import { ClientBoot } from "@/components/ClientBoot";
 import { JsonLd } from "@/components/Common";
 import { COMPANY, SITE } from "@/lib/site";
@@ -52,6 +53,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <WhatsAppFloat />
         <ClientBoot />
         <Analytics />
+        <VercelAnalytics />
       </body>
     </html>
   );
