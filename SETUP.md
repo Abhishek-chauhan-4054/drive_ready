@@ -28,7 +28,7 @@ Copy `.env.example` to `.env.local` and set what you need.
 | Variable | Purpose | Default |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | Canonical URLs, sitemap, robots | `VERCEL_PROJECT_PRODUCTION_URL` on Vercel, else `http://localhost:3000` |
-| `NEXT_PUBLIC_COMPANY_URL` | Pytron Digital link in header/footer/About/Contact | `https://digital.pytron.in` |
+| `NEXT_PUBLIC_COMPANY_URL` | Pytron Digital link in header/footer/About/Contact | `https://digital.pytron.io` |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email | `business@pytron.io` |
 | `NEXT_PUBLIC_GA4_ID` | Loads Google Analytics 4 and sends app events | off |
 | `NEXT_PUBLIC_ANALYTICS_PROVIDER` | `none`, `console`, `gtag`, `plausible` | `gtag` when GA4 ID is set, else `none` |

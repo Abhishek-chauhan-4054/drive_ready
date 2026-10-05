@@ -15,7 +15,7 @@ export const COMPANY = {
   name: "Pytron Digital",
   descriptor: "Digital Growth & Technology Partner",
   /** Company website. Override with NEXT_PUBLIC_COMPANY_URL if the domain changes. */
-  url: (process.env.NEXT_PUBLIC_COMPANY_URL || "https://digital.pytron.in").replace(/\/$/, ""),
+  url: (process.env.NEXT_PUBLIC_COMPANY_URL || "https://digital.pytron.io").replace(/\/$/, ""),
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "business@pytron.io",
   phoneDisplay: "+91 70092 14812",
   whatsapp: "https://wa.me/917009214812",

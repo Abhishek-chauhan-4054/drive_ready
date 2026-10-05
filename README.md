@@ -1,6 +1,6 @@
 # DriveReady — DMV Permit Practice by Pytron Digital
 
-**DriveReady** is a state-by-state DMV knowledge-test practice platform built by [Pytron Digital](https://digital.pytron.in). Users pick their state, practice with instant explanations, take mock tests in the state's official format, and review their mistakes. Every question links to the official handbook section it came from.
+**DriveReady** is a state-by-state DMV knowledge-test practice platform built by [Pytron Digital](https://digital.pytron.io). Users pick their state, practice with instant explanations, take mock tests in the state's official format, and review their mistakes. Every question links to the official handbook section it came from.
 
 > Independent educational platform — not affiliated with or endorsed by any DMV or government agency.
 
